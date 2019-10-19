@@ -1,0 +1,1695 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= id1
+
+Length=24
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+sp|Q9HFQ6.1|RLA3_CANAL  RecName: Full=60S acidic ribosomal protei...  37.0    0.023
+ref|XP_001523647.1|  60S acidic ribosomal protein P1-B [Lodderomy...  36.6    0.036
+ref|XP_002614592.1|  hypothetical protein CLUG_05370 [Clavispora ...  35.8    0.062
+ref|XP_715237.1|  cytosolic ribosomal acidic protein P1B [Candida...  35.4    0.081
+ref|XP_002421567.1|  60S acidic ribosomal protein P1 [Candida dub...  35.4    0.096
+gb|EGW30060.1|  hypothetical protein SPAPADRAFT_63678 [Spathaspor...  35.0    0.13 
+ref|XP_002550894.1|  60S acidic ribosomal protein P1-B [Candida t...  35.0    0.13 
+ref|XP_001383072.1|  60S acidic ribosomal protein P1 [Scheffersom...  34.7    0.14 
+gb|EJS44371.1|  rpp1ap [Saccharomyces arboricola H-6]                 34.3    0.20 
+pdb|3IZS|TT  Chain t, Localization Of The Large Subunit Ribosomal...  34.3    0.22 
+ref|XP_003958029.1|  hypothetical protein KAFR_0F02980 [Kazachsta...  34.3    0.25 
+emb|CCE45231.1|  hypothetical protein CPAR2_702440 [Candida parap...  34.3    0.25 
+ref|NP_010202.1|  ribosomal protein P1A [Saccharomyces cerevisiae...  34.3    0.25 
+gb|EGA59448.1|  Rpp1ap [Saccharomyces cerevisiae FostersB]            34.3    0.25 
+ref|XP_003955940.1|  hypothetical protein KAFR_0B05090 [Kazachsta...  33.9    0.27 
+ref|XP_002999573.1|  60S acidic ribosomal protein P1 [Candida gla...  33.9    0.30 
+ref|NP_010153.1|  ribosomal protein P1B [Saccharomyces cerevisiae...  33.9    0.35 
+ref|XP_003667700.1|  ribosomal protein P1 [Naumovozyma dairenensi...  33.5    0.36 
+emb|CCK68252.1|  hypothetical protein KNAG_0A05890 [Kazachstania ...  33.5    0.36 
+gb|EEU08973.1|  Rpp1bp [Saccharomyces cerevisiae JAY291]              33.5    0.37 
+ref|XP_003959866.1|  hypothetical protein KAFR_0L01230 [Kazachsta...  33.5    0.41 
+ref|XP_004179219.1|  hypothetical protein TBLA_0B08840 [Tetrapisi...  33.5    0.44 
+ref|XP_462591.1|  60S acidic ribosomal protein P1 [Debaryomyces h...  33.1    0.50 
+ref|XP_001646906.1|  hypothetical protein Kpol_2000p12 [Vanderwal...  33.1    0.56 
+emb|CCH40613.1|  60S acidic ribosomal protein P1 [Wickerhamomyces...  33.1    0.59 
+ref|XP_003676789.1|  hypothetical protein NCAS_0E03620 [Naumovozy...  32.7    0.71 
+ref|XP_447289.1|  60S acidic ribosomal protein P1 [Candida glabra...  32.7    0.85 
+ref|XP_003682896.1|  60S acidic ribosomal protein P1 [Torulaspora...  32.7    0.85 
+ref|XP_002494127.1|  60S acidic ribosomal protein P1 [Komagataell...  32.7    0.86 
+ref|XP_003683221.1|  60S acidic ribosomal protein P1 [Torulaspora...  32.3    1.1  
+gb|EGV60546.1|  mitochondrial glyco protein [Candida tenuis ATCC ...  33.9    1.2  
+gb|AGO12726.1|  AaceriADR256Wp [Saccharomycetaceae sp. 'Ashbya ac...  32.3    1.3  
+ref|XP_003871068.1|  Rpp1b acidic ribosomal protein [Candida orth...  32.7    1.3  
+ref|XP_500815.1|  60S acidic ribosomal protein P1 [Yarrowia lipol...  32.0    1.5  
+ref|XP_002496053.1|  60S acidic ribosomal protein P1 [Zygosacchar...  32.0    1.6  
+ref|XP_004199319.1|  Piso0_002753 [Millerozyma farinosa CBS 7064]...  32.7    1.7  
+ref|XP_001642976.1|  hypothetical protein Kpol_1046p10 [Vanderwal...  32.0    1.7  
+ref|NP_984352.2|  60S acidic ribosomal protein P1 [Ashbya gossypi...  32.0    1.8  
+ref|XP_003648155.1|  hypothetical protein Ecym_8042 [Eremothecium...  32.7    1.9  
+gb|EHN03308.1|  Rpp1ap [Saccharomyces cerevisiae x Saccharomyces ...  31.6    1.9  
+emb|CDF89348.1|  ZYBA0S04-02102g1_1 [Zygosaccharomyces bailii CLI...  31.6    2.0  
+ref|XP_458831.1|  60S acidic ribosomal protein P1 [Debaryomyces h...  31.6    2.0  
+gb|EMG46711.1|  60S acidic ribosomal protein P1-A [Candida maltos...  31.6    2.0  
+emb|CCK68732.1|  hypothetical protein KNAG_0B02900 [Kazachstania ...  31.6    2.2  
+ref|XP_002550039.1|  60S acidic ribosomal protein P1-A [Candida t...  31.6    2.2  
+gb|EEQ42860.1|  60S acidic ribosomal protein P1-alpha [Candida al...  31.6    2.3  
+emb|CAA21967.1|  60S ribosomal protein rpla1 [Candida albicans]       31.6    2.5  
+ref|XP_721490.1|  cytosolic ribosomal acidic protein P1A [Candida...  31.6    2.5  
+ref|XP_002416953.1|  60S acidic ribosomal protein P1 [Candida dub...  31.6    2.6  
+gb|EPX72877.1|  60S acidic ribosomal protein Rpp1-1 [Schizosaccha...  31.2    2.7  
+gb|EPY52542.1|  60S acidic ribosomal protein Rpp1-1 [Schizosaccha...  31.2    2.8  
+ref|XP_002615581.1|  hypothetical protein CLUG_04463 [Clavispora ...  31.2    2.9  
+gb|EPX73498.1|  60S acidic ribosomal protein Rpp1-3 [Schizosaccha...  31.2    2.9  
+ref|XP_002175141.1|  60S acidic ribosomal protein P1 [Schizosacch...  31.2    2.9  
+gb|EPY53555.1|  60S acidic ribosomal protein Rpp1-1 [Schizosaccha...  31.2    3.0  
+ref|NP_985710.1|  60S acidic ribosomal protein P1 [Ashbya gossypi...  31.2    3.1  
+ref|XP_002172659.1|  60S acidic ribosomal protein P1 [Schizosacch...  31.2    3.2  
+gb|EPY51138.1|  60S acidic ribosomal protein Rpp1-3 [Schizosaccha...  32.0    3.4  
+emb|CDF88469.1|  BN860_10990g1_1 [Zygosaccharomyces bailii CLIB 213]  31.2    3.7  
+ref|XP_003688675.1|  60S acidic ribosomal protein P1 [Tetrapisisp...  31.2    3.7  
+emb|CAA05695.1|  ribosomal protein rpa5 [Schizosaccharomyces pombe]   30.8    4.1  
+ref|NP_593883.1|  60S acidic ribosomal protein P1 [Schizosaccharo...  30.8    4.4  
+ref|NP_596671.1|  60S acidic ribosomal protein P1 [Schizosaccharo...  30.8    4.4  
+ref|XP_455332.1|  60S acidic ribosomal protein P1 [Kluyveromyces ...  30.8    4.6  
+ref|XP_003867864.1|  Rpp1a protein [Candida orthopsilosis Co 90-1...  30.8    4.7  
+ref|XP_003013571.1|  hypothetical protein ARB_00018 [Arthroderma ...  30.8    4.7  
+ref|XP_001526672.1|  60S acidic ribosomal protein P1-A [Lodderomy...  30.8    5.0  
+emb|CCE40562.1|  hypothetical protein CPAR2_105980 [Candida parap...  30.8    5.0  
+ref|XP_002494731.1|  60S acidic ribosomal protein P1 [Zygosacchar...  30.8    5.1  
+ref|NP_588562.1|  60S acidic ribosomal protein P1 [Schizosaccharo...  30.8    5.1  
+gb|EMR09582.1|  60S acidic ribosomal protein P1 [Pneumocystis mur...  30.0    5.2  
+ref|XP_001483328.1|  hypothetical protein PGUG_04057 [Meyerozyma ...  30.4    5.5  
+gb|EMD32201.1|  hypothetical protein CERSUDRAFT_118829 [Ceriporio...  30.4    5.8  
+gb|AAX11194.1|  60S acidic ribosomal P1 phosphoprotein Pen b 26 [...  30.4    6.2  
+ref|XP_002556532.1|  60S acidic ribosomal protein P1 [Lachancea t...  30.4    6.2  
+gb|EGW34793.1|  hypothetical protein SPAPADRAFT_57867 [Spathaspor...  30.4    7.2  
+ref|XP_003177441.1|  60S acidic ribosomal protein P1 [Arthroderma...  30.0    9.5  
+ref|XP_002850338.1|  60S acidic ribosomal protein P1 [Arthroderma...  30.0    9.6  
+gb|ESW98608.1|  large subunit ribosomal protein LP1 [Ogataea para...  30.0    9.6  
+emb|CCX31888.1|  Similar to 60S acidic ribosomal protein P1; acc....  30.0    9.7  
+
+
+>sp|Q9HFQ6.1|RLA3_CANAL RecName: Full=60S acidic ribosomal protein P1-B; Short=CaRP1B
+ gb|AAG33241.1|AF317660_1 60S acidic ribosomal protein type P1-B [Candida albicans]
+ gb|EEQ47160.1| hypothetical protein CAWG_05722 [Candida albicans WO-1]
+Length=108
+
+ Score = 37.0 bits (84),  Expect = 0.023, Method: Compositional matrix adjust.
+ Identities = 17/19 (89%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAKAVEGKNLK +L
+Sbjct  40  VWADVFAKAVEGKNLKELL  58
+
+
+>ref|XP_001523647.1| 60S acidic ribosomal protein P1-B [Lodderomyces elongisporus 
+NRRL YB-4239]
+ gb|EDK46882.1| 60S acidic ribosomal protein P1-B [Lodderomyces elongisporus 
+NRRL YB-4239]
+Length=109
+
+ Score = 36.6 bits (83),  Expect = 0.036, Method: Compositional matrix adjust.
+ Identities = 15/19 (79%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WAD+FAKAVEGKNLK +L
+Sbjct  40  IWADIFAKAVEGKNLKELL  58
+
+
+>ref|XP_002614592.1| hypothetical protein CLUG_05370 [Clavispora lusitaniae ATCC 42720]
+ gb|EEQ41242.1| hypothetical protein CLUG_05370 [Clavispora lusitaniae ATCC 42720]
+Length=105
+
+ Score = 35.8 bits (81),  Expect = 0.062, Method: Compositional matrix adjust.
+ Identities = 16/19 (84%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAKA+EGKNLK +L
+Sbjct  39  VWADVFAKALEGKNLKELL  57
+
+
+>ref|XP_715237.1| cytosolic ribosomal acidic protein P1B [Candida albicans SC5314]
+ ref|XP_888997.1| hypothetical protein CaO19_7188 [Candida albicans SC5314]
+ gb|EAK96206.1| cytosolic ribosomal acidic protein P1B [Candida albicans SC5314]
+ dbj|BAE44894.1| hypothetical protein [Candida albicans]
+Length=108
+
+ Score = 35.4 bits (80),  Expect = 0.081, Method: Compositional matrix adjust.
+ Identities = 16/19 (84%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAKAVEGKN K +L
+Sbjct  40  VWADVFAKAVEGKNFKELL  58
+
+
+>ref|XP_002421567.1| 60S acidic ribosomal protein P1 [Candida dubliniensis CD36]
+ emb|CAX40910.1| 60S acidic ribosomal protein, putative [Candida dubliniensis 
+CD36]
+Length=108
+
+ Score = 35.4 bits (80),  Expect = 0.096, Method: Compositional matrix adjust.
+ Identities = 16/19 (84%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAKAVEGK+LK +L
+Sbjct  40  VWADVFAKAVEGKDLKELL  58
+
+
+>gb|EGW30060.1| hypothetical protein SPAPADRAFT_63678 [Spathaspora passalidarum 
+NRRL Y-27907]
+Length=107
+
+ Score = 35.0 bits (79),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 16/19 (84%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWA+VFAKAVEGKNLK +L
+Sbjct  40  VWANVFAKAVEGKNLKELL  58
+
+
+>ref|XP_002550894.1| 60S acidic ribosomal protein P1-B [Candida tropicalis MYA-3404]
+ gb|EER31462.1| 60S acidic ribosomal protein P1-B [Candida tropicalis MYA-3404]
+Length=107
+
+ Score = 35.0 bits (79),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 15/19 (79%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WADVFAKAVEGK+LK +L
+Sbjct  40  IWADVFAKAVEGKDLKELL  58
+
+
+>ref|XP_001383072.1| 60S acidic ribosomal protein P1 [Scheffersomyces stipitis CBS 
+6054]
+ gb|ABN65043.1| predicted protein [Scheffersomyces stipitis CBS 6054]
+Length=107
+
+ Score = 34.7 bits (78),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 15/19 (79%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGKNLK +L
+Sbjct  40  VWADVYAKALEGKNLKELL  58
+
+
+>gb|EJS44371.1| rpp1ap [Saccharomyces arboricola H-6]
+Length=106
+
+ Score = 34.3 bits (77),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G+NLK +LV
+Sbjct  40  IWADIFAKALDGQNLKELLV  59
+
+
+>pdb|3IZS|TT Chain t, Localization Of The Large Subunit Ribosomal Proteins 
+Into A 6.1 A Cryo-Em Map Of Saccharomyces Cerevisiae Translating 
+80s Ribosome
+ pdb|3IZS|UU Chain u, Localization Of The Large Subunit Ribosomal Proteins 
+Into A 6.1 A Cryo-Em Map Of Saccharomyces Cerevisiae Translating 
+80s Ribosome
+ emb|CAA30027.1| unnamed protein product [Saccharomyces cerevisiae]
+ dbj|BAA14113.1| acidic ribosomal protein A1 [Saccharomyces cerevisiae]
+ emb|CAA31976.1| ribosomal protein A1 [Saccharomyces cerevisiae]
+Length=106
+
+ Score = 34.3 bits (77),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G+NLK +LV
+Sbjct  40  IWADIFAKALDGQNLKDLLV  59
+
+
+>ref|XP_003958029.1| hypothetical protein KAFR_0F02980 [Kazachstania africana CBS 
+2517]
+ emb|CCF58894.1| hypothetical protein KAFR_0F02980 [Kazachstania africana CBS 
+2517]
+Length=107
+
+ Score = 34.3 bits (77),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+EG++LK +LV
+Sbjct  40  IWADIFAKALEGQDLKALLV  59
+
+
+>emb|CCE45231.1| hypothetical protein CPAR2_702440 [Candida parapsilosis]
+Length=111
+
+ Score = 34.3 bits (77),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WADVFAKA+EGK+LK +L
+Sbjct  40  IWADVFAKALEGKDLKELL  58
+
+
+>ref|NP_010202.1| ribosomal protein P1A [Saccharomyces cerevisiae S288c]
+ sp|P05318.4|RLA1_YEAST RecName: Full=60S acidic ribosomal protein P1-alpha; Short=P1A; 
+AltName: Full=A1; AltName: Full=L12EIIA; AltName: Full=YP1alpha
+ gb|AAA34733.1| L12eIIA protein [Saccharomyces cerevisiae]
+ emb|CAA98647.1| RPP1A [Saccharomyces cerevisiae]
+ gb|AAS56852.1| YDL081C [Saccharomyces cerevisiae]
+ gb|EDN60277.1| ribosomal protein P1A [Saccharomyces cerevisiae YJM789]
+ gb|EDV08354.1| acidic ribosomal protein P1A [Saccharomyces cerevisiae RM11-1a]
+ gb|EEU08995.1| Rpp1ap [Saccharomyces cerevisiae JAY291]
+ emb|CAY78428.1| Rpp1ap [Saccharomyces cerevisiae EC1118]
+ tpg|DAA11778.1| TPA: ribosomal protein P1A [Saccharomyces cerevisiae S288c]
+ gb|EGA62750.1| Rpp1ap [Saccharomyces cerevisiae FostersO]
+ gb|EGA75724.1| Rpp1ap [Saccharomyces cerevisiae AWRI796]
+ gb|EGA79680.1| Rpp1ap [Saccharomyces cerevisiae Vin13]
+ gb|EGA83683.1| Rpp1ap [Saccharomyces cerevisiae Lalvin QA23]
+ gb|EGA87662.1| Rpp1ap [Saccharomyces cerevisiae VL3]
+ dbj|GAA22168.1| K7_Rpp1ap [Saccharomyces cerevisiae Kyokai no. 7]
+ gb|EHN07956.1| Rpp1ap [Saccharomyces cerevisiae x Saccharomyces kudriavzevii 
+VIN7]
+ gb|EIW11128.1| Rpp1ap [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=106
+
+ Score = 34.3 bits (77),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G+NLK +LV
+Sbjct  40  IWADIFAKALDGQNLKDLLV  59
+
+
+>gb|EGA59448.1| Rpp1ap [Saccharomyces cerevisiae FostersB]
+Length=107
+
+ Score = 34.3 bits (77),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G+NLK +LV
+Sbjct  40  IWADIFAKALDGQNLKDLLV  59
+
+
+>ref|XP_003955940.1| hypothetical protein KAFR_0B05090 [Kazachstania africana CBS 
+2517]
+ emb|CCF56805.1| hypothetical protein KAFR_0B05090 [Kazachstania africana CBS 
+2517]
+Length=107
+
+ Score = 33.9 bits (76),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+EG++LK +LV
+Sbjct  40  IWADIFAKALEGQDLKALLV  59
+
+
+>ref|XP_002999573.1| 60S acidic ribosomal protein P1 [Candida glabrata CBS 138]
+ emb|CAR58046.1| unnamed protein product [Candida glabrata]
+Length=106
+
+ Score = 33.9 bits (76),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  39  VWADVYAKALEGKDLKEIL  57
+
+
+>ref|NP_010153.1| ribosomal protein P1B [Saccharomyces cerevisiae S288c]
+ sp|P10622.3|RLA3_YEAST RecName: Full=60S acidic ribosomal protein P1-beta; Short=P1B; 
+AltName: Full=Ax; AltName: Full=L12EIIB; AltName: Full=L44'; 
+AltName: Full=YP1beta
+ gb|AAA34734.1| L12eIIB protein [Saccharomyces cerevisiae]
+ gb|AAA34973.1| ribosomal protein L44' [Saccharomyces cerevisiae]
+ emb|CAA98698.1| RPP1B [Saccharomyces cerevisiae]
+ gb|EDN60229.1| ribosomal protein P1B [Saccharomyces cerevisiae YJM789]
+ gb|EDV08399.1| ribosomal protein P1B [Saccharomyces cerevisiae RM11-1a]
+ emb|CAY78379.1| Rpp1bp [Saccharomyces cerevisiae EC1118]
+ tpg|DAA11730.1| TPA: ribosomal protein P1B [Saccharomyces cerevisiae S288c]
+ dbj|GAA22118.1| K7_Rpp1bp [Saccharomyces cerevisiae Kyokai no. 7]
+ gb|EIW11076.1| Rpp1bp [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=106
+
+ Score = 33.9 bits (76),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  39  VWADVYAKALEGKDLKEIL  57
+
+
+>ref|XP_003667700.1| ribosomal protein P1 [Naumovozyma dairenensis CBS 421]
+ emb|CCD22457.1| hypothetical protein NDAI_0A03000 [Naumovozyma dairenensis CBS 
+421]
+Length=106
+
+ Score = 33.5 bits (75),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  39  VWADVYAKALEGKDLKEIL  57
+
+
+>emb|CCK68252.1| hypothetical protein KNAG_0A05890 [Kazachstania naganishii CBS 
+8797]
+Length=107
+
+ Score = 33.5 bits (75),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+EG+N+K +LV
+Sbjct  40  IWADIFAKALEGQNVKDLLV  59
+
+
+>gb|EEU08973.1| Rpp1bp [Saccharomyces cerevisiae JAY291]
+Length=107
+
+ Score = 33.5 bits (75),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  40  VWADVYAKALEGKDLKEIL  58
+
+
+>ref|XP_003959866.1| hypothetical protein KAFR_0L01230 [Kazachstania africana CBS 
+2517]
+ emb|CCF60731.1| hypothetical protein KAFR_0L01230 [Kazachstania africana CBS 
+2517]
+Length=106
+
+ Score = 33.5 bits (75),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  39  VWADVYAKALEGKDLKEIL  57
+
+
+>ref|XP_004179219.1| hypothetical protein TBLA_0B08840 [Tetrapisispora blattae CBS 
+6284]
+ emb|CCH59700.1| hypothetical protein TBLA_0B08840 [Tetrapisispora blattae CBS 
+6284]
+Length=105
+
+ Score = 33.5 bits (75),  Expect = 0.44, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+EG++LK +LV
+Sbjct  40  IWADIFAKALEGQDLKDLLV  59
+
+
+>ref|XP_462591.1| 60S acidic ribosomal protein P1 [Debaryomyces hansenii CBS767]
+ emb|CAG91106.1| DEHA2G24178p [Debaryomyces hansenii CBS767]
+Length=105
+
+ Score = 33.1 bits (74),  Expect = 0.50, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  40  VWADVYAKALEGKDLKELL  58
+
+
+>ref|XP_001646906.1| hypothetical protein Kpol_2000p12 [Vanderwaltozyma polyspora 
+DSM 70294]
+ gb|EDO19048.1| hypothetical protein Kpol_2000p12 [Vanderwaltozyma polyspora 
+DSM 70294]
+Length=105
+
+ Score = 33.1 bits (74),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFA A+EGK+LK +L
+Sbjct  39  VWADVFASALEGKDLKEIL  57
+
+
+>emb|CCH40613.1| 60S acidic ribosomal protein P1 [Wickerhamomyces ciferrii]
+Length=106
+
+ Score = 33.1 bits (74),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFA A+EGK+LK +L
+Sbjct  39  VWADVFATALEGKDLKEIL  57
+
+
+>ref|XP_003676789.1| hypothetical protein NCAS_0E03620 [Naumovozyma castellii CBS 
+4309]
+ emb|CCC70432.1| hypothetical protein NCAS_0E03620 [Naumovozyma castellii CBS 
+4309]
+Length=106
+
+ Score = 32.7 bits (73),  Expect = 0.71, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA EGK+LK +L
+Sbjct  39  VWADVYAKAFEGKDLKEIL  57
+
+
+>ref|XP_447289.1| 60S acidic ribosomal protein P1 [Candida glabrata CBS 138]
+ emb|CAG60226.1| unnamed protein product [Candida glabrata]
+Length=107
+
+ Score = 32.7 bits (73),  Expect = 0.85, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G++LK +LV
+Sbjct  40  IWADIFAKALDGQDLKSLLV  59
+
+
+>ref|XP_003682896.1| 60S acidic ribosomal protein P1 [Torulaspora delbrueckii]
+ emb|CCE93685.1| hypothetical protein TDEL_0G03180 [Torulaspora delbrueckii]
+Length=106
+
+ Score = 32.7 bits (73),  Expect = 0.85, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+F KA++G+NLK +LV
+Sbjct  40  IWADIFTKALDGQNLKDLLV  59
+
+
+>ref|XP_002494127.1| 60S acidic ribosomal protein P1 [Komagataella pastoris GS115]
+ emb|CAY71948.1| hypothetical protein PAS_chr4_0982 [Komagataella pastoris GS115]
+ emb|CCA40451.1| 60S acidic ribosomal protein P1 [Komagataella pastoris CBS 7435]
+Length=107
+
+ Score = 32.7 bits (73),  Expect = 0.86, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAK +EGK+LK +L
+Sbjct  39  VWADVFAKGLEGKDLKELL  57
+
+
+>ref|XP_003683221.1| 60S acidic ribosomal protein P1 [Torulaspora delbrueckii]
+ emb|CCE94010.1| hypothetical protein TDEL_0H01510 [Torulaspora delbrueckii]
+Length=106
+
+ Score = 32.3 bits (72),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 13/19 (68%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWA+VFA+A+EGK+LK +L
+Sbjct  39  VWAEVFAQALEGKDLKQIL  57
+
+
+>gb|EGV60546.1| mitochondrial glyco protein [Candida tenuis ATCC 10573]
+Length=350
+
+ Score = 33.9 bits (76),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 15/19 (79%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1    VWADVFAKAVEGKNLKMVL  19
+            VWADVFAKA+EGK+LK +L
+Sbjct  285  VWADVFAKALEGKDLKDLL  303
+
+
+>gb|AGO12726.1| AaceriADR256Wp [Saccharomycetaceae sp. 'Ashbya aceri']
+Length=104
+
+ Score = 32.3 bits (72),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD++AKA+E KNLK +LV
+Sbjct  40  IWADIYAKALETKNLKDLLV  59
+
+
+>ref|XP_003871068.1| Rpp1b acidic ribosomal protein [Candida orthopsilosis Co 90-125]
+ emb|CCG24943.1| Rpp1b acidic ribosomal protein [Candida orthopsilosis]
+Length=124
+
+ Score = 32.7 bits (73),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 13/19 (68%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WADVFA+A+EGK+LK +L
+Sbjct  54  IWADVFAQALEGKDLKELL  72
+
+
+>ref|XP_500815.1| 60S acidic ribosomal protein P1 [Yarrowia lipolytica]
+ emb|CAG83066.1| YALI0B12804p [Yarrowia lipolytica CLIB122]
+Length=104
+
+ Score = 32.0 bits (71),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAKA+ GK+LK +L
+Sbjct  40  VWADVFAKALAGKDLKEIL  58
+
+
+>ref|XP_002496053.1| 60S acidic ribosomal protein P1 [Zygosaccharomyces rouxii]
+ emb|CAR27120.1| ZYRO0C09372p [Zygosaccharomyces rouxii]
+Length=104
+
+ Score = 32.0 bits (71),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 13/19 (68%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWA+V+AKA+EGK+LK +L
+Sbjct  39  VWAEVYAKALEGKDLKEIL  57
+
+
+>ref|XP_004199319.1| Piso0_002753 [Millerozyma farinosa CBS 7064]
+ emb|CCE82982.1| Piso0_002753 [Millerozyma farinosa CBS 7064]
+Length=145
+
+ Score = 32.7 bits (73),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 13/19 (68%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WADV+AKA+EGK+LK +L
+Sbjct  81  IWADVYAKALEGKDLKDLL  99
+
+
+>ref|XP_001642976.1| hypothetical protein Kpol_1046p10 [Vanderwaltozyma polyspora 
+DSM 70294]
+ gb|EDO15118.1| hypothetical protein Kpol_1046p10 [Vanderwaltozyma polyspora 
+DSM 70294]
+Length=106
+
+ Score = 32.0 bits (71),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+E ++LK +LV
+Sbjct  40  IWADIFAKALESQDLKQLLV  59
+
+
+>ref|NP_984352.2| 60S acidic ribosomal protein P1 [Ashbya gossypii ATCC 10895]
+ gb|AAS52176.2| ADR256Wp [Ashbya gossypii ATCC 10895]
+ gb|AEY96475.1| FADR256Wp [Ashbya gossypii FDAG1]
+Length=104
+
+ Score = 32.0 bits (71),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD++AKA+E +NLK +LV
+Sbjct  40  IWADIYAKALESQNLKDLLV  59
+
+
+>ref|XP_003648155.1| hypothetical protein Ecym_8042 [Eremothecium cymbalariae DBVPG#7215]
+ gb|AET41338.1| Hypothetical protein Ecym_8042 [Eremothecium cymbalariae DBVPG#7215]
+Length=179
+
+ Score = 32.7 bits (73),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 12/19 (63%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1    VWADVFAKAVEGKNLKMVL  19
+            VWAD+F+KA+EGK++K +L
+Sbjct  112  VWADIFSKALEGKDVKDIL  130
+
+
+>gb|EHN03308.1| Rpp1ap [Saccharomyces cerevisiae x Saccharomyces kudriavzevii 
+VIN7]
+ gb|EJT43053.1| RPP1A-like protein [Saccharomyces kudriavzevii IFO 1802]
+Length=106
+
+ Score = 31.6 bits (70),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++ +NLK +LV
+Sbjct  40  IWADIFAKALDNQNLKELLV  59
+
+
+>emb|CDF89348.1| ZYBA0S04-02102g1_1 [Zygosaccharomyces bailii CLIB 213]
+Length=106
+
+ Score = 31.6 bits (70),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 13/19 (68%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WA+VFAKA+EGK++K VL
+Sbjct  39  IWAEVFAKALEGKDIKEVL  57
+
+
+>ref|XP_458831.1| 60S acidic ribosomal protein P1 [Debaryomyces hansenii CBS767]
+ emb|CAG86977.1| DEHA2D08514p [Debaryomyces hansenii CBS767]
+Length=106
+
+ Score = 31.6 bits (70),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +W D++AKA+EGKNLK
+Sbjct  40  IWTDIYAKALEGKNLK  55
+
+
+>gb|EMG46711.1| 60S acidic ribosomal protein P1-A [Candida maltosa Xu316]
+Length=106
+
+ Score = 31.6 bits (70),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+FAKA+EGK+LK
+Sbjct  40  IWADLFAKALEGKDLK  55
+
+
+>emb|CCK68732.1| hypothetical protein KNAG_0B02900 [Kazachstania naganishii CBS 
+8797]
+Length=106
+
+ Score = 31.6 bits (70),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 12/19 (63%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WADV+A A+EGK+LK +L
+Sbjct  39  IWADVYANALEGKDLKEIL  57
+
+
+>ref|XP_002550039.1| 60S acidic ribosomal protein P1-A [Candida tropicalis MYA-3404]
+ gb|EER31554.1| 60S acidic ribosomal protein P1-A [Candida tropicalis MYA-3404]
+Length=107
+
+ Score = 31.6 bits (70),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+FAKA+EGK+LK
+Sbjct  40  IWADLFAKALEGKDLK  55
+
+
+>gb|EEQ42860.1| 60S acidic ribosomal protein P1-alpha [Candida albicans WO-1]
+Length=101
+
+ Score = 31.6 bits (70),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+FAKA+EGK+LK
+Sbjct  40  IWADLFAKALEGKDLK  55
+
+
+>emb|CAA21967.1| 60S ribosomal protein rpla1 [Candida albicans]
+Length=106
+
+ Score = 31.6 bits (70),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+FAKA+EGK+LK
+Sbjct  40  IWADLFAKALEGKDLK  55
+
+
+>ref|XP_721490.1| cytosolic ribosomal acidic protein P1A [Candida albicans SC5314]
+ ref|XP_721218.1| cytosolic ribosomal acidic protein P1A [Candida albicans SC5314]
+ sp|Q9HFQ7.1|RLA1_CANAL RecName: Full=60S acidic ribosomal protein P1-A; Short=CaRP1A
+ gb|AAG33240.1|AF317659_1 60S acidic ribosomal protein type P1-A [Candida albicans]
+ gb|EAL02411.1| cytosolic ribosomal acidic protein P1A [Candida albicans SC5314]
+ gb|EAL02692.1| cytosolic ribosomal acidic protein P1A [Candida albicans SC5314]
+Length=106
+
+ Score = 31.6 bits (70),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+FAKA+EGK+LK
+Sbjct  40  IWADLFAKALEGKDLK  55
+
+
+>ref|XP_002416953.1| 60S acidic ribosomal protein P1 [Candida dubliniensis CD36]
+ emb|CAX44541.1| 60S acidic ribosomal protein P1-a homologue, putative [Candida 
+dubliniensis CD36]
+Length=106
+
+ Score = 31.6 bits (70),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+FAKA+EGK+LK
+Sbjct  40  IWADLFAKALEGKDLK  55
+
+
+>gb|EPX72877.1| 60S acidic ribosomal protein Rpp1-1 [Schizosaccharomyces octosporus 
+yFS286]
+Length=106
+
+ Score = 31.2 bits (69),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWASIFAKALEGKDLKELLL  60
+
+
+>gb|EPY52542.1| 60S acidic ribosomal protein Rpp1-1 [Schizosaccharomyces cryophilus 
+OY26]
+Length=108
+
+ Score = 31.2 bits (69),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWASIFAKALEGKDLKELLL  60
+
+
+>ref|XP_002615581.1| hypothetical protein CLUG_04463 [Clavispora lusitaniae ATCC 42720]
+ gb|EEQ40335.1| hypothetical protein CLUG_04463 [Clavispora lusitaniae ATCC 42720]
+Length=106
+
+ Score = 31.2 bits (69),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+FAKA+EGK+LK
+Sbjct  40  IWADLFAKALEGKDLK  55
+
+
+>gb|EPX73498.1| 60S acidic ribosomal protein Rpp1-3 [Schizosaccharomyces octosporus 
+yFS286]
+Length=106
+
+ Score = 31.2 bits (69),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWASIFAKALEGKDLKELLL  60
+
+
+>ref|XP_002175141.1| 60S acidic ribosomal protein P1 [Schizosaccharomyces japonicus 
+yFS275]
+ gb|EEB08848.1| 60S acidic ribosomal protein Rpp1-1 [Schizosaccharomyces japonicus 
+yFS275]
+Length=108
+
+ Score = 31.2 bits (69),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWASIFAKALEGKDLKELLL  60
+
+
+>gb|EPY53555.1| 60S acidic ribosomal protein Rpp1-1 [Schizosaccharomyces cryophilus 
+OY26]
+Length=107
+
+ Score = 31.2 bits (69),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWASIFAKALEGKDLKELLL  60
+
+
+>ref|NP_985710.1| 60S acidic ribosomal protein P1 [Ashbya gossypii ATCC 10895]
+ gb|AAS53534.1| AFR163Cp [Ashbya gossypii ATCC 10895]
+ gb|AEY97847.1| FAFR163Cp [Ashbya gossypii FDAG1]
+Length=105
+
+ Score = 31.2 bits (69),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 13/19 (68%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWA++FAKA+EGK++K VL
+Sbjct  39  VWAEIFAKALEGKDVKEVL  57
+
+
+>ref|XP_002172659.1| 60S acidic ribosomal protein P1 [Schizosaccharomyces japonicus 
+yFS275]
+ gb|EEB06366.1| 60S acidic ribosomal protein Rpp1-1 [Schizosaccharomyces japonicus 
+yFS275]
+Length=108
+
+ Score = 31.2 bits (69),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWASIFAKALEGKDLKELLL  60
+
+
+>gb|EPY51138.1| 60S acidic ribosomal protein Rpp1-3 [Schizosaccharomyces cryophilus 
+OY26]
+Length=169
+
+ Score = 32.0 bits (71),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1    VWADVFAKAVEGKNLKMVLV  20
+            +WA +FAKA+EGK+LK +L+
+Sbjct  103  IWASIFAKALEGKDLKELLL  122
+
+
+>emb|CDF88469.1| BN860_10990g1_1 [Zygosaccharomyces bailii CLIB 213]
+Length=107
+
+ Score = 31.2 bits (69),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+F++A+E +NLK +LV
+Sbjct  40  IWADIFSRALEAQNLKDLLV  59
+
+
+>ref|XP_003688675.1| 60S acidic ribosomal protein P1 [Tetrapisispora phaffii CBS 4417]
+ emb|CCE66241.1| hypothetical protein TPHA_0P00830 [Tetrapisispora phaffii CBS 
+4417]
+Length=106
+
+ Score = 31.2 bits (69),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 12/19 (63%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+A+A++GK+LK +L
+Sbjct  39  VWADVYAEALQGKDLKEIL  57
+
+
+>emb|CAA05695.1| ribosomal protein rpa5 [Schizosaccharomyces pombe]
+Length=109
+
+ Score = 30.8 bits (68),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWATIFAKALEGKDLKELLL  60
+
+
+>ref|NP_593883.1| 60S acidic ribosomal protein P1 [Schizosaccharomyces pombe 972h-]
+ sp|P17476.1|RLA1_SCHPO RecName: Full=60S acidic ribosomal protein P1-alpha 1; Short=A1
+ gb|AAA35334.1| ribosomal protein A1 [Schizosaccharomyces pombe]
+ emb|CAB90142.1| 60S acidic ribosomal protein Rpp1-1 [Schizosaccharomyces pombe]
+Length=109
+
+ Score = 30.8 bits (68),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWATIFAKALEGKDLKELLL  60
+
+
+>ref|NP_596671.1| 60S acidic ribosomal protein P1 [Schizosaccharomyces pombe 972h-]
+ sp|P17477.1|RLA3_SCHPO RecName: Full=60S acidic ribosomal protein P1-alpha 3; Short=A3
+ gb|AAA35336.1| ribosomal protein A3 [Schizosaccharomyces pombe]
+ emb|CAA17793.1| 60S acidic ribosomal protein Rpp1-2 [Schizosaccharomyces pombe]
+Length=110
+
+ Score = 30.8 bits (68),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWATIFAKALEGKDLKELLL  60
+
+
+>ref|XP_455332.1| 60S acidic ribosomal protein P1 [Kluyveromyces lactis NRRL Y-1140]
+ emb|CAG98040.1| KLLA0F05555p [Kluyveromyces lactis]
+Length=104
+
+ Score = 30.8 bits (68),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 12/19 (63%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWA+ FAKA+EGK++K +L
+Sbjct  39  VWAETFAKALEGKDIKEIL  57
+
+
+>ref|XP_003867864.1| Rpp1a protein [Candida orthopsilosis Co 90-125]
+ emb|CCG22427.1| Rpp1a protein [Candida orthopsilosis]
+Length=110
+
+ Score = 30.8 bits (68),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+F+KA+EGK+LK
+Sbjct  40  IWADLFSKALEGKDLK  55
+
+
+>ref|XP_003013571.1| hypothetical protein ARB_00018 [Arthroderma benhamiae CBS 112371]
+ gb|EFE32931.1| hypothetical protein ARB_00018 [Arthroderma benhamiae CBS 112371]
+Length=110
+
+ Score = 30.8 bits (68),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 13/22 (59%), Positives = 18/22 (82%), Gaps = 0/22 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLVLV  22
+           +W  +FAKA++GKNLK +LV V
+Sbjct  42  IWTSLFAKALDGKNLKDILVNV  63
+
+
+>ref|XP_001526672.1| 60S acidic ribosomal protein P1-A [Lodderomyces elongisporus 
+NRRL YB-4239]
+ gb|EDK43322.1| 60S acidic ribosomal protein P1-A [Lodderomyces elongisporus 
+NRRL YB-4239]
+Length=110
+
+ Score = 30.8 bits (68),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+F+KA+EGK+LK
+Sbjct  40  IWADLFSKALEGKDLK  55
+
+
+>emb|CCE40562.1| hypothetical protein CPAR2_105980 [Candida parapsilosis]
+Length=110
+
+ Score = 30.8 bits (68),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+F+KA+EGK+LK
+Sbjct  40  IWADLFSKALEGKDLK  55
+
+
+>ref|XP_002494731.1| 60S acidic ribosomal protein P1 [Zygosaccharomyces rouxii]
+ emb|CAR25798.1| ZYRO0A08360p [Zygosaccharomyces rouxii]
+Length=108
+
+ Score = 30.8 bits (68),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +W D+++KA+EG++LK +LV
+Sbjct  40  IWGDIYSKALEGQDLKELLV  59
+
+
+>ref|NP_588562.1| 60S acidic ribosomal protein P1 [Schizosaccharomyces pombe 972h-]
+ sp|Q9UU78.1|RLA5_SCHPO RecName: Full=60S acidic ribosomal protein P1-alpha 5
+ emb|CAB54868.1| 60S acidic ribosomal protein Rpp1-3 [Schizosaccharomyces pombe]
+Length=109
+
+ Score = 30.8 bits (68),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWATIFAKALEGKDLKELLL  60
+
+
+>gb|EMR09582.1| 60S acidic ribosomal protein P1 [Pneumocystis murina B123]
+Length=58
+
+ Score = 30.0 bits (66),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +W  +FAKA+EGKN+K+ L
+Sbjct  40  IWTSLFAKALEGKNIKVCL  58
+
+
+>ref|XP_001483328.1| hypothetical protein PGUG_04057 [Meyerozyma guilliermondii ATCC 
+6260]
+ gb|EDK39959.1| hypothetical protein PGUG_04057 [Meyerozyma guilliermondii ATCC 
+6260]
+Length=105
+
+ Score = 30.4 bits (67),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 12/19 (63%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWA+ FAK +EGK+LK +L
+Sbjct  40  VWAETFAKGLEGKDLKEIL  58
+
+
+>gb|EMD32201.1| hypothetical protein CERSUDRAFT_118829 [Ceriporiopsis subvermispora 
+B]
+Length=110
+
+ Score = 30.4 bits (67),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 17/20 (85%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA + AKA+EGKNLK +LV
+Sbjct  41  IWASLLAKALEGKNLKDLLV  60
+
+
+>gb|AAX11194.1| 60S acidic ribosomal P1 phosphoprotein Pen b 26 [Penicillium 
+brevicompactum]
+Length=107
+
+ Score = 30.4 bits (67),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 12/22 (55%), Positives = 18/22 (82%), Gaps = 0/22 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLVLV  22
+           +WA +FAKA+EGK++K +L  V
+Sbjct  42  IWATIFAKALEGKDIKEILTNV  63
+
+
+>ref|XP_002556532.1| 60S acidic ribosomal protein P1 [Lachancea thermotolerans]
+ emb|CAR30670.1| KLTH0H15598p [Lachancea thermotolerans CBS 6340]
+Length=107
+
+ Score = 30.4 bits (67),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++ ++LK +LV
+Sbjct  40  IWADIFAKALDSQDLKSLLV  59
+
+
+>gb|EGW34793.1| hypothetical protein SPAPADRAFT_57867 [Spathaspora passalidarum 
+NRRL Y-27907]
+Length=107
+
+ Score = 30.4 bits (67),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +WAD+FAKA++GK+LK
+Sbjct  40  IWADLFAKALDGKDLK  55
+
+
+>ref|XP_003177441.1| 60S acidic ribosomal protein P1 [Arthroderma gypseum CBS 118893]
+ gb|EFQ98489.1| hypothetical protein MGYG_01517 [Arthroderma gypseum CBS 118893]
+Length=110
+
+ Score = 30.0 bits (66),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 13/22 (59%), Positives = 18/22 (82%), Gaps = 0/22 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLVLV  22
+           +W  +FAKA++GKNLK +LV V
+Sbjct  42  IWTSLFAKALDGKNLKDLLVNV  63
+
+
+>ref|XP_002850338.1| 60S acidic ribosomal protein P1 [Arthroderma otae CBS 113480]
+ gb|EEQ27554.1| ribosomal protein P1 [Arthroderma otae CBS 113480]
+Length=110
+
+ Score = 30.0 bits (66),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 17/20 (85%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +W  +FAKA++GKNLK +LV
+Sbjct  42  IWTSLFAKALDGKNLKDLLV  61
+
+
+>gb|ESW98608.1| large subunit ribosomal protein LP1 [Ogataea parapolymorpha DL-1]
+Length=105
+
+ Score = 30.0 bits (66),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  1   VWADVFAKAVEGKNLK  16
+           +W +VFAKA+EG+NLK
+Sbjct  39  IWTEVFAKALEGQNLK  54
+
+
+>emb|CCX31888.1| Similar to 60S acidic ribosomal protein P1; acc. no. Q9HGV0 [Pyronema 
+omphalodes CBS 100304]
+Length=112
+
+ Score = 30.0 bits (66),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 13/22 (59%), Positives = 19/22 (86%), Gaps = 0/22 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLVLV  22
+           +WA +FAKA+EGK+LK +L+ V
+Sbjct  42  IWASLFAKALEGKDLKEMLLNV  63
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.138    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 296516261160
+Results from round 2
+
+
+Query= id1
+
+Length=24
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|XP_001523647.1|  60S acidic ribosomal protein P1-B [Lodderomy...  33.5    0.41 
+sp|Q9HFQ6.1|RLA3_CANAL  RecName: Full=60S acidic ribosomal protei...  33.1    0.68 
+pdb|3IZS|TT  Chain t, Localization Of The Large Subunit Ribosomal...  32.7    0.88 
+ref|XP_003871068.1|  Rpp1b acidic ribosomal protein [Candida orth...  32.7    1.0  
+gb|EGV60546.1|  mitochondrial glyco protein [Candida tenuis ATCC ...  34.2    1.1  
+ref|XP_002999573.1|  60S acidic ribosomal protein P1 [Candida gla...  32.3    1.2  
+gb|EJS44371.1|  rpp1ap [Saccharomyces arboricola H-6]                 32.3    1.3  
+ref|XP_001642976.1|  hypothetical protein Kpol_1046p10 [Vanderwal...  32.3    1.4  
+ref|NP_010153.1|  ribosomal protein P1B [Saccharomyces cerevisiae...  31.9    1.5  
+ref|NP_010202.1|  ribosomal protein P1A [Saccharomyces cerevisiae...  31.9    1.5  
+gb|EGA59448.1|  Rpp1ap [Saccharomyces cerevisiae FostersB]            31.9    1.6  
+ref|XP_002614592.1|  hypothetical protein CLUG_05370 [Clavispora ...  31.9    1.8  
+ref|XP_715237.1|  cytosolic ribosomal acidic protein P1B [Candida...  31.9    1.9  
+ref|XP_003958029.1|  hypothetical protein KAFR_0F02980 [Kazachsta...  31.9    2.0  
+ref|XP_447289.1|  60S acidic ribosomal protein P1 [Candida glabra...  31.9    2.0  
+gb|EEU08973.1|  Rpp1bp [Saccharomyces cerevisiae JAY291]              31.5    2.0  
+ref|XP_003955940.1|  hypothetical protein KAFR_0B05090 [Kazachsta...  31.5    2.2  
+ref|XP_004179219.1|  hypothetical protein TBLA_0B08840 [Tetrapisi...  31.5    2.4  
+ref|XP_002421567.1|  60S acidic ribosomal protein P1 [Candida dub...  31.5    2.5  
+emb|CCE45231.1|  hypothetical protein CPAR2_702440 [Candida parap...  31.5    2.5  
+ref|XP_003667700.1|  ribosomal protein P1 [Naumovozyma dairenensi...  31.1    3.6  
+ref|XP_001646906.1|  hypothetical protein Kpol_2000p12 [Vanderwal...  31.1    3.6  
+ref|XP_003648155.1|  hypothetical protein Ecym_8042 [Eremothecium...  31.9    3.7  
+emb|CCK68252.1|  hypothetical protein KNAG_0A05890 [Kazachstania ...  30.8    4.3  
+ref|XP_003676789.1|  hypothetical protein NCAS_0E03620 [Naumovozy...  30.8    4.5  
+gb|EPY51138.1|  60S acidic ribosomal protein Rpp1-3 [Schizosaccha...  31.5    5.4  
+ref|XP_002550894.1|  60S acidic ribosomal protein P1-B [Candida t...  30.4    6.4  
+ref|XP_003959866.1|  hypothetical protein KAFR_0L01230 [Kazachsta...  30.4    7.3  
+gb|EPX73498.1|  60S acidic ribosomal protein Rpp1-3 [Schizosaccha...  30.0    7.8  
+gb|EGW30060.1|  hypothetical protein SPAPADRAFT_63678 [Spathaspor...  30.0    8.4  
+ref|XP_003682896.1|  60S acidic ribosomal protein P1 [Torulaspora...  30.0    8.7  
+emb|CAA80880.2|  ribosomal protein A1 [Schizosaccharomyces pombe]     30.0    9.0  
+emb|CAA05695.1|  ribosomal protein rpa5 [Schizosaccharomyces pombe]   30.0    9.5  
+gb|EPX72877.1|  60S acidic ribosomal protein Rpp1-1 [Schizosaccha...  30.0    9.7  
+ref|XP_002551694.1|  60S acidic ribosomal protein P1 [Lachancea t...  30.0    9.9  
+
+
+>ref|XP_001523647.1| 60S acidic ribosomal protein P1-B [Lodderomyces elongisporus 
+NRRL YB-4239]
+ gb|EDK46882.1| 60S acidic ribosomal protein P1-B [Lodderomyces elongisporus 
+NRRL YB-4239]
+Length=109
+
+ Score = 33.5 bits (75),  Expect = 0.41, Method: Composition-based stats.
+ Identities = 15/19 (79%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WAD+FAKAVEGKNLK +L
+Sbjct  40  IWADIFAKAVEGKNLKELL  58
+
+
+>sp|Q9HFQ6.1|RLA3_CANAL RecName: Full=60S acidic ribosomal protein P1-B; Short=CaRP1B
+ gb|AAG33241.1|AF317660_1 60S acidic ribosomal protein type P1-B [Candida albicans]
+ gb|EEQ47160.1| hypothetical protein CAWG_05722 [Candida albicans WO-1]
+Length=108
+
+ Score = 33.1 bits (74),  Expect = 0.68, Method: Composition-based stats.
+ Identities = 17/19 (89%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAKAVEGKNLK +L
+Sbjct  40  VWADVFAKAVEGKNLKELL  58
+
+
+>pdb|3IZS|TT Chain t, Localization Of The Large Subunit Ribosomal Proteins 
+Into A 6.1 A Cryo-Em Map Of Saccharomyces Cerevisiae Translating 
+80s Ribosome
+ pdb|3IZS|UU Chain u, Localization Of The Large Subunit Ribosomal Proteins 
+Into A 6.1 A Cryo-Em Map Of Saccharomyces Cerevisiae Translating 
+80s Ribosome
+ emb|CAA30027.1| unnamed protein product [Saccharomyces cerevisiae]
+ dbj|BAA14113.1| acidic ribosomal protein A1 [Saccharomyces cerevisiae]
+ emb|CAA31976.1| ribosomal protein A1 [Saccharomyces cerevisiae]
+Length=106
+
+ Score = 32.7 bits (73),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G+NLK +LV
+Sbjct  40  IWADIFAKALDGQNLKDLLV  59
+
+
+>ref|XP_003871068.1| Rpp1b acidic ribosomal protein [Candida orthopsilosis Co 90-125]
+ emb|CCG24943.1| Rpp1b acidic ribosomal protein [Candida orthopsilosis]
+Length=124
+
+ Score = 32.7 bits (73),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 13/19 (68%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WADVFA+A+EGK+LK +L
+Sbjct  54  IWADVFAQALEGKDLKELL  72
+
+
+>gb|EGV60546.1| mitochondrial glyco protein [Candida tenuis ATCC 10573]
+Length=350
+
+ Score = 34.2 bits (77),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 15/19 (79%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1    VWADVFAKAVEGKNLKMVL  19
+            VWADVFAKA+EGK+LK +L
+Sbjct  285  VWADVFAKALEGKDLKDLL  303
+
+
+>ref|XP_002999573.1| 60S acidic ribosomal protein P1 [Candida glabrata CBS 138]
+ emb|CAR58046.1| unnamed protein product [Candida glabrata]
+Length=106
+
+ Score = 32.3 bits (72),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  39  VWADVYAKALEGKDLKEIL  57
+
+
+>gb|EJS44371.1| rpp1ap [Saccharomyces arboricola H-6]
+Length=106
+
+ Score = 32.3 bits (72),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G+NLK +LV
+Sbjct  40  IWADIFAKALDGQNLKELLV  59
+
+
+>ref|XP_001642976.1| hypothetical protein Kpol_1046p10 [Vanderwaltozyma polyspora 
+DSM 70294]
+ gb|EDO15118.1| hypothetical protein Kpol_1046p10 [Vanderwaltozyma polyspora 
+DSM 70294]
+Length=106
+
+ Score = 32.3 bits (72),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+E ++LK +LV
+Sbjct  40  IWADIFAKALESQDLKQLLV  59
+
+
+>ref|NP_010153.1| ribosomal protein P1B [Saccharomyces cerevisiae S288c]
+ sp|P10622.3|RLA3_YEAST RecName: Full=60S acidic ribosomal protein P1-beta; Short=P1B; 
+AltName: Full=Ax; AltName: Full=L12EIIB; AltName: Full=L44'; 
+AltName: Full=YP1beta
+ gb|AAA34734.1| L12eIIB protein [Saccharomyces cerevisiae]
+ gb|AAA34973.1| ribosomal protein L44' [Saccharomyces cerevisiae]
+ emb|CAA98698.1| RPP1B [Saccharomyces cerevisiae]
+ gb|EDN60229.1| ribosomal protein P1B [Saccharomyces cerevisiae YJM789]
+ gb|EDV08399.1| ribosomal protein P1B [Saccharomyces cerevisiae RM11-1a]
+ emb|CAY78379.1| Rpp1bp [Saccharomyces cerevisiae EC1118]
+ tpg|DAA11730.1| TPA: ribosomal protein P1B [Saccharomyces cerevisiae S288c]
+ dbj|GAA22118.1| K7_Rpp1bp [Saccharomyces cerevisiae Kyokai no. 7]
+ gb|EIW11076.1| Rpp1bp [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=106
+
+ Score = 31.9 bits (71),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  39  VWADVYAKALEGKDLKEIL  57
+
+
+>ref|NP_010202.1| ribosomal protein P1A [Saccharomyces cerevisiae S288c]
+ sp|P05318.4|RLA1_YEAST RecName: Full=60S acidic ribosomal protein P1-alpha; Short=P1A; 
+AltName: Full=A1; AltName: Full=L12EIIA; AltName: Full=YP1alpha
+ gb|AAA34733.1| L12eIIA protein [Saccharomyces cerevisiae]
+ emb|CAA98647.1| RPP1A [Saccharomyces cerevisiae]
+ gb|AAS56852.1| YDL081C [Saccharomyces cerevisiae]
+ gb|EDN60277.1| ribosomal protein P1A [Saccharomyces cerevisiae YJM789]
+ gb|EDV08354.1| acidic ribosomal protein P1A [Saccharomyces cerevisiae RM11-1a]
+ gb|EEU08995.1| Rpp1ap [Saccharomyces cerevisiae JAY291]
+ emb|CAY78428.1| Rpp1ap [Saccharomyces cerevisiae EC1118]
+ tpg|DAA11778.1| TPA: ribosomal protein P1A [Saccharomyces cerevisiae S288c]
+ gb|EGA62750.1| Rpp1ap [Saccharomyces cerevisiae FostersO]
+ gb|EGA75724.1| Rpp1ap [Saccharomyces cerevisiae AWRI796]
+ gb|EGA79680.1| Rpp1ap [Saccharomyces cerevisiae Vin13]
+ gb|EGA83683.1| Rpp1ap [Saccharomyces cerevisiae Lalvin QA23]
+ gb|EGA87662.1| Rpp1ap [Saccharomyces cerevisiae VL3]
+ dbj|GAA22168.1| K7_Rpp1ap [Saccharomyces cerevisiae Kyokai no. 7]
+ gb|EHN07956.1| Rpp1ap [Saccharomyces cerevisiae x Saccharomyces kudriavzevii 
+VIN7]
+ gb|EIW11128.1| Rpp1ap [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=106
+
+ Score = 31.9 bits (71),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G+NLK +LV
+Sbjct  40  IWADIFAKALDGQNLKDLLV  59
+
+
+>gb|EGA59448.1| Rpp1ap [Saccharomyces cerevisiae FostersB]
+Length=107
+
+ Score = 31.9 bits (71),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G+NLK +LV
+Sbjct  40  IWADIFAKALDGQNLKDLLV  59
+
+
+>ref|XP_002614592.1| hypothetical protein CLUG_05370 [Clavispora lusitaniae ATCC 42720]
+ gb|EEQ41242.1| hypothetical protein CLUG_05370 [Clavispora lusitaniae ATCC 42720]
+Length=105
+
+ Score = 31.9 bits (71),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 16/19 (84%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAKA+EGKNLK +L
+Sbjct  39  VWADVFAKALEGKNLKELL  57
+
+
+>ref|XP_715237.1| cytosolic ribosomal acidic protein P1B [Candida albicans SC5314]
+ ref|XP_888997.1| hypothetical protein CaO19_7188 [Candida albicans SC5314]
+ gb|EAK96206.1| cytosolic ribosomal acidic protein P1B [Candida albicans SC5314]
+ dbj|BAE44894.1| hypothetical protein [Candida albicans]
+Length=108
+
+ Score = 31.9 bits (71),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 16/19 (84%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAKAVEGKN K +L
+Sbjct  40  VWADVFAKAVEGKNFKELL  58
+
+
+>ref|XP_003958029.1| hypothetical protein KAFR_0F02980 [Kazachstania africana CBS 
+2517]
+ emb|CCF58894.1| hypothetical protein KAFR_0F02980 [Kazachstania africana CBS 
+2517]
+Length=107
+
+ Score = 31.9 bits (71),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+EG++LK +LV
+Sbjct  40  IWADIFAKALEGQDLKALLV  59
+
+
+>ref|XP_447289.1| 60S acidic ribosomal protein P1 [Candida glabrata CBS 138]
+ emb|CAG60226.1| unnamed protein product [Candida glabrata]
+Length=107
+
+ Score = 31.9 bits (71),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA++G++LK +LV
+Sbjct  40  IWADIFAKALDGQDLKSLLV  59
+
+
+>gb|EEU08973.1| Rpp1bp [Saccharomyces cerevisiae JAY291]
+Length=107
+
+ Score = 31.5 bits (70),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  40  VWADVYAKALEGKDLKEIL  58
+
+
+>ref|XP_003955940.1| hypothetical protein KAFR_0B05090 [Kazachstania africana CBS 
+2517]
+ emb|CCF56805.1| hypothetical protein KAFR_0B05090 [Kazachstania africana CBS 
+2517]
+Length=107
+
+ Score = 31.5 bits (70),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+EG++LK +LV
+Sbjct  40  IWADIFAKALEGQDLKALLV  59
+
+
+>ref|XP_004179219.1| hypothetical protein TBLA_0B08840 [Tetrapisispora blattae CBS 
+6284]
+ emb|CCH59700.1| hypothetical protein TBLA_0B08840 [Tetrapisispora blattae CBS 
+6284]
+Length=105
+
+ Score = 31.5 bits (70),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+EG++LK +LV
+Sbjct  40  IWADIFAKALEGQDLKDLLV  59
+
+
+>ref|XP_002421567.1| 60S acidic ribosomal protein P1 [Candida dubliniensis CD36]
+ emb|CAX40910.1| 60S acidic ribosomal protein, putative [Candida dubliniensis 
+CD36]
+Length=108
+
+ Score = 31.5 bits (70),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 16/19 (84%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFAKAVEGK+LK +L
+Sbjct  40  VWADVFAKAVEGKDLKELL  58
+
+
+>emb|CCE45231.1| hypothetical protein CPAR2_702440 [Candida parapsilosis]
+Length=111
+
+ Score = 31.5 bits (70),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WADVFAKA+EGK+LK +L
+Sbjct  40  IWADVFAKALEGKDLKELL  58
+
+
+>ref|XP_003667700.1| ribosomal protein P1 [Naumovozyma dairenensis CBS 421]
+ emb|CCD22457.1| hypothetical protein NDAI_0A03000 [Naumovozyma dairenensis CBS 
+421]
+Length=106
+
+ Score = 31.1 bits (69),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  39  VWADVYAKALEGKDLKEIL  57
+
+
+>ref|XP_001646906.1| hypothetical protein Kpol_2000p12 [Vanderwaltozyma polyspora 
+DSM 70294]
+ gb|EDO19048.1| hypothetical protein Kpol_2000p12 [Vanderwaltozyma polyspora 
+DSM 70294]
+Length=105
+
+ Score = 31.1 bits (69),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADVFA A+EGK+LK +L
+Sbjct  39  VWADVFASALEGKDLKEIL  57
+
+
+>ref|XP_003648155.1| hypothetical protein Ecym_8042 [Eremothecium cymbalariae DBVPG#7215]
+ gb|AET41338.1| Hypothetical protein Ecym_8042 [Eremothecium cymbalariae DBVPG#7215]
+Length=179
+
+ Score = 31.9 bits (71),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 12/19 (63%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1    VWADVFAKAVEGKNLKMVL  19
+            VWAD+F+KA+EGK++K +L
+Sbjct  112  VWADIFSKALEGKDVKDIL  130
+
+
+>emb|CCK68252.1| hypothetical protein KNAG_0A05890 [Kazachstania naganishii CBS 
+8797]
+Length=107
+
+ Score = 30.8 bits (68),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 13/20 (65%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+FAKA+EG+N+K +LV
+Sbjct  40  IWADIFAKALEGQNVKDLLV  59
+
+
+>ref|XP_003676789.1| hypothetical protein NCAS_0E03620 [Naumovozyma castellii CBS 
+4309]
+ emb|CCC70432.1| hypothetical protein NCAS_0E03620 [Naumovozyma castellii CBS 
+4309]
+Length=106
+
+ Score = 30.8 bits (68),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA EGK+LK +L
+Sbjct  39  VWADVYAKAFEGKDLKEIL  57
+
+
+>gb|EPY51138.1| 60S acidic ribosomal protein Rpp1-3 [Schizosaccharomyces cryophilus 
+OY26]
+Length=169
+
+ Score = 31.5 bits (70),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1    VWADVFAKAVEGKNLKMVLV  20
+            +WA +FAKA+EGK+LK +L+
+Sbjct  103  IWASIFAKALEGKDLKELLL  122
+
+
+>ref|XP_002550894.1| 60S acidic ribosomal protein P1-B [Candida tropicalis MYA-3404]
+ gb|EER31462.1| 60S acidic ribosomal protein P1-B [Candida tropicalis MYA-3404]
+Length=107
+
+ Score = 30.4 bits (67),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 15/19 (79%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WADVFAKAVEGK+LK +L
+Sbjct  40  IWADVFAKAVEGKDLKELL  58
+
+
+>ref|XP_003959866.1| hypothetical protein KAFR_0L01230 [Kazachstania africana CBS 
+2517]
+ emb|CCF60731.1| hypothetical protein KAFR_0L01230 [Kazachstania africana CBS 
+2517]
+Length=106
+
+ Score = 30.4 bits (67),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWADV+AKA+EGK+LK +L
+Sbjct  39  VWADVYAKALEGKDLKEIL  57
+
+
+>gb|EPX73498.1| 60S acidic ribosomal protein Rpp1-3 [Schizosaccharomyces octosporus 
+yFS286]
+Length=106
+
+ Score = 30.0 bits (66),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWASIFAKALEGKDLKELLL  60
+
+
+>gb|EGW30060.1| hypothetical protein SPAPADRAFT_63678 [Spathaspora passalidarum 
+NRRL Y-27907]
+Length=107
+
+ Score = 30.0 bits (66),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 16/19 (84%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           VWA+VFAKAVEGKNLK +L
+Sbjct  40  VWANVFAKAVEGKNLKELL  58
+
+
+>ref|XP_003682896.1| 60S acidic ribosomal protein P1 [Torulaspora delbrueckii]
+ emb|CCE93685.1| hypothetical protein TDEL_0G03180 [Torulaspora delbrueckii]
+Length=106
+
+ Score = 30.0 bits (66),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WAD+F KA++G+NLK +LV
+Sbjct  40  IWADIFTKALDGQNLKDLLV  59
+
+
+>emb|CAA80880.2| ribosomal protein A1 [Schizosaccharomyces pombe]
+Length=106
+
+ Score = 30.0 bits (66),  Expect = 9.0, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWATIFAKALEGKDLKELLL  60
+
+
+>emb|CAA05695.1| ribosomal protein rpa5 [Schizosaccharomyces pombe]
+Length=109
+
+ Score = 30.0 bits (66),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWATIFAKALEGKDLKELLL  60
+
+
+>gb|EPX72877.1| 60S acidic ribosomal protein Rpp1-1 [Schizosaccharomyces octosporus 
+yFS286]
+Length=106
+
+ Score = 30.0 bits (66),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 12/20 (60%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVLV  20
+           +WA +FAKA+EGK+LK +L+
+Sbjct  41  IWASIFAKALEGKDLKELLL  60
+
+
+>ref|XP_002551694.1| 60S acidic ribosomal protein P1 [Lachancea thermotolerans]
+ emb|CAR21252.1| KLTH0A05434p [Lachancea thermotolerans CBS 6340]
+Length=106
+
+ Score = 30.0 bits (66),  Expect = 9.9, Method: Composition-based stats.
+ Identities = 12/19 (63%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+
+Query  1   VWADVFAKAVEGKNLKMVL  19
+           +WA+ FAKA+EGK+LK +L
+Sbjct  39  IWAETFAKALEGKDLKEIL  57
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.138    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0460    0.140     1.90     42.6     43.6 
+
+Effective search space used: 296516261160
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

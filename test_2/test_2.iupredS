@@ -1,0 +1,31 @@
+# IUPred 
+# Copyright (c) Zsuzsanna Dosztanyi, 2005
+#
+# Z. Dosztanyi, V. Csizmok, P. Tompa and I. Simon
+# J. Mol. Biol. (2005) 347, 827-839. 
+#
+#
+# Prediction output 
+# Full-length
+    1 A     0.8118
+    2 E     0.6827
+    3 K     0.3885
+    4 N     0.3263
+    5 L     0.2080
+    6 T     0.0350
+    7 D     0.0160
+    8 L     0.0010
+    9 G     0.0010
+   10 K     0.0002
+   11 F     0.0002
+   12 C     0.0002
+   13 G     0.0001
+   14 L     0.0002
+   15 C     0.0002
+   16 V     0.0004
+   17 C     0.0006
+   18 P     0.0007
+   19 C     0.0026
+   20 N     0.0040
+   21 K     0.0067
+   22 L     0.0167

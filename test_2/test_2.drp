@@ -1,0 +1,29 @@
+PFRMAT DR
+TARGET test_2
+AUTHOR DisPredict: Sumaiya Iqbal and Md Tamjidul Hoque
+REMARK SVM
+METHOD SVM (SL477)
+MODEL  1
+A   D  0.913924            
+E   D  0.915658            
+K   D  0.840403            
+N   D  0.847036            
+L   D  0.796399            
+T   D  0.723436            
+D   D  0.780812            
+L   D  0.799632            
+G   D  0.842596            
+K   D  0.893654            
+F   D  0.927551            
+C   D  0.917525            
+G   D  0.885462            
+L   D  0.80139             
+C   D  0.708958            
+V   D  0.589115            
+C   D  0.635453            
+P   D  0.581744            
+C   O  0.49323             
+N   D  0.5                 
+K   D  0.534279            
+L   O  0.466505            
+END

@@ -1,0 +1,3750 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           218,044,958 sequences; 79,301,943,293 total letters
+
+Results from round 1
+
+
+Query= sp|P22531|SPR2E_HUMAN Small proline-rich protein 2E OS=Homo sapiens
+OX=9606 GN=SPRR2E PE=2 SV=2
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_001019380.2|  small proline-rich protein 2E [Homo sapiens]     110     4e-29
+ref|XP_007975294.1|  PREDICTED: small proline-rich protein 2E [Ch...  109     1e-28
+gb|AAA36639.1|  small proline rich protein [Homo sapiens]             108     2e-28
+ref|XP_003259332.1|  PREDICTED: small proline-rich protein 2D [No...  108     3e-28
+ref|XP_002810221.1|  small proline-rich protein 2E [Pongo abelii]     108     3e-28
+ref|XP_010376527.1|  PREDICTED: small proline-rich protein 2D [Rh...  108     5e-28
+ref|XP_001110147.2|  small proline-rich protein 2E [Macaca mulatta]   108     5e-28
+ref|XP_021779551.1|  small proline-rich protein 2E-like [Papio an...  107     7e-28
+ref|XP_007975290.1|  PREDICTED: small proline-rich protein 2E-lik...  107     1e-27
+ref|XP_023070155.1|  small proline-rich protein 2D [Piliocolobus ...  107     1e-27
+ref|NP_008876.3|  small proline-rich protein 2D [Homo sapiens]        107     1e-27
+ref|NP_001017418.1|  small proline-rich protein 2B [Homo sapiens]     106     2e-27
+gb|EHH15245.1|  hypothetical protein EGK_01311 [Macaca mulatta]       106     2e-27
+ref|XP_011793339.1|  PREDICTED: small proline-rich protein 2B-lik...  105     6e-27
+ref|XP_021052738.1|  small proline-rich protein 2G-like [Mus pahari]  71.2    1e-13
+ref|XP_012394465.1|  PREDICTED: small proline-rich protein 2E-lik...  63.5    8e-11
+ref|XP_028019918.1|  small proline-rich protein 2E-like [Balaenop...  61.2    5e-10
+ref|XP_028024403.1|  small proline-rich protein 2E-like [Balaenop...  61.2    7e-10
+ref|XP_004618212.1|  PREDICTED: small proline-rich protein 2E-lik...  59.3    4e-09
+ref|XP_024426372.1|  small proline-rich protein 2E-like [Desmodus...  53.9    4e-07
+ref|XP_019775643.1|  PREDICTED: LOW QUALITY PROTEIN: small prolin...  52.8    1e-06
+gb|TEA34913.1|  hypothetical protein DBR06_SOUSAS41110017 [Sousa ...  48.9    3e-05
+ref|XP_007190509.1|  small proline-rich protein 2A-like [Balaenop...  48.1    5e-05
+ref|XP_017703323.1|  PREDICTED: small proline-rich protein 2D-lik...  47.4    1e-04
+gb|TEA34915.1|  hypothetical protein DBR06_SOUSAS41110020 [Sousa ...  46.2    3e-04
+ref|XP_021014810.1|  small proline-rich protein 2G-like [Mus caroli]  46.2    3e-04
+gb|TEA34914.1|  hypothetical protein DBR06_SOUSAS41110019 [Sousa ...  43.1    0.004
+ref|XP_005642509.1|  LOW QUALITY PROTEIN: small proline-rich prot...  41.6    0.012
+gb|TEA34912.1|  hypothetical protein DBR06_SOUSAS41110016 [Sousa ...  39.7    0.051
+ref|XP_020847707.1|  small proline-rich protein 2H-like [Phascola...  39.3    0.11 
+ref|XP_003259330.1|  PREDICTED: small proline-rich protein 2B-lik...  38.5    0.15 
+ref|XP_006976276.1|  PREDICTED: small proline-rich protein 2G [Pe...  38.1    0.21 
+ref|XP_007975291.1|  PREDICTED: small proline-rich protein 2E-lik...  37.4    0.33 
+ref|XP_017703336.1|  PREDICTED: small proline-rich protein 2E-lik...  37.4    0.42 
+ref|XP_021397878.1|  keratin-associated protein 10-6-like [Lonchu...  38.1    0.50 
+ref|XP_007178640.1|  small proline-rich protein 2E-like [Balaenop...  37.0    0.56 
+ref|XP_017201359.1|  PREDICTED: keratin-associated protein 4-5-li...  36.6    3.3  
+ref|XP_010327969.1|  PREDICTED: small proline-rich protein 2F-lik...  33.9    5.1  
+ref|XP_023797549.1|  late cornified envelope-like proline-rich pr...  35.0    7.0  
+ref|XP_028358640.1|  small proline-rich protein 2D-like [Phyllost...  33.5    9.0  
+ref|XP_027765019.1|  keratin-associated protein 4-7-like [Empidon...  34.7    9.6  
+
+
+>ref|NP_001019380.2| small proline-rich protein 2E [Homo sapiens]
+ ref|XP_003817240.1| small proline-rich protein 2E [Pan paniscus]
+ ref|XP_004026761.1| PREDICTED: small proline-rich protein 2E [Gorilla gorilla gorilla]
+ ref|XP_016806565.1| small proline-rich protein 2E [Pan troglodytes]
+ ref|XP_021779528.1| small proline-rich protein 2E [Papio anubis]
+ sp|P22531.2|SPR2E_HUMAN RecName: Full=Small proline-rich protein 2E; Short=SPR-2E; AltName: 
+Full=Small proline-rich protein II; Short=SPR-II
+ gb|AAK70942.1|AF333955_1 small proline-rich protein 2E [Homo sapiens]
+ gb|EAW53344.1| hCG1743762 [Homo sapiens]
+ gb|AAI48549.1| Small proline-rich protein 2E, partial [synthetic construct]
+ gb|AAI53137.1| Small proline-rich protein 2E [synthetic construct]
+ gb|PNI90891.1| SPRR2E isoform 1 [Pan troglodytes]
+ gb|PNI90892.1| SPRR2E isoform 2 [Pan troglodytes]
+Length=72
+
+ Score = 110 bits (276),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 72/72 (100%), Positives = 72/72 (100%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_007975294.1| PREDICTED: small proline-rich protein 2E [Chlorocebus sabaeus]
+Length=72
+
+ Score = 109 bits (273),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVIPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>gb|AAA36639.1| small proline rich protein [Homo sapiens]
+Length=72
+
+ Score = 108 bits (271),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQP PPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPSPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_003259332.1| PREDICTED: small proline-rich protein 2D [Nomascus leucogenys]
+ ref|XP_003817242.1| small proline-rich protein 2D-like [Pan paniscus]
+ ref|XP_003817243.1| small proline-rich protein 2D-like [Pan paniscus]
+ ref|XP_004026759.1| PREDICTED: small proline-rich protein 2D [Gorilla gorilla gorilla]
+Length=72
+
+ Score = 108 bits (270),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_002810221.1| small proline-rich protein 2E [Pongo abelii]
+ ref|XP_009242298.1| small proline-rich protein 2E [Pongo abelii]
+ ref|XP_011793335.1| PREDICTED: small proline-rich protein 2E isoform X2 [Colobus 
+angolensis palliatus]
+ ref|XP_011793336.1| PREDICTED: small proline-rich protein 2E isoform X2 [Colobus 
+angolensis palliatus]
+ gb|PNJ56273.1| SPRR2B isoform 1 [Pongo abelii]
+Length=72
+
+ Score = 108 bits (270),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_010376527.1| PREDICTED: small proline-rich protein 2D [Rhinopithecus roxellana]
+ ref|XP_010376530.1| PREDICTED: small proline-rich protein 2D [Rhinopithecus roxellana]
+ ref|XP_011925092.1| PREDICTED: small proline-rich protein 2D [Cercocebus atys]
+ ref|XP_011767748.1| small proline-rich protein 2D [Macaca nemestrina]
+Length=72
+
+ Score = 108 bits (269),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 70/72 (97%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCP+PCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPEPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_001110147.2| small proline-rich protein 2E [Macaca mulatta]
+ ref|XP_015309092.1| PREDICTED: small proline-rich protein 2E-like [Macaca fascicularis]
+ gb|EHH15248.1| hypothetical protein EGK_01314 [Macaca mulatta]
+Length=72
+
+ Score = 108 bits (269),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 70/72 (97%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCP+PCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPEPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_021779551.1| small proline-rich protein 2E-like [Papio anubis]
+ ref|XP_023070156.1| small proline-rich protein 2E [Piliocolobus tephrosceles]
+ ref|XP_025250843.1| small proline-rich protein 2E [Theropithecus gelada]
+ ref|XP_025214918.1| small proline-rich protein 2E [Theropithecus gelada]
+ gb|EHH15247.1| hypothetical protein EGK_01313 [Macaca mulatta]
+Length=72
+
+ Score = 107 bits (268),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_007975290.1| PREDICTED: small proline-rich protein 2E-like [Chlorocebus sabaeus]
+ ref|XP_011767753.1| small proline-rich protein 2E [Macaca nemestrina]
+ ref|XP_015008314.1| small proline-rich protein 2E [Macaca mulatta]
+ ref|XP_015309101.1| PREDICTED: small proline-rich protein 2E [Macaca fascicularis]
+ gb|EHH50297.1| hypothetical protein EGM_01105 [Macaca fascicularis]
+Length=72
+
+ Score = 107 bits (266),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 70/72 (97%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCP+PCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPEPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_023070155.1| small proline-rich protein 2D [Piliocolobus tephrosceles]
+Length=72
+
+ Score = 107 bits (266),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKC PKSK
+Sbjct  61  PPCQPKCSPKSK  72
+
+
+>ref|NP_008876.3| small proline-rich protein 2D [Homo sapiens]
+ ref|XP_003308529.1| small proline-rich protein 2D [Pan troglodytes]
+ ref|XP_008968611.1| small proline-rich protein 2D [Pan paniscus]
+ ref|XP_016857664.1| small proline-rich protein 2D isoform X1 [Homo sapiens]
+ sp|P22532.2|SPR2D_HUMAN RecName: Full=Small proline-rich protein 2D; Short=SPR-2D; AltName: 
+Full=Small proline-rich protein II; Short=SPR-II
+ gb|AAK70941.1|AF333954_1 small proline-rich protein 2D [Homo sapiens]
+ gb|EAW53348.1| small proline-rich protein 2D, isoform CRA_a [Homo sapiens]
+ gb|EAW53349.1| small proline-rich protein 2D, isoform CRA_a [Homo sapiens]
+ gb|EAW53350.1| small proline-rich protein 2D, isoform CRA_a [Homo sapiens]
+ gb|AAI20939.1| Small proline-rich protein 2D [Homo sapiens]
+ gb|PNI90895.1| SPRR2D isoform 1 [Pan troglodytes]
+ gb|PNI90896.1| SPRR2D isoform 2 [Pan troglodytes]
+ gb|PNI90897.1| SPRR2D isoform 3 [Pan troglodytes]
+ gb|PNI90898.1| SPRR2D isoform 4 [Pan troglodytes]
+Length=72
+
+ Score = 107 bits (266),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCP PKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPSPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|NP_001017418.1| small proline-rich protein 2B [Homo sapiens]
+ ref|XP_003259334.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_001136978.2| small proline-rich protein 2B [Pan troglodytes]
+ ref|XP_004089950.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_011793337.1| PREDICTED: small proline-rich protein 2B [Colobus angolensis 
+palliatus]
+ ref|XP_011793338.1| PREDICTED: small proline-rich protein 2B [Colobus angolensis 
+palliatus]
+ ref|XP_012366472.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_012366523.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_016857663.1| small proline-rich protein 2B isoform X1 [Homo sapiens]
+ ref|XP_017703324.1| PREDICTED: small proline-rich protein 2B [Rhinopithecus bieti]
+ sp|P35325.1|SPR2B_HUMAN RecName: Full=Small proline-rich protein 2B; Short=SPR-2B
+ gb|AAK70940.1|AF333952_1 small proline-rich protein 2B [Homo sapiens]
+ gb|AAA60576.1| small proline-rich protein 2 [Homo sapiens]
+ gb|EAW53345.1| hCG15554 [Homo sapiens]
+ gb|AAI41464.1| Small proline-rich protein 2D, partial [synthetic construct]
+ gb|AAI48720.1| Small proline-rich protein 2B [synthetic construct]
+ gb|PNI90893.1| SPRR2B isoform 1 [Pan troglodytes]
+Length=72
+
+ Score = 106 bits (265),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>gb|EHH15245.1| hypothetical protein EGK_01311 [Macaca mulatta]
+Length=72
+
+ Score = 106 bits (265),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQ KQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQYKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_011793339.1| PREDICTED: small proline-rich protein 2B-like [Colobus angolensis 
+palliatus]
+Length=72
+
+ Score = 105 bits (262),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_021052738.1| small proline-rich protein 2G-like [Mus pahari]
+Length=81
+
+ Score = 71.2 bits (173),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 45/58 (78%), Positives = 50/58 (86%), Gaps = 0/58 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT  58
+           MSYQ+QQCKQ CQPPPVCP PKCPEPCP PKCPEPCPP KCP+PCPP +C + CPP +
+Sbjct  1   MSYQEQQCKQACQPPPVCPHPKCPEPCPLPKCPEPCPPTKCPEPCPPSKCPEPCPPQS  58
+
+
+>ref|XP_012394465.1| PREDICTED: small proline-rich protein 2E-like [Orcinus orca]
+ gb|TEA26921.1| hypothetical protein DBR06_SOUSAS50310001 [Sousa chinensis]
+Length=66
+
+ Score = 63.5 bits (153),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 49/72 (68%), Positives = 51/72 (71%), Gaps = 6/72 (8%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           M+Y+Q QCKQPCQ PPV   PKCPEPCP  KCPEPCPP   P P     CQQKCPPV P 
+Sbjct  1   MTYKQHQCKQPCQSPPVF-IPKCPEPCPH-KCPEPCPPLNLPHP----LCQQKCPPVHPC  54
+
+Query  61  PPCQPKCPPKSK  72
+            PCQ KCPPK K
+Sbjct  55  TPCQQKCPPKYK  66
+
+
+>ref|XP_028019918.1| small proline-rich protein 2E-like [Balaenoptera acutorostrata 
+scammoni]
+Length=62
+
+ Score = 61.2 bits (147),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 44/72 (61%), Positives = 48/72 (67%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q+QQCKQ C+ PPVC T          KCP+PC P K   PCPPQ CQQKCPPVTP+
+Sbjct  1   MSSQEQQCKQKCKTPPVCVT----------KCPDPCSPKKDSDPCPPQPCQQKCPPVTPT  50
+
+Query  61  PPCQPKCPPKSK  72
+             CQ KCPPK K
+Sbjct  51  QKCQQKCPPKDK  62
+
+
+>ref|XP_028024403.1| small proline-rich protein 2E-like [Balaenoptera acutorostrata 
+scammoni]
+Length=62
+
+ Score = 61.2 bits (147),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 44/72 (61%), Positives = 49/72 (68%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q+QQCKQ C+ PPVC T          KCP+PC P K   PCPPQ CQQKCPPVTP+
+Sbjct  1   MSSQEQQCKQKCKTPPVCVT----------KCPDPCSPKKDSDPCPPQPCQQKCPPVTPT  50
+
+Query  61  PPCQPKCPPKSK  72
+             CQ KCPPK+K
+Sbjct  51  QQCQQKCPPKNK  62
+
+
+>ref|XP_004618212.1| PREDICTED: small proline-rich protein 2E-like [Sorex araneus]
+Length=80
+
+ Score = 59.3 bits (142),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 59/80 (74%), Positives = 61/80 (76%), Gaps = 8/80 (10%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPT--------PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQ  52
+           MSYQ+QQ KQPCQPP  CPT        PKCPEPCPPPKC EPCPPPK  +PCPPQQCQQ
+Sbjct  1   MSYQEQQSKQPCQPPLACPTQCPEPCPPPKCPEPCPPPKCHEPCPPPKSSEPCPPQQCQQ  60
+
+Query  53  KCPPVTPSPPCQPKCPPKSK  72
+           KCPPV P P CQ KCPPKS 
+Sbjct  61  KCPPVQPPPLCQQKCPPKSN  80
+
+
+>ref|XP_024426372.1| small proline-rich protein 2E-like [Desmodus rotundus]
+Length=80
+
+ Score = 53.9 bits (128),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  24  PEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           PEPCP PKCPEPCP PKCP+PCPPQ CQQKCPPV P+PPCQ KCPPKSK
+Sbjct  32  PEPCPLPKCPEPCPAPKCPEPCPPQVCQQKCPPVQPAPPCQQKCPPKSK  80
+
+
+>ref|XP_019775643.1| PREDICTED: LOW QUALITY PROTEIN: small proline-rich protein 2E-like 
+[Tursiops truncatus]
+Length=79
+
+ Score = 52.8 bits (125),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 51/79 (65%), Positives = 53/79 (67%), Gaps = 7/79 (9%)
+
+Query  1   MSYQQQQCKQPCQPPPV----CPTP---KCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK  53
+           M+Y+Q QCKQPCQ PPV    CP P   KCPEPCPP  C EPCP P CP   P   CQQK
+Sbjct  1   MTYKQHQCKQPCQSPPVFIPKCPEPCPHKCPEPCPPLNCLEPCPCPPCPPVQPHPLCQQK  60
+
+Query  54  CPPVTPSPPCQPKCPPKSK  72
+           CPPV P  PCQ KCPPK K
+Sbjct  61  CPPVHPCTPCQQKCPPKHK  79
+
+
+>gb|TEA34913.1| hypothetical protein DBR06_SOUSAS41110017 [Sousa chinensis]
+Length=71
+
+ Score = 48.9 bits (115),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 46/72 (64%), Positives = 49/72 (68%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKC---------PEPCPPPKCPQPCPPQQCQ  51
+           MS Q QQCKQPCQPPPVC TPKC +PCPP K          P+PCPP KCP PC PQQC+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKYPDLCPPCKCPDPCPPIKCPDPCVPQQCK  59
+
+Query  52  QKCPPVTPSPPC  63
+           QKCPP  P   C
+Sbjct  60  QKCPPGAPVQHC  71
+
+
+>ref|XP_007190509.1| small proline-rich protein 2A-like [Balaenoptera acutorostrata 
+scammoni]
+Length=71
+
+ Score = 48.1 bits (113),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 50/72 (69%), Positives = 56/72 (78%), Gaps = 1/72 (1%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q+QQC Q C+ PPVC T KCP+PC PPKCP+PCPP KCP+PCPPQQCQQK P V P 
+Sbjct  1   MSSQEQQCMQQCKTPPVCAT-KCPDPCSPPKCPDPCPPIKCPEPCPPQQCQQKRPTVPPP  59
+
+Query  61  PPCQPKCPPKSK  72
+             CQ K PPK+K
+Sbjct  60  KQCQQKFPPKNK  71
+
+
+>ref|XP_017703323.1| PREDICTED: small proline-rich protein 2D-like [Rhinopithecus 
+bieti]
+ ref|XP_017721637.1| PREDICTED: small proline-rich protein 2D-like [Rhinopithecus 
+bieti]
+Length=72
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 52/58 (90%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT  58
+           MSYQQQQCKQPCQPPPVCPTPKCPEP PP KCPE CP PKCP+PCPPQQCQQK PPVT
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPRPPLKCPETCPLPKCPEPCPPQQCQQKYPPVT  58
+
+
+>gb|TEA34915.1| hypothetical protein DBR06_SOUSAS41110020 [Sousa chinensis]
+Length=62
+
+ Score = 46.2 bits (108),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 47/63 (75%), Positives = 51/63 (81%), Gaps = 1/63 (2%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q QQCKQPCQPPPVC TPKC +PCPP KCP+PCPP KCP PC PQQC+QKCPP  P+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKCPDPCPPIKCPDPCVPQQCKQKCPPGAPA  59
+
+Query  61  PPC  63
+             C
+Sbjct  60  HHC  62
+
+
+>ref|XP_021014810.1| small proline-rich protein 2G-like [Mus caroli]
+Length=81
+
+ Score = 46.2 bits (108),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 45/59 (76%), Gaps = 9/59 (15%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTP---------KCPEPCPPPKCPEPCPPPKCPQPCPPQQC  50
+           MSYQ+QQCKQ CQPPPVCP P         KCPEPCPP KCPEPCP PKCP+PCPPQ C
+Sbjct  1   MSYQEQQCKQACQPPPVCPPPKCPEPCPLPKCPEPCPPAKCPEPCPLPKCPEPCPPQSC  59
+
+
+>gb|TEA34914.1| hypothetical protein DBR06_SOUSAS41110019 [Sousa chinensis]
+Length=71
+
+ Score = 43.1 bits (100),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 47/72 (65%), Positives = 51/72 (71%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKC---------PEPCPPPKCPEPCPPPKCPQPCPPQQCQ  51
+           MS Q QQCKQPCQPPPVC TPKC         P+PCPP KCP+PC P KCP PC PQQC+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKCPDPCPPCKCPDPCSPIKCPDPCVPQQCK  59
+
+Query  52  QKCPPVTPSPPC  63
+           QKCPP  P+  C
+Sbjct  60  QKCPPGAPAHHC  71
+
+
+>ref|XP_005642509.1| LOW QUALITY PROTEIN: small proline-rich protein 2E [Canis lupus 
+familiaris]
+Length=90
+
+ Score = 41.6 bits (96),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 41/65 (63%), Positives = 46/65 (71%), Gaps = 11/65 (17%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCP---------PPKCPEPCPPPKCPQPCPPQQCQ  51
+           +S QQ+Q KQPCQPP +C  PKCPEPCP          PKCPEPC PPKCP+ C P +CQ
+Sbjct  25  LSSQQEQXKQPCQPPSMC-LPKCPEPCPPPECPEPCSTPKCPEPCLPPKCPELCLP-KCQ  82
+
+Query  52  QKCPP  56
+           QKCPP
+Sbjct  83  QKCPP  87
+
+
+>gb|TEA34912.1| hypothetical protein DBR06_SOUSAS41110016 [Sousa chinensis]
+Length=71
+
+ Score = 39.7 bits (91),  Expect = 0.051, Method: Compositional matrix adjust.
+ Identities = 48/72 (67%), Positives = 51/72 (71%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKC---------PEPCPPPKCPEPCPPPKCPQPCPPQQCQ  51
+           MS Q QQCKQPCQPPPVC TPKC         P+PCPP KCP+PCPP KCP PC PQQC+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKCPDPCPPCKCPDPCPPIKCPDPCVPQQCK  59
+
+Query  52  QKCPPVTPSPPC  63
+           QKCPP  P   C
+Sbjct  60  QKCPPGAPVQHC  71
+
+
+>ref|XP_020847707.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847708.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847709.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847711.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847712.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847713.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+Length=96
+
+ Score = 39.3 bits (90),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 30/42 (71%), Positives = 33/42 (79%), Gaps = 3/42 (7%)
+
+Query  31  KCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           KCPEPC P KCP+P PPQQCQQK PP   +PPCQ +CPPK K
+Sbjct  58  KCPEPCLP-KCPEPSPPQQCQQKFPPR--APPCQQQCPPKRK  96
+
+
+>ref|XP_003259330.1| PREDICTED: small proline-rich protein 2B-like isoform X2 [Nomascus 
+leucogenys]
+ ref|XP_012366504.1| PREDICTED: small proline-rich protein 2B-like isoform X2 [Nomascus 
+leucogenys]
+Length=72
+
+ Score = 38.5 bits (88),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 69/72 (96%), Positives = 69/72 (96%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPC PPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCLPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_006976276.1| PREDICTED: small proline-rich protein 2G [Peromyscus maniculatus 
+bairdii]
+Length=80
+
+ Score = 38.1 bits (87),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 27/39 (69%), Positives = 29/39 (74%), Gaps = 1/39 (3%)
+
+Query  34  EPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           E C P + P+PC PQ CQQKCPPV   PPCQ KCPPKSK
+Sbjct  43  ELCSPKR-PEPCLPQPCQQKCPPVQHLPPCQQKCPPKSK  80
+
+
+>ref|XP_007975291.1| PREDICTED: small proline-rich protein 2E-like [Chlorocebus sabaeus]
+Length=72
+
+ Score = 37.4 bits (85),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 48/51 (94%), Positives = 49/51 (96%), Gaps = 0/51 (0%)
+
+Query  22  KCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           KCPEPCP PKCPEPCPPPKCP+PCPPQQCQQKCPPVTPSPPCQPK PPKSK
+Sbjct  22  KCPEPCPSPKCPEPCPPPKCPEPCPPQQCQQKCPPVTPSPPCQPKYPPKSK  72
+
+
+>ref|XP_017703336.1| PREDICTED: small proline-rich protein 2E-like [Rhinopithecus 
+bieti]
+Length=72
+
+ Score = 37.4 bits (85),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 33/35 (94%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  38  PPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           PPKCP+PCPPQQCQQKCPPVTPSPPCQPK PPKSK
+Sbjct  38  PPKCPEPCPPQQCQQKCPPVTPSPPCQPKYPPKSK  72
+
+
+>ref|XP_021397878.1| keratin-associated protein 10-6-like [Lonchura striata domestica]
+Length=162
+
+ Score = 38.1 bits (87),  Expect = 0.50, Method: Compositional matrix adjust.
+ Identities = 28/53 (53%), Positives = 31/53 (58%), Gaps = 6/53 (11%)
+
+Query  1   MSYQQQQCKQPCQPPPVCP--TPKCPEPCPPPKCPEPCPPP---KCPQPCPPQ  48
+           MSY  +QCKQPC PPP+C     KCPEPC   KC E C  P   +C   C PQ
+Sbjct  1   MSYYYEQCKQPCLPPPICLQKCAKCPEPC-ATKCVEVCQAPCATQCATSCAPQ  52
+
+
+>ref|XP_007178640.1| small proline-rich protein 2E-like [Balaenoptera acutorostrata 
+scammoni]
+Length=71
+
+ Score = 37.0 bits (84),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  25  EPCPPPKCPEPCPPPKCPQPCPPQQC  50
+           +PC PPKCPEPCP  KCP+PCPPQQC
+Sbjct  24  DPCSPPKCPEPCPRIKCPEPCPPQQC  49
+
+
+>ref|XP_017201359.1| PREDICTED: keratin-associated protein 4-5-like [Oryctolagus cuniculus]
+Length=325
+
+ Score = 36.6 bits (83),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 27/39 (69%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  18   CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPP  56
+            CP P+C E CPPP+C EPCPPPKC +PCPP +CQ+ CPP
+Sbjct  242  CPPPRCQECCPPPRCQEPCPPPKCQEPCPPLRCQECCPP  280
+
+
+>ref|XP_010327969.1| PREDICTED: small proline-rich protein 2F-like [Saimiri boliviensis 
+boliviensis]
+Length=63
+
+ Score = 33.9 bits (76),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 59/72 (82%), Positives = 59/72 (82%), Gaps = 9/72 (13%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCP PKCPEPCP PKCPE         PCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPMPKCPEPCPHPKCPE---------PCPPQQCQQKCPPVPPS  51
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCP KSK
+Sbjct  52  PPCQPKCPLKSK  63
+
+
+>ref|XP_023797549.1| late cornified envelope-like proline-rich protein 1 [Cyanistes 
+caeruleus]
+Length=157
+
+ Score = 35.0 bits (79),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 27/53 (51%), Positives = 31/53 (58%), Gaps = 6/53 (11%)
+
+Query  1   MSYQQQQCKQPCQPPPVCP--TPKCPEPCPPPKCPEPCPPP---KCPQPCPPQ  48
+           MSY  +QCKQPC PPP+C     KCPEPC   +C E C  P   +C   C PQ
+Sbjct  1   MSYYYEQCKQPCLPPPICLQKCAKCPEPC-AAQCVEVCQAPCASQCATACVPQ  52
+
+
+>ref|XP_028358640.1| small proline-rich protein 2D-like [Phyllostomus discolor]
+Length=91
+
+ Score = 33.5 bits (75),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 34/63 (54%), Positives = 35/63 (56%), Gaps = 19/63 (30%)
+
+Query  29  P------------------PKCPEPCPPPKC-PQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+           P                  PKCPEPCP P C P  CPPQ CQQKCPPV   PPCQ +CPP
+Sbjct  29  PPKCPEPCPPPKCPEPCPLPKCPEPCPLPSCPPVQCPPQLCQQKCPPVQLCPPCQQECPP  88
+
+Query  70  KSK  72
+           KSK
+Sbjct  89  KSK  91
+
+
+>ref|XP_027765019.1| keratin-associated protein 4-7-like [Empidonax traillii]
+Length=153
+
+ Score = 34.7 bits (78),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 32/83 (39%), Positives = 38/83 (46%), Gaps = 16/83 (19%)
+
+Query  1   MSYQQQQCKQPCQPPPVCP--TPKCPEPCPPPK-----------CPEPCPPPKCPQPCPP  47
+           MSY  +QCKQPC PPP+C     KC EPC               C  PC  P+C +PC  
+Sbjct  1   MSYYYEQCKQPCLPPPICVQKCAKCVEPCKTACAEQCVEVCQAPCATPCCAPQCVEPCAT  60
+
+Query  48  Q---QCQQKCPPVTPSPPCQPKC  67
+           Q    C  +C  V     C P+C
+Sbjct  61  QCTTSCAPQCVDVCAQSSCAPQC  83
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.141    0.558    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1951823023948
+Results from round 2
+
+
+Query= sp|P22531|SPR2E_HUMAN Small proline-rich protein 2E OS=Homo sapiens
+OX=9606 GN=SPRR2E PE=2 SV=2
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_007975290.1|  PREDICTED: small proline-rich protein 2E-lik...  102     9e-26
+ref|NP_001019380.2|  small proline-rich protein 2E [Homo sapiens]     102     1e-25
+ref|XP_021779551.1|  small proline-rich protein 2E-like [Papio an...  102     1e-25
+ref|XP_007975294.1|  PREDICTED: small proline-rich protein 2E [Ch...  101     2e-25
+ref|XP_010376527.1|  PREDICTED: small proline-rich protein 2D [Rh...  100     4e-25
+ref|XP_003259332.1|  PREDICTED: small proline-rich protein 2D [No...  100     5e-25
+ref|XP_001110147.2|  small proline-rich protein 2E [Macaca mulatta]   100     5e-25
+gb|AAA36639.1|  small proline rich protein [Homo sapiens]             100     7e-25
+ref|XP_002810221.1|  small proline-rich protein 2E [Pongo abelii]     100     7e-25
+ref|XP_011793339.1|  PREDICTED: small proline-rich protein 2B-lik...  99.8    8e-25
+ref|NP_008876.3|  small proline-rich protein 2D [Homo sapiens]        98.7    2e-24
+ref|XP_023070155.1|  small proline-rich protein 2D [Piliocolobus ...  98.7    3e-24
+ref|NP_001017418.1|  small proline-rich protein 2B [Homo sapiens]     98.3    4e-24
+gb|EHH15245.1|  hypothetical protein EGK_01311 [Macaca mulatta]       97.9    5e-24
+ref|XP_021052738.1|  small proline-rich protein 2G-like [Mus pahari]  76.0    2e-15
+ref|XP_012394465.1|  PREDICTED: small proline-rich protein 2E-lik...  71.3    1e-13
+ref|XP_019775643.1|  PREDICTED: LOW QUALITY PROTEIN: small prolin...  70.6    2e-13
+ref|XP_028024403.1|  small proline-rich protein 2E-like [Balaenop...  69.0    7e-13
+ref|XP_028019918.1|  small proline-rich protein 2E-like [Balaenop...  69.0    7e-13
+ref|XP_004618212.1|  PREDICTED: small proline-rich protein 2E-lik...  66.7    8e-12
+ref|XP_007190509.1|  small proline-rich protein 2A-like [Balaenop...  62.5    3e-10
+ref|XP_024426372.1|  small proline-rich protein 2E-like [Desmodus...  59.0    5e-09
+gb|TEA34913.1|  hypothetical protein DBR06_SOUSAS41110017 [Sousa ...  57.1    2e-08
+gb|TEA34915.1|  hypothetical protein DBR06_SOUSAS41110020 [Sousa ...  52.1    2e-06
+ref|XP_017703323.1|  PREDICTED: small proline-rich protein 2D-lik...  51.7    3e-06
+ref|XP_021014810.1|  small proline-rich protein 2G-like [Mus caroli]  47.8    8e-05
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_017201359.1|  PREDICTED: keratin-associated protein 4-5-li...  57.1    3e-07
+gb|TEA34914.1|  hypothetical protein DBR06_SOUSAS41110019 [Sousa ...  48.6    4e-05
+ref|XP_025038375.1|  cornifin-A-like [Pelodiscus sinensis]            50.5    5e-05
+gb|TEA34912.1|  hypothetical protein DBR06_SOUSAS41110016 [Sousa ...  47.8    8e-05
+ref|WP_138725994.1|  peptidase [Pseudomonas lactis]                   45.5    0.005
+ref|WP_125969732.1|  peptidase [Pseudomonas libanensis]               45.5    0.005
+ref|XP_003259330.1|  PREDICTED: small proline-rich protein 2B-lik...  42.8    0.005
+ref|WP_117419970.1|  choice-of-anchor A family protein [Clostridi...  45.1    0.006
+ref|XP_005642509.1|  LOW QUALITY PROTEIN: small proline-rich prot...  42.4    0.007
+ref|XP_005367331.1|  small proline-rich protein 2D [Microtus ochr...  41.7    0.013
+ref|XP_007975291.1|  PREDICTED: small proline-rich protein 2E-lik...  40.5    0.031
+ref|XP_012514093.1|  PREDICTED: small proline-rich protein 2E-lik...  40.1    0.035
+ref|XP_008982666.1|  PREDICTED: small proline-rich protein 2E-lik...  40.1    0.036
+ref|XP_006976276.1|  PREDICTED: small proline-rich protein 2G [Pe...  40.1    0.047
+ref|XP_010327969.1|  PREDICTED: small proline-rich protein 2F-lik...  39.7    0.053
+ref|XP_028358640.1|  small proline-rich protein 2D-like [Phyllost...  39.4    0.091
+ref|XP_012646636.1|  small proline-rich protein 2D [Microcebus mu...  38.6    0.16 
+ref|XP_015267567.1|  PREDICTED: vegetative cell wall protein gp1-...  40.5    0.17 
+ref|XP_005367328.1|  small proline-rich protein 2D [Microtus ochr...  38.2    0.18 
+ref|XP_006895957.1|  PREDICTED: small proline-rich protein 2D [El...  37.8    0.27 
+ref|XP_027632099.1|  small proline-rich protein 2D-like [Tupaia c...  37.8    0.27 
+ref|XP_007178640.1|  small proline-rich protein 2E-like [Balaenop...  37.4    0.34 
+gb|ELW47344.1|  hypothetical protein TREES_T100021959 [Tupaia chi...  37.4    0.43 
+ref|XP_020010918.1|  cornifin isoform X3 [Castor canadensis]          36.7    0.77 
+ref|XP_028713129.1|  small proline-rich protein 2E-like [Peromysc...  36.3    0.79 
+ref|XP_021010069.1|  small proline-rich protein 2A1 [Mus caroli]      36.3    1.0  
+ref|XP_012646638.1|  small proline-rich protein 2E [Microcebus mu...  35.9    1.1  
+ref|XP_028358642.1|  small proline-rich protein 2E [Phyllostomus ...  35.9    1.1  
+ref|XP_004480320.1|  small proline-rich protein 2E-like [Dasypus ...  35.5    1.6  
+ref|XP_013209216.1|  cornifin isoform X2 [Microtus ochrogaster]       35.5    1.7  
+ref|XP_025250863.1|  small proline-rich protein 2E-like [Theropit...  35.1    2.3  
+ref|XP_017703336.1|  PREDICTED: small proline-rich protein 2E-lik...  34.4    3.8  
+ref|XP_021521564.1|  small proline-rich protein 2F-like [Aotus na...  34.0    4.6  
+ref|XP_004667234.1|  PREDICTED: small proline-rich protein 2G-lik...  33.6    7.4  
+ref|XP_026645081.1|  cornifin isoform X3 [Microtus ochrogaster]       33.6    8.8  
+ref|XP_021520302.1|  small proline-rich protein 2F-like [Meriones...  33.6    8.8  
+ref|XP_017821662.1|  PREDICTED: small proline-rich protein 2E [Ca...  33.6    8.9  
+
+
+>ref|XP_007975290.1| PREDICTED: small proline-rich protein 2E-like [Chlorocebus sabaeus]
+ ref|XP_011767753.1| small proline-rich protein 2E [Macaca nemestrina]
+ ref|XP_015008314.1| small proline-rich protein 2E [Macaca mulatta]
+ ref|XP_015309101.1| PREDICTED: small proline-rich protein 2E [Macaca fascicularis]
+ gb|EHH50297.1| hypothetical protein EGM_01105 [Macaca fascicularis]
+Length=72
+
+ Score = 102 bits (254),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCP+PCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPEPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|NP_001019380.2| small proline-rich protein 2E [Homo sapiens]
+ ref|XP_003817240.1| small proline-rich protein 2E [Pan paniscus]
+ ref|XP_004026761.1| PREDICTED: small proline-rich protein 2E [Gorilla gorilla gorilla]
+ ref|XP_016806565.1| small proline-rich protein 2E [Pan troglodytes]
+ ref|XP_021779528.1| small proline-rich protein 2E [Papio anubis]
+ sp|P22531.2|SPR2E_HUMAN RecName: Full=Small proline-rich protein 2E; Short=SPR-2E; AltName: 
+Full=Small proline-rich protein II; Short=SPR-II
+ gb|AAK70942.1|AF333955_1 small proline-rich protein 2E [Homo sapiens]
+ gb|EAW53344.1| hCG1743762 [Homo sapiens]
+ gb|AAI48549.1| Small proline-rich protein 2E, partial [synthetic construct]
+ gb|AAI53137.1| Small proline-rich protein 2E [synthetic construct]
+ gb|PNI90891.1| SPRR2E isoform 1 [Pan troglodytes]
+ gb|PNI90892.1| SPRR2E isoform 2 [Pan troglodytes]
+Length=72
+
+ Score = 102 bits (253),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 72/72 (100%), Positives = 72/72 (100%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_021779551.1| small proline-rich protein 2E-like [Papio anubis]
+ ref|XP_023070156.1| small proline-rich protein 2E [Piliocolobus tephrosceles]
+ ref|XP_025250843.1| small proline-rich protein 2E [Theropithecus gelada]
+ ref|XP_025214918.1| small proline-rich protein 2E [Theropithecus gelada]
+ gb|EHH15247.1| hypothetical protein EGK_01313 [Macaca mulatta]
+Length=72
+
+ Score = 102 bits (253),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_007975294.1| PREDICTED: small proline-rich protein 2E [Chlorocebus sabaeus]
+Length=72
+
+ Score = 101 bits (251),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVIPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_010376527.1| PREDICTED: small proline-rich protein 2D [Rhinopithecus roxellana]
+ ref|XP_010376530.1| PREDICTED: small proline-rich protein 2D [Rhinopithecus roxellana]
+ ref|XP_011925092.1| PREDICTED: small proline-rich protein 2D [Cercocebus atys]
+ ref|XP_011767748.1| small proline-rich protein 2D [Macaca nemestrina]
+Length=72
+
+ Score = 100 bits (250),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCP+PCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPEPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_003259332.1| PREDICTED: small proline-rich protein 2D [Nomascus leucogenys]
+ ref|XP_003817242.1| small proline-rich protein 2D-like [Pan paniscus]
+ ref|XP_003817243.1| small proline-rich protein 2D-like [Pan paniscus]
+ ref|XP_004026759.1| PREDICTED: small proline-rich protein 2D [Gorilla gorilla gorilla]
+Length=72
+
+ Score = 100 bits (249),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_001110147.2| small proline-rich protein 2E [Macaca mulatta]
+ ref|XP_015309092.1| PREDICTED: small proline-rich protein 2E-like [Macaca fascicularis]
+ gb|EHH15248.1| hypothetical protein EGK_01314 [Macaca mulatta]
+Length=72
+
+ Score = 100 bits (249),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCP+PCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPEPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>gb|AAA36639.1| small proline rich protein [Homo sapiens]
+Length=72
+
+ Score = 100 bits (248),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQP PPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPSPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_002810221.1| small proline-rich protein 2E [Pongo abelii]
+ ref|XP_009242298.1| small proline-rich protein 2E [Pongo abelii]
+ ref|XP_011793335.1| PREDICTED: small proline-rich protein 2E isoform X2 [Colobus 
+angolensis palliatus]
+ ref|XP_011793336.1| PREDICTED: small proline-rich protein 2E isoform X2 [Colobus 
+angolensis palliatus]
+ gb|PNJ56273.1| SPRR2B isoform 1 [Pongo abelii]
+Length=72
+
+ Score = 100 bits (248),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_011793339.1| PREDICTED: small proline-rich protein 2B-like [Colobus angolensis 
+palliatus]
+Length=72
+
+ Score = 99.8 bits (247),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|NP_008876.3| small proline-rich protein 2D [Homo sapiens]
+ ref|XP_003308529.1| small proline-rich protein 2D [Pan troglodytes]
+ ref|XP_008968611.1| small proline-rich protein 2D [Pan paniscus]
+ ref|XP_016857664.1| small proline-rich protein 2D isoform X1 [Homo sapiens]
+ sp|P22532.2|SPR2D_HUMAN RecName: Full=Small proline-rich protein 2D; Short=SPR-2D; AltName: 
+Full=Small proline-rich protein II; Short=SPR-II
+ gb|AAK70941.1|AF333954_1 small proline-rich protein 2D [Homo sapiens]
+ gb|EAW53348.1| small proline-rich protein 2D, isoform CRA_a [Homo sapiens]
+ gb|EAW53349.1| small proline-rich protein 2D, isoform CRA_a [Homo sapiens]
+ gb|EAW53350.1| small proline-rich protein 2D, isoform CRA_a [Homo sapiens]
+ gb|AAI20939.1| Small proline-rich protein 2D [Homo sapiens]
+ gb|PNI90895.1| SPRR2D isoform 1 [Pan troglodytes]
+ gb|PNI90896.1| SPRR2D isoform 2 [Pan troglodytes]
+ gb|PNI90897.1| SPRR2D isoform 3 [Pan troglodytes]
+ gb|PNI90898.1| SPRR2D isoform 4 [Pan troglodytes]
+Length=72
+
+ Score = 98.7 bits (244),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCP PKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPSPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_023070155.1| small proline-rich protein 2D [Piliocolobus tephrosceles]
+Length=72
+
+ Score = 98.7 bits (244),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKC PKSK
+Sbjct  61  PPCQPKCSPKSK  72
+
+
+>ref|NP_001017418.1| small proline-rich protein 2B [Homo sapiens]
+ ref|XP_003259334.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_001136978.2| small proline-rich protein 2B [Pan troglodytes]
+ ref|XP_004089950.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_011793337.1| PREDICTED: small proline-rich protein 2B [Colobus angolensis 
+palliatus]
+ ref|XP_011793338.1| PREDICTED: small proline-rich protein 2B [Colobus angolensis 
+palliatus]
+ ref|XP_012366472.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_012366523.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_016857663.1| small proline-rich protein 2B isoform X1 [Homo sapiens]
+ ref|XP_017703324.1| PREDICTED: small proline-rich protein 2B [Rhinopithecus bieti]
+ sp|P35325.1|SPR2B_HUMAN RecName: Full=Small proline-rich protein 2B; Short=SPR-2B
+ gb|AAK70940.1|AF333952_1 small proline-rich protein 2B [Homo sapiens]
+ gb|AAA60576.1| small proline-rich protein 2 [Homo sapiens]
+ gb|EAW53345.1| hCG15554 [Homo sapiens]
+ gb|AAI41464.1| Small proline-rich protein 2D, partial [synthetic construct]
+ gb|AAI48720.1| Small proline-rich protein 2B [synthetic construct]
+ gb|PNI90893.1| SPRR2B isoform 1 [Pan troglodytes]
+Length=72
+
+ Score = 98.3 bits (243),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>gb|EHH15245.1| hypothetical protein EGK_01311 [Macaca mulatta]
+Length=72
+
+ Score = 97.9 bits (242),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQ KQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQYKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_021052738.1| small proline-rich protein 2G-like [Mus pahari]
+Length=81
+
+ Score = 76.0 bits (185),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 45/58 (78%), Positives = 50/58 (86%), Gaps = 0/58 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT  58
+           MSYQ+QQCKQ CQPPPVCP PKCPEPCP PKCPEPCPP KCP+PCPP +C + CPP +
+Sbjct  1   MSYQEQQCKQACQPPPVCPHPKCPEPCPLPKCPEPCPPTKCPEPCPPSKCPEPCPPQS  58
+
+
+>ref|XP_012394465.1| PREDICTED: small proline-rich protein 2E-like [Orcinus orca]
+ gb|TEA26921.1| hypothetical protein DBR06_SOUSAS50310001 [Sousa chinensis]
+Length=66
+
+ Score = 71.3 bits (173),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 49/72 (68%), Positives = 51/72 (71%), Gaps = 6/72 (8%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           M+Y+Q QCKQPCQ PPV   PKCPEPCP  KCPEPCPP   P P     CQQKCPPV P 
+Sbjct  1   MTYKQHQCKQPCQSPPVF-IPKCPEPCPH-KCPEPCPPLNLPHP----LCQQKCPPVHPC  54
+
+Query  61  PPCQPKCPPKSK  72
+            PCQ KCPPK K
+Sbjct  55  TPCQQKCPPKYK  66
+
+
+>ref|XP_019775643.1| PREDICTED: LOW QUALITY PROTEIN: small proline-rich protein 2E-like 
+[Tursiops truncatus]
+Length=79
+
+ Score = 70.6 bits (171),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 50/81 (62%), Positives = 53/81 (65%), Gaps = 11/81 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQP---------CPPQQCQ  51
+           M+Y+Q QCKQPCQ PPV   PKCPEPCP  KCPEPCPP  C +P          P   CQ
+Sbjct  1   MTYKQHQCKQPCQSPPVF-IPKCPEPCPH-KCPEPCPPLNCLEPCPCPPCPPVQPHPLCQ  58
+
+Query  52  QKCPPVTPSPPCQPKCPPKSK  72
+           QKCPPV P  PCQ KCPPK K
+Sbjct  59  QKCPPVHPCTPCQQKCPPKHK  79
+
+
+>ref|XP_028024403.1| small proline-rich protein 2E-like [Balaenoptera acutorostrata 
+scammoni]
+Length=62
+
+ Score = 69.0 bits (167),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 44/72 (61%), Positives = 49/72 (68%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q+QQCKQ C+ PPVC T          KCP+PC P K   PCPPQ CQQKCPPVTP+
+Sbjct  1   MSSQEQQCKQKCKTPPVCVT----------KCPDPCSPKKDSDPCPPQPCQQKCPPVTPT  50
+
+Query  61  PPCQPKCPPKSK  72
+             CQ KCPPK+K
+Sbjct  51  QQCQQKCPPKNK  62
+
+
+>ref|XP_028019918.1| small proline-rich protein 2E-like [Balaenoptera acutorostrata 
+scammoni]
+Length=62
+
+ Score = 69.0 bits (167),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 44/72 (61%), Positives = 48/72 (67%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q+QQCKQ C+ PPVC T          KCP+PC P K   PCPPQ CQQKCPPVTP+
+Sbjct  1   MSSQEQQCKQKCKTPPVCVT----------KCPDPCSPKKDSDPCPPQPCQQKCPPVTPT  50
+
+Query  61  PPCQPKCPPKSK  72
+             CQ KCPPK K
+Sbjct  51  QKCQQKCPPKDK  62
+
+
+>ref|XP_004618212.1| PREDICTED: small proline-rich protein 2E-like [Sorex araneus]
+Length=80
+
+ Score = 66.7 bits (161),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 59/80 (74%), Positives = 61/80 (76%), Gaps = 8/80 (10%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPT--------PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQ  52
+           MSYQ+QQ KQPCQPP  CPT        PKCPEPCPPPKC EPCPPPK  +PCPPQQCQQ
+Sbjct  1   MSYQEQQSKQPCQPPLACPTQCPEPCPPPKCPEPCPPPKCHEPCPPPKSSEPCPPQQCQQ  60
+
+Query  53  KCPPVTPSPPCQPKCPPKSK  72
+           KCPPV P P CQ KCPPKS 
+Sbjct  61  KCPPVQPPPLCQQKCPPKSN  80
+
+
+>ref|XP_007190509.1| small proline-rich protein 2A-like [Balaenoptera acutorostrata 
+scammoni]
+Length=71
+
+ Score = 62.5 bits (150),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 50/72 (69%), Positives = 56/72 (78%), Gaps = 1/72 (1%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q+QQC Q C+ PPVC T KCP+PC PPKCP+PCPP KCP+PCPPQQCQQK P V P 
+Sbjct  1   MSSQEQQCMQQCKTPPVCAT-KCPDPCSPPKCPDPCPPIKCPEPCPPQQCQQKRPTVPPP  59
+
+Query  61  PPCQPKCPPKSK  72
+             CQ K PPK+K
+Sbjct  60  KQCQQKFPPKNK  71
+
+
+>ref|XP_024426372.1| small proline-rich protein 2E-like [Desmodus rotundus]
+Length=80
+
+ Score = 59.0 bits (141),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  24  PEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           PEPCP PKCPEPCP PKCP+PCPPQ CQQKCPPV P+PPCQ KCPPKSK
+Sbjct  32  PEPCPLPKCPEPCPAPKCPEPCPPQVCQQKCPPVQPAPPCQQKCPPKSK  80
+
+
+>gb|TEA34913.1| hypothetical protein DBR06_SOUSAS41110017 [Sousa chinensis]
+Length=71
+
+ Score = 57.1 bits (136),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 46/72 (64%), Positives = 49/72 (68%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKC---------PEPCPPPKCPQPCPPQQCQ  51
+           MS Q QQCKQPCQPPPVC TPKC +PCPP K          P+PCPP KCP PC PQQC+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKYPDLCPPCKCPDPCPPIKCPDPCVPQQCK  59
+
+Query  52  QKCPPVTPSPPC  63
+           QKCPP  P   C
+Sbjct  60  QKCPPGAPVQHC  71
+
+
+>ref|XP_017201359.1| PREDICTED: keratin-associated protein 4-5-like [Oryctolagus cuniculus]
+Length=325
+
+ Score = 57.1 bits (136),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 38/71 (54%), Positives = 48/71 (68%), Gaps = 8/71 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++PC PP     CP P+C EPCPPP+C E CPPP+C +PCPP +CQ+ CPP+      
+Sbjct  219  RCQEPCPPPRCQEPCPLPRCQEPCPPPRCQECCPPPRCQEPCPPPKCQEPCPPLRCQECC  278
+
+Query  59   PSPPCQPKCPP  69
+            P P CQ  CPP
+Sbjct  279  PPPRCQEPCPP  289
+
+
+ Score = 57.1 bits (136),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 38/71 (54%), Positives = 47/71 (66%), Gaps = 8/71 (11%)
+
+Query  7    QCKQPCQPP---PVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++PC PP     CP P+C EPCPPP+C EPCP P+C +PCPP +CQ+ CPP       
+Sbjct  201  RCQEPCPPPRCQECCPPPRCQEPCPPPRCQEPCPLPRCQEPCPPPRCQECCPPPRCQEPC  260
+
+Query  59   PSPPCQPKCPP  69
+            P P CQ  CPP
+Sbjct  261  PPPKCQEPCPP  271
+
+
+ Score = 54.8 bits (130),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 37/71 (52%), Positives = 46/71 (65%), Gaps = 8/71 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPP-----VT  58
+            +C++PC PP     CP P+C E CPPP+C EPCPPP+C +PCP  +CQ+ CPP       
+Sbjct  192  RCQEPCPPPRCQEPCPPPRCQECCPPPRCQEPCPPPRCQEPCPLPRCQEPCPPPRCQECC  251
+
+Query  59   PSPPCQPKCPP  69
+            P P CQ  CPP
+Sbjct  252  PPPRCQEPCPP  262
+
+
+ Score = 54.4 bits (129),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 37/71 (52%), Positives = 46/71 (65%), Gaps = 8/71 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPP-----VT  58
+            +C++PC PP     CP P+C EPCPPP+C E C PP+C +PCPP +CQ+ CPP       
+Sbjct  156  RCQEPCLPPRCQEPCPPPRCQEPCPPPRCQECCLPPRCQEPCPPPRCQEPCPPPRCQECC  215
+
+Query  59   PSPPCQPKCPP  69
+            P P CQ  CPP
+Sbjct  216  PPPRCQEPCPP  226
+
+
+ Score = 53.6 bits (127),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 36/65 (55%), Positives = 44/65 (68%), Gaps = 7/65 (11%)
+
+Query  7    QCKQPCQPP---PVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+            +C++PC PP     CP P+C EPCPPPKC EPCPP +C + CPP +CQ+ CPP    P C
+Sbjct  237  RCQEPCPPPRCQECCPPPRCQEPCPPPKCQEPCPPLRCQECCPPPRCQEPCPP----PRC  292
+
+Query  64   QPKCP  68
+            Q  CP
+Sbjct  293  QEPCP  297
+
+
+ Score = 53.2 bits (126),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 35/69 (51%), Positives = 43/69 (62%), Gaps = 5/69 (7%)
+
+Query  6    QQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCP-----PVTPS  60
+            Q+C  P +    CP P+C EPCPPP+C E CPPP+C +PCPP +CQ+ CP        P 
+Sbjct  185  QECCLPPRCQEPCPPPRCQEPCPPPRCQECCPPPRCQEPCPPPRCQEPCPLPRCQEPCPP  244
+
+Query  61   PPCQPKCPP  69
+            P CQ  CPP
+Sbjct  245  PRCQECCPP  253
+
+
+ Score = 52.5 bits (124),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 35/65 (54%), Positives = 44/65 (68%), Gaps = 7/65 (11%)
+
+Query  7    QCKQPCQPP---PVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+            +C++PC PP     C  P+C EPCPPP+C EPCPPP+C + CPP +CQ+ CPP    P C
+Sbjct  174  RCQEPCPPPRCQECCLPPRCQEPCPPPRCQEPCPPPRCQECCPPPRCQEPCPP----PRC  229
+
+Query  64   QPKCP  68
+            Q  CP
+Sbjct  230  QEPCP  234
+
+
+ Score = 52.1 bits (123),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 35/69 (51%), Positives = 43/69 (62%), Gaps = 5/69 (7%)
+
+Query  6    QQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCP-----PVTPS  60
+            Q+C  P +    CP P+C EPCPPP+C E CPPP+C +PCPP +CQ+ CP        P 
+Sbjct  86   QECCLPPRCQEPCPPPRCQEPCPPPRCQECCPPPRCQEPCPPPRCQEPCPLPRCQECCPL  145
+
+Query  61   PPCQPKCPP  69
+            P CQ  CPP
+Sbjct  146  PRCQECCPP  154
+
+
+ Score = 51.3 bits (121),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 33/63 (52%), Positives = 41/63 (65%), Gaps = 4/63 (6%)
+
+Query  6    QQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQP  65
+            Q+C  P +    C  P+C EPCPPP+C EPCPPP+C + CPP +CQ+ CPP    P CQ 
+Sbjct  77   QECCLPPRCQECCLPPRCQEPCPPPRCQEPCPPPRCQECCPPPRCQEPCPP----PRCQE  132
+
+Query  66   KCP  68
+             CP
+Sbjct  133  PCP  135
+
+
+ Score = 50.1 bits (118),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 35/71 (49%), Positives = 44/71 (62%), Gaps = 8/71 (11%)
+
+Query  7    QCKQPCQPP---PVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPP-----VT  58
+            +C++PC  P     CP P+C E CPPP+C EPC PP+C +PCPP +CQ+ CPP       
+Sbjct  129  RCQEPCPLPRCQECCPLPRCQECCPPPRCQEPCLPPRCQEPCPPPRCQEPCPPPRCQECC  188
+
+Query  59   PSPPCQPKCPP  69
+              P CQ  CPP
+Sbjct  189  LPPRCQEPCPP  199
+
+
+ Score = 50.1 bits (118),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 33/63 (52%), Positives = 40/63 (63%), Gaps = 4/63 (6%)
+
+Query  6    QQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQP  65
+            Q+C  P +    CP PKC EPCPP +C E CPPP+C +PCPP +CQ+ C    P P CQ 
+Sbjct  248  QECCPPPRCQEPCPPPKCQEPCPPLRCQECCPPPRCQEPCPPPRCQEPC----PLPWCQE  303
+
+Query  66   KCP  68
+             CP
+Sbjct  304  PCP  306
+
+
+ Score = 49.8 bits (117),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 35/71 (49%), Positives = 44/71 (62%), Gaps = 8/71 (11%)
+
+Query  7    QCKQPCQPP---PVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTP----  59
+            +C++PC PP     CP P+C EPCPPP+C EPCP P+C + CP  +CQ+ CPP       
+Sbjct  102  RCQEPCPPPRCQECCPPPRCQEPCPPPRCQEPCPLPRCQECCPLPRCQECCPPPRCQEPC  161
+
+Query  60   -SPPCQPKCPP  69
+              P CQ  CPP
+Sbjct  162  LPPRCQEPCPP  172
+
+
+ Score = 49.4 bits (116),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 34/71 (48%), Positives = 44/71 (62%), Gaps = 8/71 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++PC PP     CP P+C +PCPPP+C E C PP+C + C P +CQ+ CPP       
+Sbjct  48   RCQEPCPPPRCQEPCPPPRCQDPCPPPRCQECCLPPRCQECCLPPRCQEPCPPPRCQEPC  107
+
+Query  59   PSPPCQPKCPP  69
+            P P CQ  CPP
+Sbjct  108  PPPRCQECCPP  118
+
+
+ Score = 48.2 bits (113),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 32/69 (46%), Positives = 40/69 (58%), Gaps = 5/69 (7%)
+
+Query  6    QQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----PS  60
+            Q+C  P +    CP P+C EPCP P+C E CP P+C + CPP +CQ+ C P       P 
+Sbjct  113  QECCPPPRCQEPCPPPRCQEPCPLPRCQECCPLPRCQECCPPPRCQEPCLPPRCQEPCPP  172
+
+Query  61   PPCQPKCPP  69
+            P CQ  CPP
+Sbjct  173  PRCQEPCPP  181
+
+
+ Score = 47.8 bits (112),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 43/86 (50%), Positives = 50/86 (58%), Gaps = 21/86 (24%)
+
+Query  1   MSYQQQQCKQP-------------CQPPP----VCPTPKCPEPCPPPKCPEPCPPPKCPQ  43
+           MSYQ+QQCKQP             C PPP    +CP P+C E C  P+C EPCPPP+C +
+Sbjct  1   MSYQEQQCKQPCQPPPVCPPRCQECCPPPKCQELCPPPRCQECCLLPRCQEPCPPPRCQE  60
+
+Query  44  PCPPQQCQQKCPPVTPSPPCQPKCPP  69
+           PCPP +CQ  CPP    P CQ  C P
+Sbjct  61  PCPPPRCQDPCPP----PRCQECCLP  82
+
+
+ Score = 47.8 bits (112),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 30/68 (44%), Positives = 39/68 (57%), Gaps = 3/68 (4%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+            +C++PC PP     CP  +C E CPPP+C EPCPPP+C +PCP   CQ+ CP  +P    
+Sbjct  255  RCQEPCPPPKCQEPCPPLRCQECCPPPRCQEPCPPPRCQEPCPLPWCQEPCPLCSPVQGP  314
+
+Query  64   QPKCPPKS  71
+                  K 
+Sbjct  315  PQPYQQKH  322
+
+
+>gb|TEA34915.1| hypothetical protein DBR06_SOUSAS41110020 [Sousa chinensis]
+Length=62
+
+ Score = 52.1 bits (123),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 47/63 (75%), Positives = 51/63 (81%), Gaps = 1/63 (2%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q QQCKQPCQPPPVC TPKC +PCPP KCP+PCPP KCP PC PQQC+QKCPP  P+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKCPDPCPPIKCPDPCVPQQCKQKCPPGAPA  59
+
+Query  61  PPC  63
+             C
+Sbjct  60  HHC  62
+
+
+>ref|XP_017703323.1| PREDICTED: small proline-rich protein 2D-like [Rhinopithecus 
+bieti]
+ ref|XP_017721637.1| PREDICTED: small proline-rich protein 2D-like [Rhinopithecus 
+bieti]
+Length=72
+
+ Score = 51.7 bits (122),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 66/72 (92%), Positives = 67/72 (93%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEP PP KCPE CP PKCP+PCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPRPPLKCPETCPLPKCPEPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>gb|TEA34914.1| hypothetical protein DBR06_SOUSAS41110019 [Sousa chinensis]
+Length=71
+
+ Score = 48.6 bits (114),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 46/72 (64%), Positives = 50/72 (69%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK---------CPEPCPPPKCPQPCPPQQCQ  51
+           MS Q QQCKQPCQPPPVC TPKC +PCPP K         CP+PC P KCP PC PQQC+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKCPDPCPPCKCPDPCSPIKCPDPCVPQQCK  59
+
+Query  52  QKCPPVTPSPPC  63
+           QKCPP  P+  C
+Sbjct  60  QKCPPGAPAHHC  71
+
+
+>ref|XP_025038375.1| cornifin-A-like [Pelodiscus sinensis]
+Length=267
+
+ Score = 50.5 bits (119),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 32/54 (59%), Positives = 34/54 (63%), Gaps = 4/54 (7%)
+
+Query  18   CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKS  71
+            CP P C E CPPP C E CPPP C + CPP  CQ+KCPP    P CQ KCPP  
+Sbjct  203  CPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPP----PHCQEKCPPPH  252
+
+
+ Score = 40.1 bits (92),  Expect = 0.24, Method: Composition-based stats.
+ Identities = 34/51 (67%), Positives = 37/51 (73%), Gaps = 4/51 (8%)
+
+Query  18   CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCP  68
+            CPTPKCPEPC P KCPEPC P KCP+PC P+ C + C P  P  PC PKCP
+Sbjct  102  CPTPKCPEPCSP-KCPEPCSP-KCPEPCSPK-CPEPCSPKCP-EPCSPKCP  148
+
+
+ Score = 39.4 bits (90),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 31/53 (58%), Positives = 33/53 (62%), Gaps = 5/53 (9%)
+
+Query  24   PEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----PSPPCQPKCPPKS  71
+            PEPCPPP C E CPPP C + CPP  CQ+KCPP       P P CQ KCPP  
+Sbjct  191  PEPCPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPH  243
+
+
+ Score = 39.4 bits (90),  Expect = 0.45, Method: Composition-based stats.
+ Identities = 25/49 (51%), Positives = 29/49 (59%), Gaps = 3/49 (6%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQ  52
+             C++ C PP     CP P C E CPPP C E CPPP C + CPP  CQ+
+Sbjct  207  HCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPHCQE  255
+
+
+>gb|TEA34912.1| hypothetical protein DBR06_SOUSAS41110016 [Sousa chinensis]
+Length=71
+
+ Score = 47.8 bits (112),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 47/72 (65%), Positives = 50/72 (69%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK---------CPEPCPPPKCPQPCPPQQCQ  51
+           MS Q QQCKQPCQPPPVC TPKC +PCPP K         CP+PCPP KCP PC PQQC+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKCPDPCPPCKCPDPCPPIKCPDPCVPQQCK  59
+
+Query  52  QKCPPVTPSPPC  63
+           QKCPP  P   C
+Sbjct  60  QKCPPGAPVQHC  71
+
+
+>ref|XP_021014810.1| small proline-rich protein 2G-like [Mus caroli]
+Length=81
+
+ Score = 47.8 bits (112),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 44/58 (76%), Positives = 49/58 (84%), Gaps = 0/58 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT  58
+           MSYQ+QQCKQ CQPPPVCP PKCPEPCP PKCPEPCPP KCP+PCP  +C + CPP +
+Sbjct  1   MSYQEQQCKQACQPPPVCPPPKCPEPCPLPKCPEPCPPAKCPEPCPLPKCPEPCPPQS  58
+
+
+>ref|WP_138725994.1| peptidase [Pseudomonas lactis]
+Length=725
+
+ Score = 45.5 bits (106),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 25/60 (42%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  10   QPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            +P   P  C    CP+PC P  CP+PC P   P PC P+ C   C P     PC+PK  P
+Sbjct  496  EPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRP  555
+
+
+ Score = 44.8 bits (104),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 31/61 (51%), Gaps = 0/61 (0%)
+
+Query  10   QPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            +P   P  C    CP+PC P  CP+PC P  CP PC P+     C P     PC+PK  P
+Sbjct  487  EPKPRPDPCEPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRP  546
+
+Query  70   K  70
+            +
+Sbjct  547  E  547
+
+
+ Score = 44.8 bits (104),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 24/55 (44%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+
+Query  15   PPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            P  C     P+PC P  CP+PC P  CP PC P+ C   C P     PC+PK  P
+Sbjct  483  PDPCEPKPRPDPCEPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCP  537
+
+
+ Score = 40.1 bits (92),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 32/65 (49%), Gaps = 3/65 (5%)
+
+Query  8    CKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQ  64
+            C  PC+P P    C    CP+PC P   P+PC P  CP PC P+   + C P     P +
+Sbjct  500  CPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRPDPRE  559
+
+Query  65   PKCPP  69
+            P+  P
+Sbjct  560  PQPRP  564
+
+
+ Score = 35.9 bits (81),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 30/65 (46%), Gaps = 3/65 (5%)
+
+Query  8    CKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQ  64
+            C  PC+P P    C     P+PC P  CP+PC P   P+PC P+       P     P +
+Sbjct  509  CPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRPDPREPQPRPDPRE  568
+
+Query  65   PKCPP  69
+            P+  P
+Sbjct  569  PQPRP  573
+
+
+>ref|WP_125969732.1| peptidase [Pseudomonas libanensis]
+Length=725
+
+ Score = 45.5 bits (106),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 25/60 (42%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  10   QPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            +P   P  C    CP+PC P  CP+PC P   P PC P+ C   C P     PC+PK  P
+Sbjct  496  EPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRP  555
+
+
+ Score = 44.8 bits (104),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 31/61 (51%), Gaps = 0/61 (0%)
+
+Query  10   QPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            +P   P  C    CP+PC P  CP+PC P  CP PC P+     C P     PC+PK  P
+Sbjct  487  EPKPRPDPCEPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRP  546
+
+Query  70   K  70
+            +
+Sbjct  547  E  547
+
+
+ Score = 44.8 bits (104),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 24/55 (44%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+
+Query  15   PPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            P  C     P+PC P  CP+PC P  CP PC P+ C   C P     PC+PK  P
+Sbjct  483  PDPCEPKPRPDPCEPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCP  537
+
+
+ Score = 40.1 bits (92),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 32/65 (49%), Gaps = 3/65 (5%)
+
+Query  8    CKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQ  64
+            C  PC+P P    C    CP+PC P   P+PC P  CP PC P+   + C P     P +
+Sbjct  500  CPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRPDPRE  559
+
+Query  65   PKCPP  69
+            P+  P
+Sbjct  560  PQPRP  564
+
+
+ Score = 35.9 bits (81),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 30/65 (46%), Gaps = 3/65 (5%)
+
+Query  8    CKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQ  64
+            C  PC+P P    C     P+PC P  CP+PC P   P+PC P+       P     P +
+Sbjct  509  CPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRPDPREPQPRPDPRE  568
+
+Query  65   PKCPP  69
+            P+  P
+Sbjct  569  PQPRP  573
+
+
+>ref|XP_003259330.1| PREDICTED: small proline-rich protein 2B-like isoform X2 [Nomascus 
+leucogenys]
+ ref|XP_012366504.1| PREDICTED: small proline-rich protein 2B-like isoform X2 [Nomascus 
+leucogenys]
+Length=72
+
+ Score = 42.8 bits (99),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 69/72 (96%), Positives = 69/72 (96%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPC PPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCLPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|WP_117419970.1| choice-of-anchor A family protein [Clostridium sp. PI-S10-A1B]
+ gb|RFZ75908.1| choice-of-anchor A family protein [Clostridium sp. PI-S10-A1B]
+Length=610
+
+ Score = 45.1 bits (105),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 25/56 (45%), Positives = 28/56 (50%), Gaps = 9/56 (16%)
+
+Query  10   QPCQPPPVCPTPKCPEPCPPPKCPEPCP----PPKCPQPCPPQQCQQKCPPVTPSP  61
+            +PC   PVCP P   +PCP    PEPCP     P CP+P P   C     PV P P
+Sbjct  451  EPCPACPVCPKP---QPCPACPKPEPCPICPVCPACPKPEPCPIC--PVCPVCPKP  501
+
+
+ Score = 42.1 bits (97),  Expect = 0.076, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 22/46 (48%), Gaps = 2/46 (4%)
+
+Query  23   CPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCP  68
+            CP  CP    P+PCP    P+PCP       CP   P P C P CP
+Sbjct  453  CP-ACPVCPKPQPCPACPKPEPCPICPVCPACPKPEPCPIC-PVCP  496
+
+
+>ref|XP_005642509.1| LOW QUALITY PROTEIN: small proline-rich protein 2E [Canis lupus 
+familiaris]
+Length=90
+
+ Score = 42.4 bits (98),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 46/72 (64%), Positives = 53/72 (74%), Gaps = 6/72 (8%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           +S QQ+Q KQPCQPP +C  PKCPEPCPPP+CPEPC  PKCP+PC P +C + C P    
+Sbjct  25  LSSQQEQXKQPCQPPSMC-LPKCPEPCPPPECPEPCSTPKCPEPCLPPKCPELCLP----  79
+
+Query  61  PPCQPKCPPKSK  72
+             CQ KCPPKSK
+Sbjct  80  -KCQQKCPPKSK  90
+
+
+>ref|XP_005367331.1| small proline-rich protein 2D [Microtus ochrogaster]
+Length=85
+
+ Score = 41.7 bits (96),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 54/85 (64%), Positives = 56/85 (66%), Gaps = 13/85 (15%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK-------------CPEPCPPPKCPQPCPP  47
+           MSYQ+QQCKQPCQ PPVCP  KCPEPCPPPK             CP P  P  CP P  P
+Sbjct  1   MSYQEQQCKQPCQRPPVCPPTKCPEPCPPPKCPEPCPPPKCPEPCPPPKCPEPCPPPKCP  60
+
+Query  48  QQCQQKCPPVTPSPPCQPKCPPKSK  72
+           + CQQKCPPV P  PCQ KCPPKSK
+Sbjct  61  EPCQQKCPPVQPPSPCQQKCPPKSK  85
+
+
+>ref|XP_007975291.1| PREDICTED: small proline-rich protein 2E-like [Chlorocebus sabaeus]
+Length=72
+
+ Score = 40.5 bits (93),  Expect = 0.031, Method: Composition-based stats.
+ Identities = 69/72 (96%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCP PKCPEPCPPPKCP+PCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPSPKCPEPCPPPKCPEPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_012514093.1| PREDICTED: small proline-rich protein 2E-like [Propithecus coquereli]
+Length=63
+
+ Score = 40.1 bits (92),  Expect = 0.035, Method: Composition-based stats.
+ Identities = 55/72 (76%), Positives = 57/72 (79%), Gaps = 9/72 (13%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCK+P QPPP          CPPPKCPEPCPPPKCP+PCPPQQCQQKCPPV P 
+Sbjct  1   MSYQQQQCKRPYQPPP---------VCPPPKCPEPCPPPKCPEPCPPQQCQQKCPPVQPP  51
+
+Query  61  PPCQPKCPPKSK  72
+            PCQ KCPPKSK
+Sbjct  52  APCQQKCPPKSK  63
+
+
+>ref|XP_008982666.1| PREDICTED: small proline-rich protein 2E-like [Callithrix jacchus]
+Length=72
+
+ Score = 40.1 bits (92),  Expect = 0.036, Method: Composition-based stats.
+ Identities = 67/72 (93%), Positives = 69/72 (96%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCP PKCP+PCPPPKCP+PCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPSPKCPQPCPPPKCPEPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           P CQPKCPPKSK
+Sbjct  61  PLCQPKCPPKSK  72
+
+
+>ref|XP_006976276.1| PREDICTED: small proline-rich protein 2G [Peromyscus maniculatus 
+bairdii]
+Length=80
+
+ Score = 40.1 bits (92),  Expect = 0.047, Method: Composition-based stats.
+ Identities = 57/81 (70%), Positives = 60/81 (74%), Gaps = 10/81 (12%)
+
+Query  1   MSYQQQQCKQPCQPPPVC---------PTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQ  51
+           MSYQQQQCKQPCQPPPVC         P PKCPEPCPPP+C E C P + P+PC PQ CQ
+Sbjct  1   MSYQQQQCKQPCQPPPVCLPPKCPEPFPPPKCPEPCPPPQCSELCSPKR-PEPCLPQPCQ  59
+
+Query  52  QKCPPVTPSPPCQPKCPPKSK  72
+           QKCPPV   PPCQ KCPPKSK
+Sbjct  60  QKCPPVQHLPPCQQKCPPKSK  80
+
+
+>ref|XP_010327969.1| PREDICTED: small proline-rich protein 2F-like [Saimiri boliviensis 
+boliviensis]
+Length=63
+
+ Score = 39.7 bits (91),  Expect = 0.053, Method: Composition-based stats.
+ Identities = 59/72 (82%), Positives = 59/72 (82%), Gaps = 9/72 (13%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCP PKCPEPCP PKCPEPCP         PQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPMPKCPEPCPHPKCPEPCP---------PQQCQQKCPPVPPS  51
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCP KSK
+Sbjct  52  PPCQPKCPLKSK  63
+
+
+>ref|XP_028358640.1| small proline-rich protein 2D-like [Phyllostomus discolor]
+Length=91
+
+ Score = 39.4 bits (90),  Expect = 0.091, Method: Composition-based stats.
+ Identities = 60/91 (66%), Positives = 61/91 (67%), Gaps = 19/91 (21%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK------------------CPEPCPPPKCP  42
+           MSYQQQQCKQPCQPPP CP PKCPEPCPPPK                  CPEPCP P CP
+Sbjct  1   MSYQQQQCKQPCQPPPPCPQPKCPEPCPPPKCPEPCPPPKCPEPCPLPKCPEPCPLPSCP  60
+
+Query  43  QP-CPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+              CPPQ CQQKCPPV   PPCQ +CPPKSK
+Sbjct  61  PVQCPPQLCQQKCPPVQLCPPCQQECPPKSK  91
+
+
+>ref|XP_012646636.1| small proline-rich protein 2D [Microcebus murinus]
+Length=81
+
+ Score = 38.6 bits (88),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 63/81 (78%), Positives = 64/81 (79%), Gaps = 9/81 (11%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPP---------PKCPQPCPPQQCQ  51
+           MSYQQQQCKQPCQPPPVCP PK PEPCPPPKCPEPCPP         PK P+PCPP QCQ
+Sbjct  1   MSYQQQQCKQPCQPPPVCPPPKVPEPCPPPKCPEPCPPPKCPEPCPSPKVPEPCPPVQCQ  60
+
+Query  52  QKCPPVTPSPPCQPKCPPKSK  72
+           QKCPPV P  PCQ KCPPKSK
+Sbjct  61  QKCPPVQPPAPCQQKCPPKSK  81
+
+
+>ref|XP_015267567.1| PREDICTED: vegetative cell wall protein gp1-like [Gekko japonicus]
+Length=343
+
+ Score = 40.5 bits (93),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 33/72 (46%), Positives = 37/72 (51%), Gaps = 2/72 (3%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           M+   QQCKQPC PPP+C   K   P  P  CPEPC P    Q  P   C + C  V P 
+Sbjct  1   MACPFQQCKQPCLPPPICGCTKQSAPVGPLPCPEPCIPVSVKQ-SPTTVCPEPCVKVDPC  59
+
+Query  61  -PPCQPKCPPKS  71
+            P C  +C PKS
+Sbjct  60  APQCPEECAPKS  71
+
+
+ Score = 39.4 bits (90),  Expect = 0.48, Method: Composition-based stats.
+ Identities = 32/71 (45%), Positives = 36/71 (51%), Gaps = 12/71 (17%)
+
+Query  8    CKQPCQPPPVCPTPKCPEPCPPPKCPEPCPP-------PKCPQPCPPQQCQQKCPPVTPS  60
+            C+QPC PP          PCPPP C EPCPP       PK   PCPP  C+Q CPP    
+Sbjct  253  CEQPCPPPCEQVCAPKSVPCPPPVCKEPCPPQGIDVCPPKSVVPCPPPVCEQPCPP----  308
+
+Query  61   PPCQPKCPPKS  71
+              C+  CPP+ 
+Sbjct  309  -KCEVVCPPQD  318
+
+
+ Score = 38.2 bits (87),  Expect = 0.98, Method: Composition-based stats.
+ Identities = 32/71 (45%), Positives = 36/71 (51%), Gaps = 12/71 (17%)
+
+Query  8    CKQPCQPPPVCPTPKCPEPCPPPKCPEPCPP-------PKCPQPCPPQQCQQKCPPVTPS  60
+            C+QPC P           PCPPP C +PCPP       PK   PCPP  C+Q CPP    
+Sbjct  204  CEQPCPPQCEQVRASKSVPCPPPVCEQPCPPQGVEVCPPKSVVPCPPPVCEQPCPP----  259
+
+Query  61   PPCQPKCPPKS  71
+             PC+  C PKS
+Sbjct  260  -PCEQVCAPKS  269
+
+
+ Score = 36.7 bits (83),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 34/62 (55%), Gaps = 6/62 (10%)
+
+Query  14   PPPVCPTPKCPEPCPPPKCPE--PCPPPKCPQPCPPQ---QCQQKCPPVTPSPPCQPKCP  68
+            PPPVC  P CP PC     P+  PCPPP C +PCPPQ    C  K     P P C+  CP
+Sbjct  249  PPPVCEQP-CPPPCEQVCAPKSVPCPPPVCKEPCPPQGIDVCPPKSVVPCPPPVCEQPCP  307
+
+Query  69   PK  70
+            PK
+Sbjct  308  PK  309
+
+
+ Score = 35.9 bits (81),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 30/62 (48%), Positives = 33/62 (53%), Gaps = 9/62 (15%)
+
+Query  18   CPTPKCPEPCPP-------PKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPP--CQPKCP  68
+            CP P C +PCPP       PK   PCPPP C QPCPP   Q   P   P PP  C+  CP
+Sbjct  223  CPPPVCEQPCPPQGVEVCPPKSVVPCPPPVCEQPCPPPCEQVCAPKSVPCPPPVCKEPCP  282
+
+Query  69   PK  70
+            P+
+Sbjct  283  PQ  284
+
+
+ Score = 35.5 bits (80),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 34/86 (40%), Positives = 39/86 (45%), Gaps = 29/86 (34%)
+
+Query  14   PPPVCPTPKCPE-----------PCPPPKCPEPCP-------PPKCPQPCPPQQCQQKCP  55
+            PPPVC  P  P+           PCPPP C +PCP       PPK   PCPP  C+Q CP
+Sbjct  150  PPPVCKEPCPPQGIDVCPPKSVVPCPPPVCEQPCPPQGVEVCPPKSVVPCPPPVCEQPCP  209
+
+Query  56   PV-----------TPSPPCQPKCPPK  70
+            P             P P C+  CPP+
+Sbjct  210  PQCEQVRASKSVPCPPPVCEQPCPPQ  235
+
+
+ Score = 35.5 bits (80),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 32/71 (45%), Positives = 34/71 (48%), Gaps = 12/71 (17%)
+
+Query  8    CKQPCQPPPVCPTPKCPEPCPPPKCPEPCPP-------PKCPQPCPPQQCQQKCPPVTPS  60
+            C+QPC P           PCPPP C EPCPP       PK   PCPP  C+Q CPP    
+Sbjct  130  CEQPCPPQCEQVRASKSVPCPPPVCKEPCPPQGIDVCPPKSVVPCPPPVCEQPCPPQG--  187
+
+Query  61   PPCQPKCPPKS  71
+                  CPPKS
+Sbjct  188  ---VEVCPPKS  195
+
+
+>ref|XP_005367328.1| small proline-rich protein 2D [Microtus ochrogaster]
+Length=85
+
+ Score = 38.2 bits (87),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 55/85 (65%), Positives = 57/85 (67%), Gaps = 13/85 (15%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK-------------CPEPCPPPKCPQPCPP  47
+           MSYQ+QQCKQPCQPPPVCP  KCPEPCPPPK             CP P  P  CP P  P
+Sbjct  1   MSYQEQQCKQPCQPPPVCPPTKCPEPCPPPKCPEPCPPPKCPEPCPPPKCPEPCPHPQCP  60
+
+Query  48  QQCQQKCPPVTPSPPCQPKCPPKSK  72
+           + CQQKCPPV P  PCQ KCPPKSK
+Sbjct  61  EPCQQKCPPVQPPSPCQQKCPPKSK  85
+
+
+>ref|XP_006895957.1| PREDICTED: small proline-rich protein 2D [Elephantulus edwardii]
+Length=81
+
+ Score = 37.8 bits (86),  Expect = 0.27, Method: Composition-based stats.
+ Identities = 42/58 (72%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT  58
+           MSYQQQQCKQPCQ PPV   PKCPEPC P  CPEPCP PKCP+PCP  +C + CPPV 
+Sbjct  1   MSYQQQQCKQPCQAPPVVCPPKCPEPCKPANCPEPCPTPKCPEPCPTPKCPEPCPPVQ  58
+
+
+>ref|XP_027632099.1| small proline-rich protein 2D-like [Tupaia chinensis]
+Length=78
+
+ Score = 37.8 bits (86),  Expect = 0.27, Method: Composition-based stats.
+ Identities = 28/55 (51%), Positives = 31/55 (56%), Gaps = 1/55 (2%)
+
+Query  18  CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           CP P   + C  P       PPK P+PCP    QQKCPPV   PPCQ +CPPK K
+Sbjct  25  CPPPSKQQKCQSPPQVPEPCPPKIPEPCPQPPSQQKCPPVQ-HPPCQQECPPKQK  78
+
+
+>ref|XP_007178640.1| small proline-rich protein 2E-like [Balaenoptera acutorostrata 
+scammoni]
+Length=71
+
+ Score = 37.4 bits (85),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 37/48 (77%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  25  EPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           +PC PPKCPEPCP  KCP+PCPPQQCQQKCPPV P   CQ KCPPK+K
+Sbjct  24  DPCSPPKCPEPCPRIKCPEPCPPQQCQQKCPPVPPPQQCQQKCPPKNK  71
+
+
+>gb|ELW47344.1| hypothetical protein TREES_T100021959 [Tupaia chinensis]
+Length=114
+
+ Score = 37.4 bits (85),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 28/55 (51%), Positives = 31/55 (56%), Gaps = 1/55 (2%)
+
+Query  18   CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+            CP P   + C  P       PPK P+PCP    QQKCPPV   PPCQ +CPPK K
+Sbjct  61   CPPPSKQQKCQSPPQVPEPCPPKIPEPCPQPPSQQKCPPVQ-HPPCQQECPPKQK  114
+
+
+>ref|XP_020010918.1| cornifin isoform X3 [Castor canadensis]
+Length=90
+
+ Score = 36.7 bits (83),  Expect = 0.77, Method: Composition-based stats.
+ Identities = 37/75 (49%), Positives = 39/75 (52%), Gaps = 9/75 (12%)
+
+Query  4   QQQQCKQPCQPPPV-CPTPKCPEPCPPPKCPEPCPPPKCPQPC---PPQQCQ----QKCP  55
+           QQ Q KQPCQPPP     PK  EPC  PK PEPC P K P+PC    PQ CQ    + CP
+Sbjct  17  QQHQVKQPCQPPPQETCVPKTKEPCNTPKVPEPCHP-KVPEPCQSKVPQPCQPKVPEPCP  75
+
+Query  56  PVTPSPPCQPKCPPK  70
+                 P Q K   K
+Sbjct  76  STVTPAPAQQKTKQK  90
+
+
+>ref|XP_028713129.1| small proline-rich protein 2E-like [Peromyscus leucopus]
+Length=72
+
+ Score = 36.3 bits (82),  Expect = 0.79, Method: Composition-based stats.
+ Identities = 60/72 (83%), Positives = 62/72 (86%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPP CP P+ PEPCPPPKCPEPC PPKCP+P PPQ CQQKCPPV P 
+Sbjct  1   MSYQQQQCKQPCQPPPPCPPPQYPEPCPPPKCPEPCLPPKCPEPYPPQPCQQKCPPVQPP  60
+
+Query  61  PPCQPKCPPKSK  72
+           P CQ KCPPKSK
+Sbjct  61  PACQQKCPPKSK  72
+
+
+>ref|XP_021010069.1| small proline-rich protein 2A1 [Mus caroli]
+Length=82
+
+ Score = 36.3 bits (82),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 37/69 (54%), Positives = 38/69 (55%), Gaps = 5/69 (7%)
+
+Query  6   QQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----PS  60
+           QQC QPCQPPPVCP  KCP+PCPP   P PC P  C  PC P      C PV      P 
+Sbjct  5   QQCNQPCQPPPVCPPLKCPDPCPPQVWPGPCRPIVCYDPCLPSVWSGPCRPVVCYEQCPP  64
+
+Query  61  PPCQPKCPP  69
+            P Q  CPP
+Sbjct  65  XPWQSTCPP  73
+
+
+>ref|XP_012646638.1| small proline-rich protein 2E [Microcebus murinus]
+Length=72
+
+ Score = 35.9 bits (81),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 62/72 (86%), Positives = 63/72 (88%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCP PK PEPCPPPK PEPCPPPK P+PCPP QCQQKCPPV P 
+Sbjct  1   MSYQQQQCKQPCQPPPVCPPPKVPEPCPPPKVPEPCPPPKVPEPCPPVQCQQKCPPVQPP  60
+
+Query  61  PPCQPKCPPKSK  72
+            PCQ KCPPKSK
+Sbjct  61  APCQQKCPPKSK  72
+
+
+>ref|XP_028358642.1| small proline-rich protein 2E [Phyllostomus discolor]
+ ref|XP_028358643.1| small proline-rich protein 2E [Phyllostomus discolor]
+ ref|XP_028358644.1| small proline-rich protein 2E [Phyllostomus discolor]
+Length=72
+
+ Score = 35.9 bits (81),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 65/72 (90%), Positives = 67/72 (93%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPP CP PKCPEPCPPPKCPEPCPPPKCP+PCPPQ CQQKCPPV P+
+Sbjct  1   MSYQQQQCKQPCQPPPPCPPPKCPEPCPPPKCPEPCPPPKCPEPCPPQLCQQKCPPVQPA  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQ KCPPKSK
+Sbjct  61  PPCQQKCPPKSK  72
+
+
+>ref|XP_004480320.1| small proline-rich protein 2E-like [Dasypus novemcinctus]
+Length=72
+
+ Score = 35.5 bits (80),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 52/69 (75%), Positives = 57/69 (83%), Gaps = 1/69 (1%)
+
+Query  4   QQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+           QQ+QCKQPCQPPPV   PKCPEPCPPP CP PCPPP  P+PCPP  CQQ+CPPV P PPC
+Sbjct  5   QQEQCKQPCQPPPVL-IPKCPEPCPPPVCPVPCPPPVYPEPCPPPPCQQECPPVQPYPPC  63
+
+Query  64  QPKCPPKSK  72
+           Q +CPPK+K
+Sbjct  64  QQECPPKNK  72
+
+
+>ref|XP_013209216.1| cornifin isoform X2 [Microtus ochrogaster]
+Length=94
+
+ Score = 35.5 bits (80),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 37/79 (47%), Positives = 40/79 (51%), Gaps = 13/79 (16%)
+
+Query  4   QQQQCKQPCQPPPVCP-TPKCPEPCPP-------PKCPEPCPPPKCPQPCPPQQC----Q  51
+           QQ Q KQPCQPPP  P  PK  EPC P       PK PEPC P K P+PC P+ C     
+Sbjct  17  QQHQVKQPCQPPPSEPCAPKTKEPCNPNVPEPCNPKVPEPCQP-KAPEPCQPKPCHPVVP  75
+
+Query  52  QKCPPVTPSPPCQPKCPPK  70
+           + CP      P Q K   K
+Sbjct  76  EPCPSNVTPEPYQQKTKQK  94
+
+
+>ref|XP_025250863.1| small proline-rich protein 2E-like [Theropithecus gelada]
+Length=72
+
+ Score = 35.1 bits (79),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 67/72 (93%), Positives = 67/72 (93%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCP PKCPEPCPP K PQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPFPKCPEPCPPLKYPQPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_017703336.1| PREDICTED: small proline-rich protein 2E-like [Rhinopithecus 
+bieti]
+Length=72
+
+ Score = 34.4 bits (77),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 68/72 (94%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCP+PCPP KCPEPCPPPKCP+PCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPKPCPPLKCPEPCPPPKCPEPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_021521564.1| small proline-rich protein 2F-like [Aotus nancymaae]
+Length=54
+
+ Score = 34.0 bits (76),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 27/31 (87%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  42  PQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           P+PCPPQQCQQKCPPV PSPPCQ K PPKSK
+Sbjct  24  PEPCPPQQCQQKCPPVPPSPPCQQKYPPKSK  54
+
+
+>ref|XP_004667234.1| PREDICTED: small proline-rich protein 2G-like [Jaculus jaculus]
+Length=80
+
+ Score = 33.6 bits (75),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 59/80 (74%), Positives = 62/80 (78%), Gaps = 8/80 (10%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK--------CPEPCPPPKCPQPCPPQQCQQ  52
+           MSY QQQCKQPCQPPPVCP PKCPEPCP PK         PEPCPPP+C +PCPPQ CQQ
+Sbjct  1   MSYHQQQCKQPCQPPPVCPLPKCPEPCPLPKCPEPCPPMYPEPCPPPQCLEPCPPQLCQQ  60
+
+Query  53  KCPPVTPSPPCQPKCPPKSK  72
+           KCPPV   PPC PKCPPKS+
+Sbjct  61  KCPPVQLPPPCLPKCPPKSQ  80
+
+
+>ref|XP_026645081.1| cornifin isoform X3 [Microtus ochrogaster]
+Length=89
+
+ Score = 33.6 bits (75),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 35/75 (47%), Positives = 37/75 (49%), Gaps = 10/75 (13%)
+
+Query  4   QQQQCKQPCQPPPVCP-TPKCPEPCPP-------PKCPEPCPPPKCPQPCPPQQCQQKCP  55
+           QQ Q KQPCQPPP  P  PK  EPC P       PK PEPC P K P+PC      + CP
+Sbjct  17  QQHQVKQPCQPPPSEPCAPKTKEPCNPNVPEPCNPKVPEPCQP-KAPEPC-HPVVPEPCP  74
+
+Query  56  PVTPSPPCQPKCPPK  70
+                 P Q K   K
+Sbjct  75  SNVTPEPYQQKTKQK  89
+
+
+>ref|XP_021520302.1| small proline-rich protein 2F-like, partial [Meriones unguiculatus]
+Length=79
+
+ Score = 33.6 bits (75),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 55/75 (73%), Positives = 59/75 (79%), Gaps = 4/75 (5%)
+
+Query  2   SYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPC----PPQQCQQKCPPV  57
+           +YQQQQCKQPCQPPPVCP PKCP  CPP KCPE CPPPKCP PC    P Q+ QQKCPPV
+Sbjct  5   TYQQQQCKQPCQPPPVCPPPKCPASCPPQKCPESCPPPKCPLPCPEPYPSQEWQQKCPPV  64
+
+Query  58  TPSPPCQPKCPPKSK  72
+            P P C+ +CPPKSK
+Sbjct  65  CPLPSCEQECPPKSK  79
+
+
+>ref|XP_017821662.1| PREDICTED: small proline-rich protein 2E [Callithrix jacchus]
+Length=72
+
+ Score = 33.6 bits (75),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 67/72 (93%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCP+PCPPPKCP+PCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPQPCPPPKCPEPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           P CQPKCPPKS+
+Sbjct  61  PLCQPKCPPKSE  72
+
+
+
+Lambda      K        H        a         alpha
+   0.287    0.126    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1951823023948
+Results from round 3
+
+
+Query= sp|P22531|SPR2E_HUMAN Small proline-rich protein 2E OS=Homo sapiens
+OX=9606 GN=SPRR2E PE=2 SV=2
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_007975290.1|  PREDICTED: small proline-rich protein 2E-lik...  102     6e-26
+ref|XP_021779551.1|  small proline-rich protein 2E-like [Papio an...  102     1e-25
+ref|NP_001019380.2|  small proline-rich protein 2E [Homo sapiens]     102     1e-25
+ref|XP_007975294.1|  PREDICTED: small proline-rich protein 2E [Ch...  101     2e-25
+ref|XP_010376527.1|  PREDICTED: small proline-rich protein 2D [Rh...  100     3e-25
+ref|XP_001110147.2|  small proline-rich protein 2E [Macaca mulatta]   100     5e-25
+ref|XP_003259332.1|  PREDICTED: small proline-rich protein 2D [No...  100     6e-25
+gb|AAA36639.1|  small proline rich protein [Homo sapiens]             100     8e-25
+ref|XP_011793339.1|  PREDICTED: small proline-rich protein 2B-lik...  99.8    9e-25
+ref|XP_002810221.1|  small proline-rich protein 2E [Pongo abelii]     99.8    9e-25
+ref|NP_008876.3|  small proline-rich protein 2D [Homo sapiens]        98.6    3e-24
+ref|XP_023070155.1|  small proline-rich protein 2D [Piliocolobus ...  98.2    3e-24
+ref|NP_001017418.1|  small proline-rich protein 2B [Homo sapiens]     97.9    5e-24
+gb|EHH15245.1|  hypothetical protein EGK_01311 [Macaca mulatta]       97.9    6e-24
+ref|XP_021052738.1|  small proline-rich protein 2G-like [Mus pahari]  77.8    5e-16
+ref|XP_019775643.1|  PREDICTED: LOW QUALITY PROTEIN: small prolin...  69.7    5e-13
+ref|XP_012394465.1|  PREDICTED: small proline-rich protein 2E-lik...  69.0    6e-13
+ref|XP_028024403.1|  small proline-rich protein 2E-like [Balaenop...  67.8    2e-12
+ref|XP_028019918.1|  small proline-rich protein 2E-like [Balaenop...  66.3    6e-12
+ref|XP_004618212.1|  PREDICTED: small proline-rich protein 2E-lik...  66.3    1e-11
+ref|XP_017201359.1|  PREDICTED: keratin-associated protein 4-5-li...  66.3    1e-10
+ref|XP_007190509.1|  small proline-rich protein 2A-like [Balaenop...  62.0    4e-10
+ref|XP_024426372.1|  small proline-rich protein 2E-like [Desmodus...  58.6    9e-09
+gb|TEA34913.1|  hypothetical protein DBR06_SOUSAS41110017 [Sousa ...  58.2    1e-08
+ref|XP_025038375.1|  cornifin-A-like [Pelodiscus sinensis]            56.6    3e-07
+gb|TEA34915.1|  hypothetical protein DBR06_SOUSAS41110020 [Sousa ...  53.6    5e-07
+ref|XP_017703323.1|  PREDICTED: small proline-rich protein 2D-lik...  51.2    4e-06
+gb|TEA34914.1|  hypothetical protein DBR06_SOUSAS41110019 [Sousa ...  50.5    8e-06
+ref|XP_021014810.1|  small proline-rich protein 2G-like [Mus caroli]  50.1    1e-05
+gb|TEA34912.1|  hypothetical protein DBR06_SOUSAS41110016 [Sousa ...  48.6    4e-05
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_012286003.1|  mucin-5AC [Orussus abietinus]                    49.7    3e-04
+ref|WP_138725994.1|  peptidase [Pseudomonas lactis]                   45.9    0.004
+ref|WP_125969732.1|  peptidase [Pseudomonas libanensis]               45.9    0.004
+ref|XP_005642509.1|  LOW QUALITY PROTEIN: small proline-rich prot...  43.2    0.004
+ref|XP_003259330.1|  PREDICTED: small proline-rich protein 2B-lik...  41.6    0.013
+ref|XP_005367331.1|  small proline-rich protein 2D [Microtus ochr...  40.5    0.036
+ref|XP_010327969.1|  PREDICTED: small proline-rich protein 2F-lik...  40.1    0.041
+ref|XP_008982666.1|  PREDICTED: small proline-rich protein 2E-lik...  39.7    0.052
+ref|XP_020847707.1|  small proline-rich protein 2H-like [Phascola...  39.7    0.058
+ref|XP_007975291.1|  PREDICTED: small proline-rich protein 2E-lik...  39.7    0.065
+ref|XP_015267567.1|  PREDICTED: vegetative cell wall protein gp1-...  41.6    0.076
+ref|XP_012514093.1|  PREDICTED: small proline-rich protein 2E-lik...  39.3    0.082
+ref|XP_006976276.1|  PREDICTED: small proline-rich protein 2G [Pe...  38.9    0.100
+ref|XP_027632099.1|  small proline-rich protein 2D-like [Tupaia c...  38.9    0.11 
+ref|XP_006895957.1|  PREDICTED: small proline-rich protein 2D [El...  38.5    0.14 
+ref|XP_007178640.1|  small proline-rich protein 2E-like [Balaenop...  38.5    0.15 
+gb|ELW47344.1|  hypothetical protein TREES_T100021959 [Tupaia chi...  38.9    0.16 
+ref|XP_012646636.1|  small proline-rich protein 2D [Microcebus mu...  37.8    0.27 
+ref|XP_025903031.1|  keratin-associated protein 5-4-like [Nothopr...  39.7    0.34 
+ref|XP_028358640.1|  small proline-rich protein 2D-like [Phyllost...  37.0    0.53 
+ref|XP_005367328.1|  small proline-rich protein 2D [Microtus ochr...  37.0    0.57 
+ref|XP_008117339.1|  PREDICTED: keratin-associated protein 4-4 [A...  38.9    0.60 
+ref|NP_035604.1|  small proline-rich protein 2H [Mus musculus]        37.0    0.66 
+ref|XP_020010918.1|  cornifin isoform X3 [Castor canadensis]          36.6    0.75 
+ref|XP_021010069.1|  small proline-rich protein 2A1 [Mus caroli]      36.6    0.76 
+dbj|GBP42748.1|  hypothetical protein EVAR_23386_1 [Eumeta japonica]  38.5    1.3  
+ref|XP_028713129.1|  small proline-rich protein 2E-like [Peromysc...  35.5    1.7  
+ref|XP_013209216.1|  cornifin isoform X2 [Microtus ochrogaster]       35.5    1.8  
+ref|XP_025250863.1|  small proline-rich protein 2E-like [Theropit...  35.1    2.4  
+ref|XP_012646638.1|  small proline-rich protein 2E [Microcebus mu...  35.1    2.4  
+ref|XP_028358642.1|  small proline-rich protein 2E [Phyllostomus ...  35.1    2.7  
+ref|XP_004667234.1|  PREDICTED: small proline-rich protein 2G-lik...  34.7    3.2  
+ref|XP_004480320.1|  small proline-rich protein 2E-like [Dasypus ...  34.7    3.3  
+ref|XP_017703336.1|  PREDICTED: small proline-rich protein 2E-lik...  33.5    8.3  
+ref|XP_026645081.1|  cornifin isoform X3 [Microtus ochrogaster]       33.5    8.6  
+
+
+>ref|XP_007975290.1| PREDICTED: small proline-rich protein 2E-like [Chlorocebus sabaeus]
+ ref|XP_011767753.1| small proline-rich protein 2E [Macaca nemestrina]
+ ref|XP_015008314.1| small proline-rich protein 2E [Macaca mulatta]
+ ref|XP_015309101.1| PREDICTED: small proline-rich protein 2E [Macaca fascicularis]
+ gb|EHH50297.1| hypothetical protein EGM_01105 [Macaca fascicularis]
+Length=72
+
+ Score = 102 bits (255),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCP+PCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPEPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_021779551.1| small proline-rich protein 2E-like [Papio anubis]
+ ref|XP_023070156.1| small proline-rich protein 2E [Piliocolobus tephrosceles]
+ ref|XP_025250843.1| small proline-rich protein 2E [Theropithecus gelada]
+ ref|XP_025214918.1| small proline-rich protein 2E [Theropithecus gelada]
+ gb|EHH15247.1| hypothetical protein EGK_01313 [Macaca mulatta]
+Length=72
+
+ Score = 102 bits (253),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|NP_001019380.2| small proline-rich protein 2E [Homo sapiens]
+ ref|XP_003817240.1| small proline-rich protein 2E [Pan paniscus]
+ ref|XP_004026761.1| PREDICTED: small proline-rich protein 2E [Gorilla gorilla gorilla]
+ ref|XP_016806565.1| small proline-rich protein 2E [Pan troglodytes]
+ ref|XP_021779528.1| small proline-rich protein 2E [Papio anubis]
+ sp|P22531.2|SPR2E_HUMAN RecName: Full=Small proline-rich protein 2E; Short=SPR-2E; AltName: 
+Full=Small proline-rich protein II; Short=SPR-II
+ gb|AAK70942.1|AF333955_1 small proline-rich protein 2E [Homo sapiens]
+ gb|EAW53344.1| hCG1743762 [Homo sapiens]
+ gb|AAI48549.1| Small proline-rich protein 2E, partial [synthetic construct]
+ gb|AAI53137.1| Small proline-rich protein 2E [synthetic construct]
+ gb|PNI90891.1| SPRR2E isoform 1 [Pan troglodytes]
+ gb|PNI90892.1| SPRR2E isoform 2 [Pan troglodytes]
+Length=72
+
+ Score = 102 bits (253),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 72/72 (100%), Positives = 72/72 (100%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_007975294.1| PREDICTED: small proline-rich protein 2E [Chlorocebus sabaeus]
+Length=72
+
+ Score = 101 bits (251),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVIPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_010376527.1| PREDICTED: small proline-rich protein 2D [Rhinopithecus roxellana]
+ ref|XP_010376530.1| PREDICTED: small proline-rich protein 2D [Rhinopithecus roxellana]
+ ref|XP_011925092.1| PREDICTED: small proline-rich protein 2D [Cercocebus atys]
+ ref|XP_011767748.1| small proline-rich protein 2D [Macaca nemestrina]
+Length=72
+
+ Score = 100 bits (250),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCP+PCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPEPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_001110147.2| small proline-rich protein 2E [Macaca mulatta]
+ ref|XP_015309092.1| PREDICTED: small proline-rich protein 2E-like [Macaca fascicularis]
+ gb|EHH15248.1| hypothetical protein EGK_01314 [Macaca mulatta]
+Length=72
+
+ Score = 100 bits (249),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCP+PCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPEPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_003259332.1| PREDICTED: small proline-rich protein 2D [Nomascus leucogenys]
+ ref|XP_003817242.1| small proline-rich protein 2D-like [Pan paniscus]
+ ref|XP_003817243.1| small proline-rich protein 2D-like [Pan paniscus]
+ ref|XP_004026759.1| PREDICTED: small proline-rich protein 2D [Gorilla gorilla gorilla]
+Length=72
+
+ Score = 100 bits (248),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>gb|AAA36639.1| small proline rich protein [Homo sapiens]
+Length=72
+
+ Score = 100 bits (248),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQP PPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPSPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_011793339.1| PREDICTED: small proline-rich protein 2B-like [Colobus angolensis 
+palliatus]
+Length=72
+
+ Score = 99.8 bits (247),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_002810221.1| small proline-rich protein 2E [Pongo abelii]
+ ref|XP_009242298.1| small proline-rich protein 2E [Pongo abelii]
+ ref|XP_011793335.1| PREDICTED: small proline-rich protein 2E isoform X2 [Colobus 
+angolensis palliatus]
+ ref|XP_011793336.1| PREDICTED: small proline-rich protein 2E isoform X2 [Colobus 
+angolensis palliatus]
+ gb|PNJ56273.1| SPRR2B isoform 1 [Pongo abelii]
+Length=72
+
+ Score = 99.8 bits (247),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 71/72 (99%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|NP_008876.3| small proline-rich protein 2D [Homo sapiens]
+ ref|XP_003308529.1| small proline-rich protein 2D [Pan troglodytes]
+ ref|XP_008968611.1| small proline-rich protein 2D [Pan paniscus]
+ ref|XP_016857664.1| small proline-rich protein 2D isoform X1 [Homo sapiens]
+ sp|P22532.2|SPR2D_HUMAN RecName: Full=Small proline-rich protein 2D; Short=SPR-2D; AltName: 
+Full=Small proline-rich protein II; Short=SPR-II
+ gb|AAK70941.1|AF333954_1 small proline-rich protein 2D [Homo sapiens]
+ gb|EAW53348.1| small proline-rich protein 2D, isoform CRA_a [Homo sapiens]
+ gb|EAW53349.1| small proline-rich protein 2D, isoform CRA_a [Homo sapiens]
+ gb|EAW53350.1| small proline-rich protein 2D, isoform CRA_a [Homo sapiens]
+ gb|AAI20939.1| Small proline-rich protein 2D [Homo sapiens]
+ gb|PNI90895.1| SPRR2D isoform 1 [Pan troglodytes]
+ gb|PNI90896.1| SPRR2D isoform 2 [Pan troglodytes]
+ gb|PNI90897.1| SPRR2D isoform 3 [Pan troglodytes]
+ gb|PNI90898.1| SPRR2D isoform 4 [Pan troglodytes]
+Length=72
+
+ Score = 98.6 bits (244),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCP PKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPSPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_023070155.1| small proline-rich protein 2D [Piliocolobus tephrosceles]
+Length=72
+
+ Score = 98.2 bits (243),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKC PKSK
+Sbjct  61  PPCQPKCSPKSK  72
+
+
+>ref|NP_001017418.1| small proline-rich protein 2B [Homo sapiens]
+ ref|XP_003259334.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_001136978.2| small proline-rich protein 2B [Pan troglodytes]
+ ref|XP_004089950.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_011793337.1| PREDICTED: small proline-rich protein 2B [Colobus angolensis 
+palliatus]
+ ref|XP_011793338.1| PREDICTED: small proline-rich protein 2B [Colobus angolensis 
+palliatus]
+ ref|XP_012366472.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_012366523.1| PREDICTED: small proline-rich protein 2B [Nomascus leucogenys]
+ ref|XP_016857663.1| small proline-rich protein 2B isoform X1 [Homo sapiens]
+ ref|XP_017703324.1| PREDICTED: small proline-rich protein 2B [Rhinopithecus bieti]
+ sp|P35325.1|SPR2B_HUMAN RecName: Full=Small proline-rich protein 2B; Short=SPR-2B
+ gb|AAK70940.1|AF333952_1 small proline-rich protein 2B [Homo sapiens]
+ gb|AAA60576.1| small proline-rich protein 2 [Homo sapiens]
+ gb|EAW53345.1| hCG15554 [Homo sapiens]
+ gb|AAI41464.1| Small proline-rich protein 2D, partial [synthetic construct]
+ gb|AAI48720.1| Small proline-rich protein 2B [synthetic construct]
+ gb|PNI90893.1| SPRR2B isoform 1 [Pan troglodytes]
+Length=72
+
+ Score = 97.9 bits (242),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>gb|EHH15245.1| hypothetical protein EGK_01311 [Macaca mulatta]
+Length=72
+
+ Score = 97.9 bits (242),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 70/72 (97%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQ KQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQYKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>ref|XP_021052738.1| small proline-rich protein 2G-like [Mus pahari]
+Length=81
+
+ Score = 77.8 bits (190),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 45/58 (78%), Positives = 50/58 (86%), Gaps = 0/58 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT  58
+           MSYQ+QQCKQ CQPPPVCP PKCPEPCP PKCPEPCPP KCP+PCPP +C + CPP +
+Sbjct  1   MSYQEQQCKQACQPPPVCPHPKCPEPCPLPKCPEPCPPTKCPEPCPPSKCPEPCPPQS  58
+
+
+>ref|XP_019775643.1| PREDICTED: LOW QUALITY PROTEIN: small proline-rich protein 2E-like 
+[Tursiops truncatus]
+Length=79
+
+ Score = 69.7 bits (169),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 51/81 (63%), Positives = 54/81 (67%), Gaps = 11/81 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPC---------PPQQCQ  51
+           M+Y+Q QCKQPCQ PPV   PKCPEPCP  KCPEPCPP  C +PC         P   CQ
+Sbjct  1   MTYKQHQCKQPCQSPPVF-IPKCPEPCPH-KCPEPCPPLNCLEPCPCPPCPPVQPHPLCQ  58
+
+Query  52  QKCPPVTPSPPCQPKCPPKSK  72
+           QKCPPV P  PCQ KCPPK K
+Sbjct  59  QKCPPVHPCTPCQQKCPPKHK  79
+
+
+>ref|XP_012394465.1| PREDICTED: small proline-rich protein 2E-like [Orcinus orca]
+ gb|TEA26921.1| hypothetical protein DBR06_SOUSAS50310001 [Sousa chinensis]
+Length=66
+
+ Score = 69.0 bits (167),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 49/72 (68%), Positives = 51/72 (71%), Gaps = 6/72 (8%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           M+Y+Q QCKQPCQ PPV   PKCPEPCP  KCPEPCPP   P P     CQQKCPPV P 
+Sbjct  1   MTYKQHQCKQPCQSPPVF-IPKCPEPCPH-KCPEPCPPLNLPHP----LCQQKCPPVHPC  54
+
+Query  61  PPCQPKCPPKSK  72
+            PCQ KCPPK K
+Sbjct  55  TPCQQKCPPKYK  66
+
+
+>ref|XP_028024403.1| small proline-rich protein 2E-like [Balaenoptera acutorostrata 
+scammoni]
+Length=62
+
+ Score = 67.8 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 44/72 (61%), Positives = 49/72 (68%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q+QQCKQ C+ PPVC T          KCP+PC P K   PCPPQ CQQKCPPVTP+
+Sbjct  1   MSSQEQQCKQKCKTPPVCVT----------KCPDPCSPKKDSDPCPPQPCQQKCPPVTPT  50
+
+Query  61  PPCQPKCPPKSK  72
+             CQ KCPPK+K
+Sbjct  51  QQCQQKCPPKNK  62
+
+
+>ref|XP_028019918.1| small proline-rich protein 2E-like [Balaenoptera acutorostrata 
+scammoni]
+Length=62
+
+ Score = 66.3 bits (160),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 44/72 (61%), Positives = 48/72 (67%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q+QQCKQ C+ PPVC T          KCP+PC P K   PCPPQ CQQKCPPVTP+
+Sbjct  1   MSSQEQQCKQKCKTPPVCVT----------KCPDPCSPKKDSDPCPPQPCQQKCPPVTPT  50
+
+Query  61  PPCQPKCPPKSK  72
+             CQ KCPPK K
+Sbjct  51  QKCQQKCPPKDK  62
+
+
+>ref|XP_004618212.1| PREDICTED: small proline-rich protein 2E-like [Sorex araneus]
+Length=80
+
+ Score = 66.3 bits (160),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 59/80 (74%), Positives = 61/80 (76%), Gaps = 8/80 (10%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPT--------PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQ  52
+           MSYQ+QQ KQPCQPP  CPT        PKCPEPCPPPKC EPCPPPK  +PCPPQQCQQ
+Sbjct  1   MSYQEQQSKQPCQPPLACPTQCPEPCPPPKCPEPCPPPKCHEPCPPPKSSEPCPPQQCQQ  60
+
+Query  53  KCPPVTPSPPCQPKCPPKSK  72
+           KCPPV P P CQ KCPPKS 
+Sbjct  61  KCPPVQPPPLCQQKCPPKSN  80
+
+
+>ref|XP_017201359.1| PREDICTED: keratin-associated protein 4-5-like [Oryctolagus cuniculus]
+Length=325
+
+ Score = 66.3 bits (160),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 37/72 (51%), Positives = 46/72 (64%), Gaps = 8/72 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++PC PP     CP P+C E CPPP+C EPCPPP+C +PCP  +CQ+ CPP       
+Sbjct  192  RCQEPCPPPRCQEPCPPPRCQECCPPPRCQEPCPPPRCQEPCPLPRCQEPCPPPRCQECC  251
+
+Query  59   PSPPCQPKCPPK  70
+            P P CQ  CPP 
+Sbjct  252  PPPRCQEPCPPP  263
+
+
+ Score = 65.9 bits (159),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 38/71 (54%), Positives = 47/71 (66%), Gaps = 8/71 (11%)
+
+Query  7    QCKQPCQPPP---VCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++PC PP     CP P+C EPCPPP+C EPCP P+C +PCPP +CQ+ CPP       
+Sbjct  201  RCQEPCPPPRCQECCPPPRCQEPCPPPRCQEPCPLPRCQEPCPPPRCQECCPPPRCQEPC  260
+
+Query  59   PSPPCQPKCPP  69
+            P P CQ  CPP
+Sbjct  261  PPPKCQEPCPP  271
+
+
+ Score = 63.2 bits (152),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 36/65 (55%), Positives = 44/65 (68%), Gaps = 7/65 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+            +C++PC PP     CP P+C EPCPPPKC EPCPP +C + CPP +CQ+ CPP    P C
+Sbjct  237  RCQEPCPPPRCQECCPPPRCQEPCPPPKCQEPCPPLRCQECCPPPRCQEPCPP----PRC  292
+
+Query  64   QPKCP  68
+            Q  CP
+Sbjct  293  QEPCP  297
+
+
+ Score = 62.8 bits (151),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 36/67 (54%), Positives = 45/67 (67%), Gaps = 7/67 (10%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+            +C++PC PP     CP P+C E C PP+C EPCPPP+C +PCPP +CQ+ CPP    P C
+Sbjct  165  RCQEPCPPPRCQEPCPPPRCQECCLPPRCQEPCPPPRCQEPCPPPRCQECCPP----PRC  220
+
+Query  64   QPKCPPK  70
+            Q  CPP 
+Sbjct  221  QEPCPPP  227
+
+
+ Score = 62.4 bits (150),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 8/72 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++ C PP     CP P+C EPCPPP+C E CPPP+C +PCPP +CQ+ CP        
+Sbjct  183  RCQECCLPPRCQEPCPPPRCQEPCPPPRCQECCPPPRCQEPCPPPRCQEPCPLPRCQEPC  242
+
+Query  59   PSPPCQPKCPPK  70
+            P P CQ  CPP 
+Sbjct  243  PPPRCQECCPPP  254
+
+
+ Score = 61.3 bits (147),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 8/72 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCP-----PVT  58
+            +C++ C PP     CP P+C EPCPPP+C E CPPP+C +PCPP +CQ+ CP        
+Sbjct  84   RCQECCLPPRCQEPCPPPRCQEPCPPPRCQECCPPPRCQEPCPPPRCQEPCPLPRCQECC  143
+
+Query  59   PSPPCQPKCPPK  70
+            P P CQ  CPP 
+Sbjct  144  PLPRCQECCPPP  155
+
+
+ Score = 61.3 bits (147),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 44/72 (61%), Gaps = 8/72 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++ C PP     C  P+C EPCPPP+C EPCPPP+C + C P +CQ+ CPP       
+Sbjct  147  RCQECCPPPRCQEPCLPPRCQEPCPPPRCQEPCPPPRCQECCLPPRCQEPCPPPRCQEPC  206
+
+Query  59   PSPPCQPKCPPK  70
+            P P CQ  CPP 
+Sbjct  207  PPPRCQECCPPP  218
+
+
+ Score = 60.9 bits (146),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 34/72 (47%), Positives = 44/72 (61%), Gaps = 8/72 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++PC PP     CP P+C +PCPPP+C E C PP+C + C P +CQ+ CPP       
+Sbjct  48   RCQEPCPPPRCQEPCPPPRCQDPCPPPRCQECCLPPRCQECCLPPRCQEPCPPPRCQEPC  107
+
+Query  59   PSPPCQPKCPPK  70
+            P P CQ  CPP 
+Sbjct  108  PPPRCQECCPPP  119
+
+
+ Score = 60.9 bits (146),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 44/72 (61%), Gaps = 8/72 (11%)
+
+Query  7    QCKQPCQPPP---VCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++PC  P     CP P+C E CPPP+C EPC PP+C +PCPP +CQ+ CPP       
+Sbjct  129  RCQEPCPLPRCQECCPLPRCQECCPPPRCQEPCLPPRCQEPCPPPRCQEPCPPPRCQECC  188
+
+Query  59   PSPPCQPKCPPK  70
+              P CQ  CPP 
+Sbjct  189  LPPRCQEPCPPP  200
+
+
+ Score = 59.3 bits (142),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 34/72 (47%), Positives = 43/72 (60%), Gaps = 8/72 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++PC PP     CP P+C E CP P+C E CPPP+C +PC P +CQ+ CPP       
+Sbjct  120  RCQEPCPPPRCQEPCPLPRCQECCPLPRCQECCPPPRCQEPCLPPRCQEPCPPPRCQEPC  179
+
+Query  59   PSPPCQPKCPPK  70
+            P P CQ  C P 
+Sbjct  180  PPPRCQECCLPP  191
+
+
+ Score = 59.0 bits (141),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 34/65 (52%), Positives = 42/65 (65%), Gaps = 7/65 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+            +C++ C PP     CP PKC EPCPP +C E CPPP+C +PCPP +CQ+ CP     P C
+Sbjct  246  RCQECCPPPRCQEPCPPPKCQEPCPPLRCQECCPPPRCQEPCPPPRCQEPCP----LPWC  301
+
+Query  64   QPKCP  68
+            Q  CP
+Sbjct  302  QEPCP  306
+
+
+ Score = 59.0 bits (141),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 33/72 (46%), Positives = 42/72 (58%), Gaps = 8/72 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----  58
+            +C++ C PP     CP P+C EPCP P+C E CP P+C + CPP +CQ+ C P       
+Sbjct  111  RCQECCPPPRCQEPCPPPRCQEPCPLPRCQECCPLPRCQECCPPPRCQEPCLPPRCQEPC  170
+
+Query  59   PSPPCQPKCPPK  70
+            P P CQ  CPP 
+Sbjct  171  PPPRCQEPCPPP  182
+
+
+ Score = 59.0 bits (141),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 34/65 (52%), Positives = 43/65 (66%), Gaps = 7/65 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+            +C++ C PP     C  P+C EPCPPP+C EPCPPP+C + CPP +CQ+ CPP    P C
+Sbjct  75   RCQECCLPPRCQECCLPPRCQEPCPPPRCQEPCPPPRCQECCPPPRCQEPCPP----PRC  130
+
+Query  64   QPKCP  68
+            Q  CP
+Sbjct  131  QEPCP  135
+
+
+ Score = 55.9 bits (133),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 30/68 (44%), Positives = 39/68 (57%), Gaps = 3/68 (4%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+            +C++PC PP     CP  +C E CPPP+C EPCPPP+C +PCP   CQ+ CP  +P    
+Sbjct  255  RCQEPCPPPKCQEPCPPLRCQECCPPPRCQEPCPPPRCQEPCPLPWCQEPCPLCSPVQGP  314
+
+Query  64   QPKCPPKS  71
+                  K 
+Sbjct  315  PQPYQQKH  322
+
+
+ Score = 54.7 bits (130),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 40/87 (46%), Positives = 47/87 (54%), Gaps = 21/87 (24%)
+
+Query  1   MSYQQQQCK--------------QPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQ  43
+           MSYQ+QQCK              + C PP     CP P+C E C  P+C EPCPPP+C +
+Sbjct  1   MSYQEQQCKQPCQPPPVCPPRCQECCPPPKCQELCPPPRCQECCLLPRCQEPCPPPRCQE  60
+
+Query  44  PCPPQQCQQKCPPVTPSPPCQPKCPPK  70
+           PCPP +CQ  CPP    P CQ  C P 
+Sbjct  61  PCPPPRCQDPCPP----PRCQECCLPP  83
+
+
+ Score = 36.6 bits (83),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 27/54 (50%), Positives = 31/54 (57%), Gaps = 4/54 (7%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPV  57
+            +C++ C PP     CP P+C EPCP P C EPC P   P   PPQ  QQK  PV
+Sbjct  273  RCQECCPPPRCQEPCPPPRCQEPCPLPWCQEPC-PLCSPVQGPPQPYQQKHSPV  325
+
+
+>ref|XP_007190509.1| small proline-rich protein 2A-like [Balaenoptera acutorostrata 
+scammoni]
+Length=71
+
+ Score = 62.0 bits (149),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 50/72 (69%), Positives = 56/72 (78%), Gaps = 1/72 (1%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q+QQC Q C+ PPVC T KCP+PC PPKCP+PCPP KCP+PCPPQQCQQK P V P 
+Sbjct  1   MSSQEQQCMQQCKTPPVCAT-KCPDPCSPPKCPDPCPPIKCPEPCPPQQCQQKRPTVPPP  59
+
+Query  61  PPCQPKCPPKSK  72
+             CQ K PPK+K
+Sbjct  60  KQCQQKFPPKNK  71
+
+
+>ref|XP_024426372.1| small proline-rich protein 2E-like [Desmodus rotundus]
+Length=80
+
+ Score = 58.6 bits (140),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  24  PEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           PEPCP PKCPEPCP PKCP+PCPPQ CQQKCPPV P+PPCQ KCPPKSK
+Sbjct  32  PEPCPLPKCPEPCPAPKCPEPCPPQVCQQKCPPVQPAPPCQQKCPPKSK  80
+
+
+>gb|TEA34913.1| hypothetical protein DBR06_SOUSAS41110017 [Sousa chinensis]
+Length=71
+
+ Score = 58.2 bits (139),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 46/72 (64%), Positives = 49/72 (68%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKC---------PEPCPPPKCPQPCPPQQCQ  51
+           MS Q QQCKQPCQPPPVC TPKC +PCPP K          P+PCPP KCP PC PQQC+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKYPDLCPPCKCPDPCPPIKCPDPCVPQQCK  59
+
+Query  52  QKCPPVTPSPPC  63
+           QKCPP  P   C
+Sbjct  60  QKCPPGAPVQHC  71
+
+
+>ref|XP_025038375.1| cornifin-A-like [Pelodiscus sinensis]
+Length=267
+
+ Score = 56.6 bits (135),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 32/62 (52%), Positives = 36/62 (58%), Gaps = 7/62 (11%)
+
+Query  7    QCKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+             C++ C PP     CP P C E CPPP C E CPPP C + CPP  CQ+KCPP    P C
+Sbjct  198  HCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPP----PHC  253
+
+Query  64   QP  65
+            Q 
+Sbjct  254  QE  255
+
+
+ Score = 53.2 bits (126),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 34/67 (51%), Positives = 36/67 (54%), Gaps = 12/67 (18%)
+
+Query  13   QPPPV--------CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQ  64
+             P P         CP P C E CPPP C E CPPP C + CPP  CQ+KCPP    P CQ
+Sbjct  190  CPEPCPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPPPHCQEKCPP----PHCQ  245
+
+Query  65   PKCPPKS  71
+             KCPP  
+Sbjct  246  EKCPPPH  252
+
+
+ Score = 40.1 bits (92),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 35/60 (58%), Positives = 38/60 (63%), Gaps = 10/60 (17%)
+
+Query  18   CPTPKCPEPCPP-------PKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPK  70
+            CPTPKCPEPC P       PKCPEPC P KCP+PC P +C + C P  P  PC PKCP  
+Sbjct  102  CPTPKCPEPCSPKCPEPCSPKCPEPCSP-KCPEPCSP-KCPEPCSPKCP-EPCSPKCPEP  158
+
+
+>gb|TEA34915.1| hypothetical protein DBR06_SOUSAS41110020 [Sousa chinensis]
+Length=62
+
+ Score = 53.6 bits (127),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 47/63 (75%), Positives = 51/63 (81%), Gaps = 1/63 (2%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MS Q QQCKQPCQPPPVC TPKC +PCPP KCP+PCPP KCP PC PQQC+QKCPP  P+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKCPDPCPPIKCPDPCVPQQCKQKCPPGAPA  59
+
+Query  61  PPC  63
+             C
+Sbjct  60  HHC  62
+
+
+>ref|XP_017703323.1| PREDICTED: small proline-rich protein 2D-like [Rhinopithecus 
+bieti]
+ ref|XP_017721637.1| PREDICTED: small proline-rich protein 2D-like [Rhinopithecus 
+bieti]
+Length=72
+
+ Score = 51.2 bits (121),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 66/72 (92%), Positives = 67/72 (93%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEP PP KCPE CP PKCP+PCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPRPPLKCPETCPLPKCPEPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCPPKSK
+Sbjct  61  PPCQPKCPPKSK  72
+
+
+>gb|TEA34914.1| hypothetical protein DBR06_SOUSAS41110019 [Sousa chinensis]
+Length=71
+
+ Score = 50.5 bits (119),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 46/72 (64%), Positives = 50/72 (69%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK---------CPEPCPPPKCPQPCPPQQCQ  51
+           MS Q QQCKQPCQPPPVC TPKC +PCPP K         CP+PC P KCP PC PQQC+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKCPDPCPPCKCPDPCSPIKCPDPCVPQQCK  59
+
+Query  52  QKCPPVTPSPPC  63
+           QKCPP  P+  C
+Sbjct  60  QKCPPGAPAHHC  71
+
+
+>ref|XP_021014810.1| small proline-rich protein 2G-like [Mus caroli]
+Length=81
+
+ Score = 50.1 bits (118),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 44/58 (76%), Positives = 49/58 (84%), Gaps = 0/58 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT  58
+           MSYQ+QQCKQ CQPPPVCP PKCPEPCP PKCPEPCPP KCP+PCP  +C + CPP +
+Sbjct  1   MSYQEQQCKQACQPPPVCPPPKCPEPCPLPKCPEPCPPAKCPEPCPLPKCPEPCPPQS  58
+
+
+>gb|TEA34912.1| hypothetical protein DBR06_SOUSAS41110016 [Sousa chinensis]
+Length=71
+
+ Score = 48.6 bits (114),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 47/72 (65%), Positives = 50/72 (69%), Gaps = 10/72 (14%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK---------CPEPCPPPKCPQPCPPQQCQ  51
+           MS Q QQCKQPCQPPPVC TPKC +PCPP K         CP+PCPP KCP PC PQQC+
+Sbjct  1   MSSQHQQCKQPCQPPPVC-TPKCHDPCPPCKCPDPCPPCKCPDPCPPIKCPDPCVPQQCK  59
+
+Query  52  QKCPPVTPSPPC  63
+           QKCPP  P   C
+Sbjct  60  QKCPPGAPVQHC  71
+
+
+>ref|XP_012286003.1| mucin-5AC [Orussus abietinus]
+Length=961
+
+ Score = 49.7 bits (117),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 26/46 (57%), Gaps = 0/46 (0%)
+
+Query  25   EPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPK  70
+            +PCPP +  EPCPP +  +PCPP +  + CPP     PC P   P 
+Sbjct  584  KPCPPCRTLEPCPPCRTLEPCPPCRTFEPCPPCRTLEPCPPISQPP  629
+
+
+ Score = 42.4 bits (98),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 5/44 (11%)
+
+Query  34   EPCPPPKCPQPCPPQQCQQKCPPVT---PSPPCQ--PKCPPKSK  72
+            +PCPP +  +PCPP +  + CPP     P PPC+    CPP S+
+Sbjct  584  KPCPPCRTLEPCPPCRTLEPCPPCRTFEPCPPCRTLEPCPPISQ  627
+
+
+ Score = 38.5 bits (88),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 26/61 (43%), Gaps = 14/61 (23%)
+
+Query  10   QPCQP-------PPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPP---QQCQQKCPPVTP  59
+            +PC P       PP        EPCPP +  EPCPP +  +PCPP       +  P   P
+Sbjct  584  KPCPPCRTLEPCPPCRTL----EPCPPCRTFEPCPPCRTLEPCPPISQPPTTKLLPTAKP  639
+
+Query  60   S  60
+             
+Sbjct  640  P  640
+
+
+>ref|WP_138725994.1| peptidase [Pseudomonas lactis]
+Length=725
+
+ Score = 45.9 bits (107),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 25/60 (42%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  10   QPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            +P   P  C    CP+PC P  CP+PC P   P PC P+ C   C P     PC+PK  P
+Sbjct  496  EPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRP  555
+
+
+ Score = 45.5 bits (106),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 31/61 (51%), Gaps = 0/61 (0%)
+
+Query  10   QPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            +P   P  C    CP+PC P  CP+PC P  CP PC P+     C P     PC+PK  P
+Sbjct  487  EPKPRPDPCEPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRP  546
+
+Query  70   K  70
+            +
+Sbjct  547  E  547
+
+
+ Score = 44.3 bits (103),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 24/55 (44%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+
+Query  15   PPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            P  C     P+PC P  CP+PC P  CP PC P+ C   C P     PC+PK  P
+Sbjct  483  PDPCEPKPRPDPCEPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCP  537
+
+
+ Score = 40.8 bits (94),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 32/65 (49%), Gaps = 3/65 (5%)
+
+Query  8    CKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQ  64
+            C  PC+P P    C    CP+PC P   P+PC P  CP PC P+   + C P     P +
+Sbjct  500  CPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRPDPRE  559
+
+Query  65   PKCPP  69
+            P+  P
+Sbjct  560  PQPRP  564
+
+
+>ref|WP_125969732.1| peptidase [Pseudomonas libanensis]
+Length=725
+
+ Score = 45.9 bits (107),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 25/60 (42%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  10   QPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            +P   P  C    CP+PC P  CP+PC P   P PC P+ C   C P     PC+PK  P
+Sbjct  496  EPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRP  555
+
+
+ Score = 45.5 bits (106),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 31/61 (51%), Gaps = 0/61 (0%)
+
+Query  10   QPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            +P   P  C    CP+PC P  CP+PC P  CP PC P+     C P     PC+PK  P
+Sbjct  487  EPKPRPDPCEPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRP  546
+
+Query  70   K  70
+            +
+Sbjct  547  E  547
+
+
+ Score = 44.3 bits (103),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 24/55 (44%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+
+Query  15   PPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPP  69
+            P  C     P+PC P  CP+PC P  CP PC P+ C   C P     PC+PK  P
+Sbjct  483  PDPCEPKPRPDPCEPKPCPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCP  537
+
+
+ Score = 40.8 bits (94),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 32/65 (49%), Gaps = 3/65 (5%)
+
+Query  8    CKQPCQPPPV---CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQ  64
+            C  PC+P P    C    CP+PC P   P+PC P  CP PC P+   + C P     P +
+Sbjct  500  CPDPCEPKPCPDPCEPKPCPDPCEPKPRPDPCEPKPCPDPCEPKPRPEPCEPKPRPDPRE  559
+
+Query  65   PKCPP  69
+            P+  P
+Sbjct  560  PQPRP  564
+
+
+>ref|XP_005642509.1| LOW QUALITY PROTEIN: small proline-rich protein 2E [Canis lupus 
+familiaris]
+Length=90
+
+ Score = 43.2 bits (100),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 46/72 (64%), Positives = 53/72 (74%), Gaps = 6/72 (8%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           +S QQ+Q KQPCQPP +C  PKCPEPCPPP+CPEPC  PKCP+PC P +C + C P    
+Sbjct  25  LSSQQEQXKQPCQPPSMC-LPKCPEPCPPPECPEPCSTPKCPEPCLPPKCPELCLP----  79
+
+Query  61  PPCQPKCPPKSK  72
+             CQ KCPPKSK
+Sbjct  80  -KCQQKCPPKSK  90
+
+
+>ref|XP_003259330.1| PREDICTED: small proline-rich protein 2B-like isoform X2 [Nomascus 
+leucogenys]
+ ref|XP_012366504.1| PREDICTED: small proline-rich protein 2B-like isoform X2 [Nomascus 
+leucogenys]
+Length=72
+
+ Score = 41.6 bits (96),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 69/72 (96%), Positives = 69/72 (96%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPC PPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQK PPVTPS
+Sbjct  1   MSYQQQQCKQPCLPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKYPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_005367331.1| small proline-rich protein 2D [Microtus ochrogaster]
+Length=85
+
+ Score = 40.5 bits (93),  Expect = 0.036, Method: Composition-based stats.
+ Identities = 54/85 (64%), Positives = 56/85 (66%), Gaps = 13/85 (15%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK-------------CPEPCPPPKCPQPCPP  47
+           MSYQ+QQCKQPCQ PPVCP  KCPEPCPPPK             CP P  P  CP P  P
+Sbjct  1   MSYQEQQCKQPCQRPPVCPPTKCPEPCPPPKCPEPCPPPKCPEPCPPPKCPEPCPPPKCP  60
+
+Query  48  QQCQQKCPPVTPSPPCQPKCPPKSK  72
+           + CQQKCPPV P  PCQ KCPPKSK
+Sbjct  61  EPCQQKCPPVQPPSPCQQKCPPKSK  85
+
+
+>ref|XP_010327969.1| PREDICTED: small proline-rich protein 2F-like [Saimiri boliviensis 
+boliviensis]
+Length=63
+
+ Score = 40.1 bits (92),  Expect = 0.041, Method: Composition-based stats.
+ Identities = 59/72 (82%), Positives = 59/72 (82%), Gaps = 9/72 (13%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCP PKCPEPCP PKCPEPCPP         QQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPMPKCPEPCPHPKCPEPCPP---------QQCQQKCPPVPPS  51
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPKCP KSK
+Sbjct  52  PPCQPKCPLKSK  63
+
+
+>ref|XP_008982666.1| PREDICTED: small proline-rich protein 2E-like [Callithrix jacchus]
+Length=72
+
+ Score = 39.7 bits (91),  Expect = 0.052, Method: Composition-based stats.
+ Identities = 67/72 (93%), Positives = 69/72 (96%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCP PKCP+PCPPPKCP+PCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPSPKCPQPCPPPKCPEPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           P CQPKCPPKSK
+Sbjct  61  PLCQPKCPPKSK  72
+
+
+>ref|XP_020847707.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847708.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847709.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847711.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847712.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+ ref|XP_020847713.1| small proline-rich protein 2H-like [Phascolarctos cinereus]
+Length=96
+
+ Score = 39.7 bits (91),  Expect = 0.058, Method: Composition-based stats.
+ Identities = 30/42 (71%), Positives = 32/42 (76%), Gaps = 3/42 (7%)
+
+Query  31  KCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           KCPEPC P KCP+P PPQQCQQK PP  P  PCQ +CPPK K
+Sbjct  58  KCPEPCLP-KCPEPSPPQQCQQKFPPRAP--PCQQQCPPKRK  96
+
+
+>ref|XP_007975291.1| PREDICTED: small proline-rich protein 2E-like [Chlorocebus sabaeus]
+Length=72
+
+ Score = 39.7 bits (91),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 69/72 (96%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCP PKCPEPCPPPKCP+PCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPSPKCPEPCPPPKCPEPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_015267567.1| PREDICTED: vegetative cell wall protein gp1-like [Gekko japonicus]
+Length=343
+
+ Score = 41.6 bits (96),  Expect = 0.076, Method: Composition-based stats.
+ Identities = 34/82 (41%), Positives = 40/82 (49%), Gaps = 19/82 (23%)
+
+Query  8    CKQPCQPPPV-CPTPKCPEPCPPPKCPEPCPP-------PKCPQPCPPQQCQQKCPPV--  57
+            CK+PC P  +    PK   PCPPP C +PCPP       PK   PCPP  C+Q CPP   
+Sbjct  154  CKEPCPPQGIDVCPPKSVVPCPPPVCEQPCPPQGVEVCPPKSVVPCPPPVCEQPCPPQCE  213
+
+Query  58   ---------TPSPPCQPKCPPK  70
+                      P P C+  CPP+
+Sbjct  214  QVRASKSVPCPPPVCEQPCPPQ  235
+
+
+ Score = 41.6 bits (96),  Expect = 0.086, Method: Composition-based stats.
+ Identities = 33/82 (40%), Positives = 37/82 (45%), Gaps = 19/82 (23%)
+
+Query  8    CKQPCQPPPVCPTPKCPEPCPPPKCPEPCP-------PPKCPQPCPPQQCQQKCPPVT--  58
+            C+QPC P           PCPPP C EPCP       PPK   PCPP  C+Q CPP    
+Sbjct  130  CEQPCPPQCEQVRASKSVPCPPPVCKEPCPPQGIDVCPPKSVVPCPPPVCEQPCPPQGVE  189
+
+Query  59   ----------PSPPCQPKCPPK  70
+                      P P C+  CPP+
+Sbjct  190  VCPPKSVVPCPPPVCEQPCPPQ  211
+
+
+ Score = 40.8 bits (94),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 33/72 (46%), Positives = 37/72 (51%), Gaps = 2/72 (3%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           M+   QQCKQPC PPP+C   K   P  P  CPEPC P    Q  P   C + C  V P 
+Sbjct  1   MACPFQQCKQPCLPPPICGCTKQSAPVGPLPCPEPCIPVSVKQ-SPTTVCPEPCVKVDPC  59
+
+Query  61  -PPCQPKCPPKS  71
+            P C  +C PKS
+Sbjct  60  APQCPEECAPKS  71
+
+
+ Score = 39.7 bits (91),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 32/71 (45%), Positives = 36/71 (51%), Gaps = 12/71 (17%)
+
+Query  8    CKQPCQPPPVCPTPKCPEPCPPPKCPEPCPP-------PKCPQPCPPQQCQQKCPPVTPS  60
+            C+QPC P           PCPPP C +PCPP       PK   PCPP  C+Q CPP    
+Sbjct  204  CEQPCPPQCEQVRASKSVPCPPPVCEQPCPPQGVEVCPPKSVVPCPPPVCEQPCPP----  259
+
+Query  61   PPCQPKCPPKS  71
+             PC+  C PKS
+Sbjct  260  -PCEQVCAPKS  269
+
+
+ Score = 39.3 bits (90),  Expect = 0.44, Method: Composition-based stats.
+ Identities = 33/80 (41%), Positives = 37/80 (46%), Gaps = 17/80 (21%)
+
+Query  8    CKQPCQPPPVCPTPKCPEPCPPPKCPEPCPP-------PKCPQPCPPQQCQQKCPP----  56
+            C+QPC PP          PCPPP C EPCPP       PK   PCPP  C+Q CPP    
+Sbjct  253  CEQPCPPPCEQVCAPKSVPCPPPVCKEPCPPQGIDVCPPKSVVPCPPPVCEQPCPPKCEV  312
+
+Query  57   ------VTPSPPCQPKCPPK  70
+                  +      Q KCPP+
+Sbjct  313  VCPPQDIAQCKLSQCKCPPQ  332
+
+
+ Score = 38.5 bits (88),  Expect = 0.99, Method: Composition-based stats.
+ Identities = 31/63 (49%), Positives = 36/63 (57%), Gaps = 11/63 (17%)
+
+Query  18   CPTPKCPEPCPP-------PKCPEPCPPPKCPQPCPPQQCQQKCPPVT---PSPPCQPKC  67
+            CP P C +PCPP       PK   PCPPP C QPCPP  C+Q C P +   P P C+  C
+Sbjct  223  CPPPVCEQPCPPQGVEVCPPKSVVPCPPPVCEQPCPPP-CEQVCAPKSVPCPPPVCKEPC  281
+
+Query  68   PPK  70
+            PP+
+Sbjct  282  PPQ  284
+
+
+ Score = 37.4 bits (85),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 32/82 (39%), Positives = 38/82 (46%), Gaps = 19/82 (23%)
+
+Query  8    CKQPCQPPPV-CPTPKCPEPCPPPKCPEPCPP-------PKCPQPCPPQQCQQKCPPV--  57
+            C+Q C P      +PK   PCPPP C +PCPP       PK   PC P  C+Q CPP   
+Sbjct  80   CEQQCPPQSAKVCSPKSVVPCPPPVCEQPCPPQGVEVCPPKSVVPCAPPVCEQPCPPQCE  139
+
+Query  58   ---------TPSPPCQPKCPPK  70
+                      P P C+  CPP+
+Sbjct  140  QVRASKSVPCPPPVCKEPCPPQ  161
+
+
+ Score = 37.4 bits (85),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 34/62 (55%), Gaps = 6/62 (10%)
+
+Query  14   PPPVCPTPKCPEPCPPPKCPE--PCPPPKCPQPCPPQ---QCQQKCPPVTPSPPCQPKCP  68
+            PPPVC  P CP PC     P+  PCPPP C +PCPPQ    C  K     P P C+  CP
+Sbjct  249  PPPVCEQP-CPPPCEQVCAPKSVPCPPPVCKEPCPPQGIDVCPPKSVVPCPPPVCEQPCP  307
+
+Query  69   PK  70
+            PK
+Sbjct  308  PK  309
+
+
+>ref|XP_012514093.1| PREDICTED: small proline-rich protein 2E-like [Propithecus coquereli]
+Length=63
+
+ Score = 39.3 bits (90),  Expect = 0.082, Method: Composition-based stats.
+ Identities = 55/72 (76%), Positives = 57/72 (79%), Gaps = 9/72 (13%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCK+P QPPP          CPPPKCPEPCPPPKCP+PCPPQQCQQKCPPV P 
+Sbjct  1   MSYQQQQCKRPYQPPP---------VCPPPKCPEPCPPPKCPEPCPPQQCQQKCPPVQPP  51
+
+Query  61  PPCQPKCPPKSK  72
+            PCQ KCPPKSK
+Sbjct  52  APCQQKCPPKSK  63
+
+
+>ref|XP_006976276.1| PREDICTED: small proline-rich protein 2G [Peromyscus maniculatus 
+bairdii]
+Length=80
+
+ Score = 38.9 bits (89),  Expect = 0.100, Method: Composition-based stats.
+ Identities = 61/80 (76%), Positives = 63/80 (79%), Gaps = 8/80 (10%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKC--------PQPCPPQQCQQ  52
+           MSYQQQQCKQPCQPPPVC  PKCPEP PPPKCPEPCPPP+C        P+PC PQ CQQ
+Sbjct  1   MSYQQQQCKQPCQPPPVCLPPKCPEPFPPPKCPEPCPPPQCSELCSPKRPEPCLPQPCQQ  60
+
+Query  53  KCPPVTPSPPCQPKCPPKSK  72
+           KCPPV   PPCQ KCPPKSK
+Sbjct  61  KCPPVQHLPPCQQKCPPKSK  80
+
+
+>ref|XP_027632099.1| small proline-rich protein 2D-like [Tupaia chinensis]
+Length=78
+
+ Score = 38.9 bits (89),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 28/55 (51%), Positives = 31/55 (56%), Gaps = 1/55 (2%)
+
+Query  18  CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           CP P   + C  P       PPK P+PCP    QQKCPPV   PPCQ +CPPK K
+Sbjct  25  CPPPSKQQKCQSPPQVPEPCPPKIPEPCPQPPSQQKCPPVQ-HPPCQQECPPKQK  78
+
+
+>ref|XP_006895957.1| PREDICTED: small proline-rich protein 2D [Elephantulus edwardii]
+Length=81
+
+ Score = 38.5 bits (88),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 42/58 (72%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT  58
+           MSYQQQQCKQPCQ PPV   PKCPEPC P  CPEPCP PKCP+PCP  +C + CPPV 
+Sbjct  1   MSYQQQQCKQPCQAPPVVCPPKCPEPCKPANCPEPCPTPKCPEPCPTPKCPEPCPPVQ  58
+
+
+>ref|XP_007178640.1| small proline-rich protein 2E-like [Balaenoptera acutorostrata 
+scammoni]
+Length=71
+
+ Score = 38.5 bits (88),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 37/48 (77%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  25  EPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+           +PC PPKCPEPCP  KCP+PCPPQQCQQKCPPV P   CQ KCPPK+K
+Sbjct  24  DPCSPPKCPEPCPRIKCPEPCPPQQCQQKCPPVPPPQQCQQKCPPKNK  71
+
+
+>gb|ELW47344.1| hypothetical protein TREES_T100021959 [Tupaia chinensis]
+Length=114
+
+ Score = 38.9 bits (89),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 28/55 (51%), Positives = 31/55 (56%), Gaps = 1/55 (2%)
+
+Query  18   CPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+            CP P   + C  P       PPK P+PCP    QQKCPPV   PPCQ +CPPK K
+Sbjct  61   CPPPSKQQKCQSPPQVPEPCPPKIPEPCPQPPSQQKCPPVQ-HPPCQQECPPKQK  114
+
+
+>ref|XP_012646636.1| small proline-rich protein 2D [Microcebus murinus]
+Length=81
+
+ Score = 37.8 bits (86),  Expect = 0.27, Method: Composition-based stats.
+ Identities = 63/81 (78%), Positives = 64/81 (79%), Gaps = 9/81 (11%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPP---------PKCPQPCPPQQCQ  51
+           MSYQQQQCKQPCQPPPVCP PK PEPCPPPKCPEPCPP         PK P+PCPP QCQ
+Sbjct  1   MSYQQQQCKQPCQPPPVCPPPKVPEPCPPPKCPEPCPPPKCPEPCPSPKVPEPCPPVQCQ  60
+
+Query  52  QKCPPVTPSPPCQPKCPPKSK  72
+           QKCPPV P  PCQ KCPPKSK
+Sbjct  61  QKCPPVQPPAPCQQKCPPKSK  81
+
+
+>ref|XP_025903031.1| keratin-associated protein 5-4-like [Nothoprocta perdicaria]
+Length=333
+
+ Score = 39.7 bits (91),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 26/66 (39%), Positives = 28/66 (42%), Gaps = 3/66 (5%)
+
+Query  4    QQQQCKQPCQPPPVCPT---PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+            QQ  C  PCQ P  C     P C +PC  P C +PC  P C  PC    C   C   T  
+Sbjct  94   QQSTCCDPCQKPTCCDPCQKPTCCDPCQKPTCCDPCQKPTCCDPCQKPTCCDPCQQSTCC  153
+
+Query  61   PPCQPK  66
+             PCQ  
+Sbjct  154  DPCQKP  159
+
+
+ Score = 38.2 bits (87),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 27/65 (42%), Gaps = 3/65 (5%)
+
+Query  4    QQQQCKQPCQPPPVCPT---PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+            QQ  C  PCQ    C     P C +PC  P C +PC  P C  PC    C   C   T  
+Sbjct  85   QQSSCCDPCQQSTCCDPCQKPTCCDPCQKPTCCDPCQKPTCCDPCQKPTCCDPCQKPTCC  144
+
+Query  61   PPCQP  65
+             PCQ 
+Sbjct  145  DPCQQ  149
+
+
+ Score = 37.8 bits (86),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 25/66 (38%), Positives = 28/66 (42%), Gaps = 3/66 (5%)
+
+Query  4    QQQQCKQPCQPPPVCPT---PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+            Q+  C  PCQ P  C     P C +PC  P C +PC  P C  PC    C   C   T  
+Sbjct  103  QKPTCCDPCQKPTCCDPCQKPTCCDPCQKPTCCDPCQKPTCCDPCQQSTCCDPCQKPTCC  162
+
+Query  61   PPCQPK  66
+             PCQ  
+Sbjct  163  DPCQKP  168
+
+
+ Score = 37.8 bits (86),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 27/65 (42%), Gaps = 3/65 (5%)
+
+Query  4    QQQQCKQPCQPPPVCPT---PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+            QQ  C  PCQ P  C     P C +PC    C +PC  P C  PC    C   C   T  
+Sbjct  148  QQSTCCDPCQKPTCCDPCQKPTCCDPCQQSTCCDPCQKPTCCDPCQQSTCCDPCQKSTCC  207
+
+Query  61   PPCQP  65
+             PCQ 
+Sbjct  208  DPCQQ  212
+
+
+ Score = 37.8 bits (86),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 24/65 (37%), Positives = 27/65 (42%), Gaps = 3/65 (5%)
+
+Query  4    QQQQCKQPCQPPPVCPT---PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+            Q+  C  PCQ P  C     P C +PC  P C +PC    C  PC    C   C   T  
+Sbjct  112  QKPTCCDPCQKPTCCDPCQKPTCCDPCQKPTCCDPCQQSTCCDPCQKPTCCDPCQKPTCC  171
+
+Query  61   PPCQP  65
+             PCQ 
+Sbjct  172  DPCQQ  176
+
+
+ Score = 37.4 bits (85),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 24/66 (36%), Positives = 27/66 (41%), Gaps = 3/66 (5%)
+
+Query  4    QQQQCKQPCQPPPVCPT---PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+            Q+  C  PCQ P  C     P C +PC    C +PC  P C  PC    C   C   T  
+Sbjct  121  QKPTCCDPCQKPTCCDPCQKPTCCDPCQQSTCCDPCQKPTCCDPCQKPTCCDPCQQSTCC  180
+
+Query  61   PPCQPK  66
+             PCQ  
+Sbjct  181  DPCQKP  186
+
+
+>ref|XP_028358640.1| small proline-rich protein 2D-like [Phyllostomus discolor]
+Length=91
+
+ Score = 37.0 bits (84),  Expect = 0.53, Method: Composition-based stats.
+ Identities = 60/91 (66%), Positives = 61/91 (67%), Gaps = 19/91 (21%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK------------------CPEPCPPPKCP  42
+           MSYQQQQCKQPCQPPP CP PKCPEPCPPPK                  CPEPCP P CP
+Sbjct  1   MSYQQQQCKQPCQPPPPCPQPKCPEPCPPPKCPEPCPPPKCPEPCPLPKCPEPCPLPSCP  60
+
+Query  43  Q-PCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+              CPPQ CQQKCPPV   PPCQ +CPPKSK
+Sbjct  61  PVQCPPQLCQQKCPPVQLCPPCQQECPPKSK  91
+
+
+>ref|XP_005367328.1| small proline-rich protein 2D [Microtus ochrogaster]
+Length=85
+
+ Score = 37.0 bits (84),  Expect = 0.57, Method: Composition-based stats.
+ Identities = 55/85 (65%), Positives = 57/85 (67%), Gaps = 13/85 (15%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK-------------CPEPCPPPKCPQPCPP  47
+           MSYQ+QQCKQPCQPPPVCP  KCPEPCPPPK             CP P  P  CP P  P
+Sbjct  1   MSYQEQQCKQPCQPPPVCPPTKCPEPCPPPKCPEPCPPPKCPEPCPPPKCPEPCPHPQCP  60
+
+Query  48  QQCQQKCPPVTPSPPCQPKCPPKSK  72
+           + CQQKCPPV P  PCQ KCPPKSK
+Sbjct  61  EPCQQKCPPVQPPSPCQQKCPPKSK  85
+
+
+>ref|XP_008117339.1| PREDICTED: keratin-associated protein 4-4 [Anolis carolinensis]
+ gb|AHA62405.1| epidermal differentiation protein [Anolis carolinensis]
+Length=298
+
+ Score = 38.9 bits (89),  Expect = 0.60, Method: Composition-based stats.
+ Identities = 26/62 (42%), Positives = 31/62 (50%), Gaps = 3/62 (5%)
+
+Query  5    QQQCKQPCQPPPVCPT---PKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSP  61
+            +QQC +PC  P  C     P+C EPC  P+C EPC  P+C  PC   QC   C       
+Sbjct  161  KQQCCEPCCKPQCCEPCCKPQCCEPCCKPQCCEPCCKPQCCDPCCKPQCCDPCCKPQCCD  220
+
+Query  62   PC  63
+            PC
+Sbjct  221  PC  222
+
+
+ Score = 36.2 bits (82),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 25/56 (45%), Positives = 29/56 (52%), Gaps = 2/56 (4%)
+
+Query  8    CKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+            CKQ C  P  C  P+C EPC  P+C EPC  P+C +PC   QC   C       PC
+Sbjct  160  CKQQCCEP--CCKPQCCEPCCKPQCCEPCCKPQCCEPCCKPQCCDPCCKPQCCDPC  213
+
+
+>ref|NP_035604.1| small proline-rich protein 2H [Mus musculus]
+ sp|O70559.1|SPR2H_MOUSE RecName: Full=Small proline-rich protein 2H
+ emb|CAA06595.1| SPR2H protein [Mus musculus]
+ gb|AAN86829.1| SPRR2H [Mus musculus]
+ gb|EDL00703.1| small proline-rich protein 2H [Mus musculus]
+ gb|AAI56164.1| Small proline-rich protein 2H, partial [synthetic construct]
+ gb|AAI57001.1| Small proline-rich protein 2H [synthetic construct]
+Length=108
+
+ Score = 37.0 bits (84),  Expect = 0.66, Method: Composition-based stats.
+ Identities = 32/41 (78%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  32   CPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPCQPKCPPKSK  72
+            CPEPCPPPKC +PCPP   QQKCP V PSPPCQ KCPPK+K
+Sbjct  68   CPEPCPPPKCTEPCPPPSYQQKCPSVQPSPPCQQKCPPKNK  108
+
+
+>ref|XP_020010918.1| cornifin isoform X3 [Castor canadensis]
+Length=90
+
+ Score = 36.6 bits (83),  Expect = 0.75, Method: Composition-based stats.
+ Identities = 37/75 (49%), Positives = 39/75 (52%), Gaps = 9/75 (12%)
+
+Query  4   QQQQCKQPCQPPPV-CPTPKCPEPCPPPKCPEPCPPPKCPQPC---PPQQCQ----QKCP  55
+           QQ Q KQPCQPPP     PK  EPC  PK PEPC P K P+PC    PQ CQ    + CP
+Sbjct  17  QQHQVKQPCQPPPQETCVPKTKEPCNTPKVPEPCHP-KVPEPCQSKVPQPCQPKVPEPCP  75
+
+Query  56  PVTPSPPCQPKCPPK  70
+                 P Q K   K
+Sbjct  76  STVTPAPAQQKTKQK  90
+
+
+>ref|XP_021010069.1| small proline-rich protein 2A1 [Mus caroli]
+Length=82
+
+ Score = 36.6 bits (83),  Expect = 0.76, Method: Composition-based stats.
+ Identities = 37/69 (54%), Positives = 38/69 (55%), Gaps = 5/69 (7%)
+
+Query  6   QQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVT-----PS  60
+           QQC QPCQPPPVCP  KCP+PCPP   P PC P  C  PC P      C PV      P 
+Sbjct  5   QQCNQPCQPPPVCPPLKCPDPCPPQVWPGPCRPIVCYDPCLPSVWSGPCRPVVCYEQCPP  64
+
+Query  61  PPCQPKCPP  69
+            P Q  CPP
+Sbjct  65  XPWQSTCPP  73
+
+
+>dbj|GBP42748.1| hypothetical protein EVAR_23386_1 [Eumeta japonica]
+Length=2675
+
+ Score = 38.5 bits (88),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 25/61 (41%), Gaps = 10/61 (16%)
+
+Query  21   PKCPEPCPPPKC---PEPCPPPK--CPQPCPPQQCQQK-CPP----VTPSPPCQPKCPPK  70
+            P   E  P   C   P PCPP K  CP+     + Q   CPP    V P    Q +CPP 
+Sbjct  693  PGAQEERPSDGCGALPCPCPPSKRMCPRKSESPRKQSPDCPPGPISVKPYHSPQMRCPPN  752
+
+Query  71   S  71
+             
+Sbjct  753  Y  753
+
+
+>ref|XP_028713129.1| small proline-rich protein 2E-like [Peromyscus leucopus]
+Length=72
+
+ Score = 35.5 bits (80),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 60/72 (83%), Positives = 62/72 (86%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPP CP P+ PEPCPPPKCPEPC PPKCP+P PPQ CQQKCPPV P 
+Sbjct  1   MSYQQQQCKQPCQPPPPCPPPQYPEPCPPPKCPEPCLPPKCPEPYPPQPCQQKCPPVQPP  60
+
+Query  61  PPCQPKCPPKSK  72
+           P CQ KCPPKSK
+Sbjct  61  PACQQKCPPKSK  72
+
+
+>ref|XP_013209216.1| cornifin isoform X2 [Microtus ochrogaster]
+Length=94
+
+ Score = 35.5 bits (80),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 37/79 (47%), Positives = 40/79 (51%), Gaps = 13/79 (16%)
+
+Query  4   QQQQCKQPCQPPPVCP-TPKCPEPCPP-------PKCPEPCPPPKCPQPCPPQQC----Q  51
+           QQ Q KQPCQPPP  P  PK  EPC P       PK PEPC P K P+PC P+ C     
+Sbjct  17  QQHQVKQPCQPPPSEPCAPKTKEPCNPNVPEPCNPKVPEPCQP-KAPEPCQPKPCHPVVP  75
+
+Query  52  QKCPPVTPSPPCQPKCPPK  70
+           + CP      P Q K   K
+Sbjct  76  EPCPSNVTPEPYQQKTKQK  94
+
+
+>ref|XP_025250863.1| small proline-rich protein 2E-like [Theropithecus gelada]
+Length=72
+
+ Score = 35.1 bits (79),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 67/72 (93%), Positives = 67/72 (93%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCPEPCP PKCPEPCPP K PQPCPPQQCQQKCPPV PS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPFPKCPEPCPPLKYPQPCPPQQCQQKCPPVPPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_012646638.1| small proline-rich protein 2E [Microcebus murinus]
+Length=72
+
+ Score = 35.1 bits (79),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 62/72 (86%), Positives = 63/72 (88%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCP PK PEPCPPPK PEPCPPPK P+PCPP QCQQKCPPV P 
+Sbjct  1   MSYQQQQCKQPCQPPPVCPPPKVPEPCPPPKVPEPCPPPKVPEPCPPVQCQQKCPPVQPP  60
+
+Query  61  PPCQPKCPPKSK  72
+            PCQ KCPPKSK
+Sbjct  61  APCQQKCPPKSK  72
+
+
+>ref|XP_028358642.1| small proline-rich protein 2E [Phyllostomus discolor]
+ ref|XP_028358643.1| small proline-rich protein 2E [Phyllostomus discolor]
+ ref|XP_028358644.1| small proline-rich protein 2E [Phyllostomus discolor]
+Length=72
+
+ Score = 35.1 bits (79),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 65/72 (90%), Positives = 67/72 (93%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPP CP PKCPEPCPPPKCPEPCPPPKCP+PCPPQ CQQKCPPV P+
+Sbjct  1   MSYQQQQCKQPCQPPPPCPPPKCPEPCPPPKCPEPCPPPKCPEPCPPQLCQQKCPPVQPA  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQ KCPPKSK
+Sbjct  61  PPCQQKCPPKSK  72
+
+
+>ref|XP_004667234.1| PREDICTED: small proline-rich protein 2G-like [Jaculus jaculus]
+Length=80
+
+ Score = 34.7 bits (78),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 59/80 (74%), Positives = 62/80 (78%), Gaps = 8/80 (10%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPK--------CPEPCPPPKCPQPCPPQQCQQ  52
+           MSY QQQCKQPCQPPPVCP PKCPEPCP PK         PEPCPPP+C +PCPPQ CQQ
+Sbjct  1   MSYHQQQCKQPCQPPPVCPLPKCPEPCPLPKCPEPCPPMYPEPCPPPQCLEPCPPQLCQQ  60
+
+Query  53  KCPPVTPSPPCQPKCPPKSK  72
+           KCPPV   PPC PKCPPKS+
+Sbjct  61  KCPPVQLPPPCLPKCPPKSQ  80
+
+
+>ref|XP_004480320.1| small proline-rich protein 2E-like [Dasypus novemcinctus]
+Length=72
+
+ Score = 34.7 bits (78),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 52/69 (75%), Positives = 57/69 (83%), Gaps = 1/69 (1%)
+
+Query  4   QQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPSPPC  63
+           QQ+QCKQPCQPPPV   PKCPEPCPPP CP PCPPP  P+PCPP  CQQ+CPPV P PPC
+Sbjct  5   QQEQCKQPCQPPPVL-IPKCPEPCPPPVCPVPCPPPVYPEPCPPPPCQQECPPVQPYPPC  63
+
+Query  64  QPKCPPKSK  72
+           Q +CPPK+K
+Sbjct  64  QQECPPKNK  72
+
+
+>ref|XP_017703336.1| PREDICTED: small proline-rich protein 2E-like [Rhinopithecus 
+bieti]
+Length=72
+
+ Score = 33.5 bits (75),  Expect = 8.3, Method: Composition-based stats.
+ Identities = 68/72 (94%), Positives = 70/72 (97%), Gaps = 0/72 (0%)
+
+Query  1   MSYQQQQCKQPCQPPPVCPTPKCPEPCPPPKCPEPCPPPKCPQPCPPQQCQQKCPPVTPS  60
+           MSYQQQQCKQPCQPPPVCPTPKCP+PCPP KCPEPCPPPKCP+PCPPQQCQQKCPPVTPS
+Sbjct  1   MSYQQQQCKQPCQPPPVCPTPKCPKPCPPLKCPEPCPPPKCPEPCPPQQCQQKCPPVTPS  60
+
+Query  61  PPCQPKCPPKSK  72
+           PPCQPK PPKSK
+Sbjct  61  PPCQPKYPPKSK  72
+
+
+>ref|XP_026645081.1| cornifin isoform X3 [Microtus ochrogaster]
+Length=89
+
+ Score = 33.5 bits (75),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 35/75 (47%), Positives = 37/75 (49%), Gaps = 10/75 (13%)
+
+Query  4   QQQQCKQPCQPPPVCP-TPKCPEPCPP-------PKCPEPCPPPKCPQPCPPQQCQQKCP  55
+           QQ Q KQPCQPPP  P  PK  EPC P       PK PEPC P K P+PC      + CP
+Sbjct  17  QQHQVKQPCQPPPSEPCAPKTKEPCNPNVPEPCNPKVPEPCQP-KAPEPC-HPVVPEPCP  74
+
+Query  56  PVTPSPPCQPKCPPK  70
+                 P Q K   K
+Sbjct  75  SNVTPEPYQQKTKQK  89
+
+
+
+Lambda      K        H        a         alpha
+   0.289    0.131    0.471    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0404    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1951823023948
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Aug 22, 2019  11:16 AM
+  Number of letters in database: 79,301,943,293
+  Number of sequences in database:  218,044,958
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

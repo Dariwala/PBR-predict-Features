@@ -1,0 +1,29 @@
+PFRMAT DR
+TARGET test_2
+AUTHOR DisPredict2: Sumaiya Iqbal and Md Tamjidul Hoque, Output: AA O/D DisorderProbability(0.5 - 1.0)
+REMARK SVM
+METHOD SVM (SL477)
+MODEL  1
+A  D  0.935155 
+E  D  0.929079 
+K  D  0.879426 
+N  D  0.891802 
+L  D  0.837719 
+T  D  0.789652 
+D  D  0.770945 
+L  D  0.724364 
+G  D  0.728229 
+K  D  0.759919 
+F  D  0.844593 
+C  D  0.786243 
+G  D  0.700693 
+L  D  0.550336 
+C  O  0.471186 
+V  O  0.415301 
+C  O  0.415221 
+P  O  0.390506 
+C  O  0.406273 
+N  O  0.436514 
+K  O  0.485239 
+L  D  0.524674 
+END
